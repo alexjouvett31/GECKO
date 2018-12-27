@@ -27,7 +27,7 @@ mkdir ../../databases/KEGG
 downloadKEGGdata(organism)
 
 %Build KEGG table
-kegg = buildKEGGtable;
+kegg = buildKEGGtable(organism);
 
 %Remove KEGG files for compliance of repository:
 delete ../../databases/KEGG/*.txt
@@ -92,7 +92,7 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function kegg = buildKEGGtable
+function kegg = buildKEGGtable(organism)
 
 %Build KEGG table (uniprot code - protein name - systematic gene name - EC number - MW - pathway - sequence):
 file_names      = dir('../../databases/KEGG/');
