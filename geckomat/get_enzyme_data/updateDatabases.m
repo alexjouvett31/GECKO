@@ -1,24 +1,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [swissprot,kegg] = updateDatabases
+% [swissprot,kegg] = updateDatabases('organism')
 % Updates all databases for protein matching (KEGG and Swiss-Prot).
 %
+% Input:
+%       organism -  string containing the KEGG abbreviation of the organism
+%                   of interest. For example, sce for saccharomyces 
+%                   cerevisiae.
+% 
 % Note: Before using this script, one should manually download from 
 %       http://www.uniprot.org/uniprot a tab delimited file for the
 %       desired organism with the following format:
 %       Entry - Protein names - Gene names - EC number - Sequence
 %       OBS: filter with the Swiss-Prot option
 % 
-% Benjamín Sánchez & Cheng Zhang. Last edited: 2017-10-24
+% Benjamín Sánchez & Cheng Zhang.   Last edited: 2017-10-24
+% Daniel Cook.                      Last edited: 2018-12-27
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [swissprot,kegg] = updateDatabases
+function [swissprot,kegg] = updateDatabases(organism)
 
 %Build Swissprot table:
 swissprot = buildSWISSPROTtable;
 
 %Download KEGG data:
 mkdir ../../databases/KEGG
-downloadKEGGdata('sce')
+downloadKEGGdata(organism)
 
 %Build KEGG table
 kegg = buildKEGGtable;
@@ -150,15 +156,15 @@ for i = 1:length(file_names)
                 
             %6th column: pathway
             elseif strcmp(line(1:7),'PATHWAY')
-                start    = strfind(line,'sce');
+                start    = strfind(line,organism);
                 pathway  = line(start(1):end);
                 end_path = false;
                 for k = j+1:length(text)
                     nospace = strrep(text{k},'sce01100  Metabolic pathways','');
                     nospace = strrep(nospace,' ','');
                     if length(nospace) > 10
-                        if strcmp(nospace(1:3),'sce') && ~end_path
-                            start    = strfind(text{k},'sce');
+                        if strcmp(nospace(1:3),organism) && ~end_path
+                            start    = strfind(text{k},organism);
                             pathway  = [pathway ' ' text{k}(start(1):end)];
                         else
                             end_path = true;
