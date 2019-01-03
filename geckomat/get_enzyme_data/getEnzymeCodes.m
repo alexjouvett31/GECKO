@@ -197,7 +197,7 @@ function displayErrorMessage(conflicts,swissprot,kegg)
 STR = '\n Some  genes with multiple associated proteins were found, please';
 STR = [STR, ' revise case by case in the protDatabase.mat file:\n\n'];   
 for i=1:length(conflicts{1})
-    if strcmpi(conflicts{4}{i},swissprot)
+    if strcmpi(conflicts{4}(i,:),'swissprot')
         DB = swissprot;
     else
         DB = kegg;
