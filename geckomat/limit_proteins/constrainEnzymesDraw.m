@@ -8,17 +8,8 @@
 %   sigma           Average saturation factor.
 %   Ptot            Total protein content [g/gDW].
 % 	f				(Opt) Estimated mass fraction of enzymes in model.
-%	GAM				(Opt) Growth-associated maintenance value. If not
-%					provided, it will be fitted to chemostat data.
 % 	pIDs			(Opt) Protein IDs from proteomics data.
-%	data			(Opt) Protein abundances from proteomics data [mmol/gDW].
-%   gRate           Minimum growth rate the model should grow at [1/h]. For
-%                   finding the growth reaction, GECKO will choose the
-%                   non-zero coeff in the objective function.
-%   c_UptakeExp     (Opt) Experimentally measured glucose uptake rate 
-%                   [mmol/gDW h].
-%	c_source        (Opt) The name of the exchange reaction that supplies
-%                   the model with carbon.
+%	data			(Opt) Relative protein abundances from proteomics data [mol/mol_tot].
 %
 %   model           ecModel with calibrated enzyme usage upper bounds
 %   enzUsages       Calculated enzyme usages after final calibration 
