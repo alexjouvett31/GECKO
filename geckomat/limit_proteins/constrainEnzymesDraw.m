@@ -1,130 +1,107 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [model,enzUsages,modifications] = constrainEnzymesDraw(model,Ptot,sigma,f,GAM,pIDs,data,gRate,c_UptakeExp,c_source)
+% [model,enzUsages,modifications,MW,counter] = constrainEnzymesDraw(model,Ptot,sigma,f,pIDs,data,MW,counter)
 % Main function for overlaying proteomics data on an enzyme-constrained
 % model. If chosen, also scales the protein content, optimizes GAM, and
 % flexibilizes the proteomics data.
 %
 %   model           ecModel.
-%   sigma           Average saturation factor.
-%   Ptot            Total protein content [g/gDW].
+%   sigma           Average saturation factor. Default = 0.5.
+%   Ptot            Total protein content [g/gDW]. Default = 0.67.
 % 	f				(Opt) Estimated mass fraction of enzymes in model.
 % 	pIDs			(Opt) Protein IDs from proteomics data.
-%	data			(Opt) Relative protein abundances from proteomics data [mol/mol_tot].
+%	data			(Opt) Raw protein abundances from proteomics data [counts or abundance].
+%   MW              (Opt) MW for all proteins in pIDs
+%   counter         (Opt) Match between model.proteins & pIDs
 %
 %   model           ecModel with calibrated enzyme usage upper bounds
 %   enzUsages       Calculated enzyme usages after final calibration 
 %                   (enzyme_i demand/enzyme_i upper bound)
 %   modifications   Table with all the modified values 
 %                   (Protein ID/old value/Flexibilized value)
+%   MW              MW for all proteins in pIDs (calculated if not provided)
+%   counter         Match between model.proteins & pIDs (calculated if not provided)
 %
-% Daniel Cook       02/21/2019
+% Daniel Cook       08/25/2019
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [model,enzUsages,modifications] = constrainEnzymesDraw(model,Ptot,sigma,f,GAM,pIDs,data,gRate,c_UptakeExp,c_source)
+function [model,enzUsages,modifications,MW,counter] = constrainEnzymesDraw(model,Ptot,sigma,f,pIDs,data,MW,counter)
 
 %Compute f if not provided:
 if nargin < 4
-    [f,~] = measureAbundance(model.enzymes);
-end
-
-%Leave GAM empty if not provided (will be fitted later):
-if nargin < 5
-    GAM = [];
+    [f,~] = [];
 end
 
 %No UB will be changed if no data is available -> pool = all enzymes(FBAwMC)
-if nargin < 6
+if nargin < 5
     pIDs = cell(0,1);
     data = zeros(0,1);
 end
 
-%Remove zeros or negative values
-data = cleanDataset(data);
-%Assign concentrations as UBs [mmol/gDW]:
-model.concs = nan(size(model.enzymes));      %OBS: min value is zero!!
-disp('Matching data to enzymes in model...')
-for i = 1:length(model.enzymes)
-    match = false;
-    for j = 1:length(pIDs)
-        if strcmpi(pIDs{j},model.enzymes{i}) && ~match
-            model.concs(i) = data(j)*model.MWs(i); %g/gDW
-            rxn_name       = ['prot_' model.enzymes{i} '_exchange'];
-            pos            = strcmpi(rxn_name,model.rxns);
-            model.ub(pos)  = data(j);
-            match          = true;
-        end
-    end
-end
-
-%Count mass of non-measured enzymes:
-measured       = ~isnan(model.concs);
-concs_measured = model.concs(measured);
-Pmeasured      = sum(concs_measured);
-
-%Get protein content in biomass pseudoreaction:
-Pbase = sumProtein(model);
-
-if Pmeasured > 0
-    %Calculate fraction of non measured proteins in model out of remaining mass:
-    [fn,~] = measureAbundance(model.enzymes(~measured));
-    fm     = Pmeasured/Ptot;
-    f      = fn/(1-fm);
-    %Discount measured mass from global constrain:
-    fs = (Ptot - Pmeasured)/Pbase*f*sigma;
-else
-    fs = f*sigma;
-end
-
-%Constrain the rest of enzymes with the pool assumption:
-if sum(strcmp(model.rxns,'prot_pool_exchange')) == 0
-    model = constrainPool(model,~measured,full(fs*Pbase));
-end
-
-%Modify protein/carb content and GAM:
-model = scaleBioMass(model,Ptot,GAM);
-
-%Display some metrics:
-disp(['Total protein amount measured = '     num2str(Pmeasured)              ' g/gDW'])
-disp(['Total enzymes measured = '            num2str(sum(measured))          ' enzymes'])
-disp(['Enzymes in model with 0 g/gDW = '     num2str(sum(concs_measured==0)) ' enzymes'])
-disp(['Total protein amount not measured = ' num2str(Ptot - Pmeasured)       ' g/gDW'])
-disp(['Total enzymes not measured = '        num2str(sum(~measured))         ' enzymes'])
-disp(['Total protein in model = '            num2str(Ptot)                   ' g/gDW'])
-
-if nargin > 7
-    [model,enzUsages,modifications] = flexibilizeProteins(model,gRate,c_UptakeExp,c_source);
-    plotHistogram(enzUsages,'Enzyme usage [-]',[0,1],'Enzyme usages','usages')
-else
-    enzUsages     = zeros(0,1);
-    modifications = cell(0,1);
-end
-
-%Plot histogram (if there are measurements):
-plotHistogram(concs_measured,'Protein amount [mg/gDW]',[1e-3,1e3],'Modelled Protein abundances','abundances')
-
-end
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function plotHistogram(variable,xlabelStr,xlimits,titleStr,option)
-if sum(variable) > 0
-    figure
-    if strcmpi(option,'abundances')
-        hist(variable*1e3,10.^(-3:0.5:3))
-        set(gca,'xscale','log')
-    else
-        hist(variable,(0:0.05:1))
-    end
-    xlim(xlimits)
-    xlabel(xlabelStr)
-    ylabel('Frequency');
-    title(titleStr)
-end
-end
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function data = cleanDataset(data)
+%Remove zeros and negative values
 for i=1:length(data)
     if data(i)<=0
         data(i) = NaN;
     end
 end
+
+if ~exist(MW) || ~exist(counter) % Check this statement
+    databases = load('../../databases/ProtDatabase.mat');
+    swissprot = databases.swissprot;
+    for i = 1:length(swissprot)
+        swissprot{i,1} = strsplit(swissprot{i,1},' ');
+    end
+    
+    %Main loop: grab MW for all proteins in dataset
+    MW_ave  = mean(cell2mat(swissprot(:,5)));
+    concs   = zeros(size(pIDs));
+    MW   = zeros(size(pIDs));
+    counter = false(size(pIDs));
+    for i = 1:length(pIDs)
+        MW(i) = MW_ave;
+        %Find gene in swissprot database:
+        for j = 1:length(swissprot)
+            if sum(strcmp(swissprot{j,1},pIDs{i})) > 0
+                MW(i) = swissprot{j,5};	%g/mol
+                %Check if uniprot is in model:
+                if sum(strcmp(model.proteins,swissprot{j,1})) > 0
+                    counter(i) = true;
+                end
+            end
+        end
+        if rem(i,100) == 0
+            disp(['Calculating total abundance: Ready with ' num2str(i) '/' ...
+                num2str(length(pIDs)) ' genes '])
+        end
+    end
 end
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set up data
+total_protein_mass = Ptot; % User input
+concs = MW.*data;     %g/mol(tot prot)
+concs_sum = sum(concs(~isnan(concs)));
+mass_fracs = concs/concs_sum;
+
+% Constrain fluxes
+j = find(loc~=0);
+[~,loc2] = ismember(pIDs(j),model.enzymes);
+model.ub(loc(j)) = mass_fracs(j)*total_protein_mass*sigma./model.MWs(loc2);
+
+% Unconstrain protein fluxes set to zero
+model.ub(intersect(loc(j),find(model.ub==0))) = min(model.ub(intersect(loc(j),find(model.ub~=0))));
+
+% Calculate metabolic protein fraction
+if ~exist(f)
+    f_resid = sum(mass_fracs(counter==1));
+else
+    f_resid = f; % User-specified value
+end
+model.ub(strcmp('prot_pool_exchange',model.rxns)) = total_protein_mass*f_resid*sigma;
+
+% Esure the constrained model is solvable
+sol = solveLP(model);
+if isempty(sol.f)
+    [sol,gR,relaxed_index] = ...
+        relax_constraints(model,pIDs,data,MW,loc,counter,total_protein_mass,sigma);
+end
+end
+
