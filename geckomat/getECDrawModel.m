@@ -1,8 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [ecModel,ecModelSim] = getECDrawModel(model,org_name,model_name,version,Ptot)
-% Main function for overlaying proteomics data on an enzyme-constrained
-% model. If chosen, also scales the protein content, optimizes GAM, and
-% flexibilizes the proteomics data.
+% Main function for generating an enzyme-constrained draw model.
 %
 %   model           Model following the RAVEN structural convention
 %   sigma           Average saturation factor. Default = 0.5.
