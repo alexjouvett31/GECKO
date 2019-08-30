@@ -36,11 +36,15 @@ if nargin < 5
     data = zeros(0,1);
 end
 
-%Remove zeros and negative values
+%Remove negative values
 for i=1:length(data)
     if data(i)< 0
         data(i) = NaN;
     end
+end
+
+if sum(isnan(data)) ~= 0
+    fprintf('Warning: data contains negative numbers.')
 end
 
 if ~exist('MW') || ~exist('counter') % Check this statement
