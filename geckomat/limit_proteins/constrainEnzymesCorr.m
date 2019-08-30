@@ -43,7 +43,7 @@ for i=1:length(data)
     end
 end
 
-if ~exist(MW) || ~exist(counter) % Check this statement
+if ~exist('MW') || ~exist('counter') % Check this statement
     databases = load('../../databases/ProtDatabase.mat');
     swissprot = databases.swissprot;
     for i = 1:length(swissprot)
