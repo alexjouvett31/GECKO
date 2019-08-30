@@ -38,7 +38,7 @@ end
 
 %Remove zeros and negative values
 for i=1:length(data)
-    if data(i)<=0
+    if data(i)< 0
         data(i) = NaN;
     end
 end

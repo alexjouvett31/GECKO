@@ -38,7 +38,7 @@ end
 
 %Remove zeros and negative values
 for i=1:length(data)
-    if data(i)<=0
+    if data(i)< 0
         data(i) = NaN;
     end
 end
@@ -55,24 +55,44 @@ if ~exist('MW') || ~exist('counter') % Check this statement
     concs   = zeros(size(pIDs));
     MW   = zeros(size(pIDs));
     counter = false(size(pIDs));
-    for i = 1:length(pIDs)
-        MW(i) = MW_ave;
-        %Find gene in swissprot database:
-        for j = 1:length(swissprot)
-            if sum(strcmp(swissprot{j,1},pIDs{i})) > 0
-                MW(i) = swissprot{j,5};	%g/mol
-                %Check if uniprot is in model:
-                if sum(strcmp(model.proteins,swissprot{j,1})) > 0
-                    counter(i) = true;
-                end
-            end
-        end
-        if rem(i,100) == 0
-            disp(['Calculating total abundance: Ready with ' num2str(i) '/' ...
-                num2str(length(pIDs)) ' genes '])
-        end
+    
+    for i = 1:size(swissprot,1)
+        swissprot_vector(i) = swissprot{i,1};
     end
-end
+    
+    % Match pIDs to swissprot database
+    [matched_proteins,swissprot_indx] = ismember(pIDs,swissprot_vector);
+    
+    % Get MW
+    MW(matched_proteins ~= 0) = swissprot_indx(swissprot_indx ~= 0);
+    MW(matched_proteins == 0) = MW_ave;
+    
+    % Identify proteins in the model (N.B. This variable should be renamed.)
+    counter = ismember(pIDs,model.proteins);
+    
+%     %Main loop: grab MW for all proteins in dataset
+%     MW_ave  = mean(cell2mat(swissprot(:,5)));
+%     concs   = zeros(size(pIDs));
+%     MW   = zeros(size(pIDs));
+%     counter = false(size(pIDs));
+%     for i = 1:length(pIDs)
+%         MW(i) = MW_ave;
+%         %Find gene in swissprot database:
+%         for j = 1:length(swissprot)
+%             if sum(strcmp(swissprot{j,1},pIDs{i})) > 0
+%                 MW(i) = swissprot{j,5};	%g/mol
+%                 %Check if uniprot is in model:
+%                 if sum(strcmp(model.proteins,swissprot{j,1})) > 0
+%                     counter(i) = true;
+%                 end
+%             end
+%         end
+%         if rem(i,100) == 0
+%             disp(['Calculating total abundance: Ready with ' num2str(i) '/' ...
+%                 num2str(length(pIDs)) ' genes '])
+%         end
+%     end
+% end
 
 % Set up data
 total_protein_mass = Ptot; % User input
@@ -80,7 +100,16 @@ concs = MW.*data;     %g/mol(tot prot)
 concs_sum = sum(concs(~isnan(concs)));
 mass_fracs = concs/concs_sum;
 
-% Constrain fluxes
+% Constrain model fluxes
+for i =1:length(model.rxns)
+    temp = strsplit(model.rxns{i},'draw_prot_');
+    if numel(temp) == 1
+        temp{2}='';
+    end
+    prot_draw{i} = temp{2};
+end
+[~, loc]=ismember(pIDs,prot_draw); % match indexes
+
 j = find(loc~=0);
 [~,loc2] = ismember(pIDs(j),model.enzymes);
 model.ub(loc(j)) = mass_fracs(j)*total_protein_mass*sigma./model.MWs(loc2);
