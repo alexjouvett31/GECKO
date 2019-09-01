@@ -16,6 +16,7 @@ function [ecCorrModel] = getECCorrModel(ecModelsim)
 
 % Clear objective function and set new objective 
 % (obj: minimize deviation from data)
+model = ecModelsim;
 newModel = ecModelsim;
 newModel.c(:) = 0;
 for i =1:length(model.rxns)
