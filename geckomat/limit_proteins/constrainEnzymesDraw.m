@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [model,enzUsages,modifications,MW,counter] = constrainEnzymesDraw(model,Ptot,sigma,f,pIDs,data,MW,counter)
+% [model,sol,enzUsages,modifications,MW,counter] = constrainEnzymesDraw(model,Ptot,sigma,f,pIDs,data,MW,counter)
 % Main function for overlaying proteomics data on an enzyme-constrained
 % model. 
 %
@@ -23,7 +23,7 @@
 % Daniel Cook       08/25/2019
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [model,enzUsages,modifications,MW,counter] = constrainEnzymesDraw(model,Ptot,sigma,f,pIDs,data,MW,counter)
+function [model,sol,MW_out,counter_out] = constrainEnzymesDraw(model,Ptot,sigma,f,pIDs,data,MW,counter)
 
 %Compute f if not provided:
 if nargin < 4
@@ -73,6 +73,10 @@ if ~exist('MW') || ~exist('counter') % Check this statement
     
     % Identify proteins in the model (N.B. This variable should be renamed.)
     counter = ismember(pIDs,model.proteins);
+    
+    % Assign output variables
+    MW_out = MW;
+    counter_out = counter;
     
 %     %Main loop: grab MW for all proteins in dataset
 %     MW_ave  = mean(cell2mat(swissprot(:,5)));
