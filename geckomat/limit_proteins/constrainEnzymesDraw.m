@@ -47,7 +47,7 @@ if sum(isnan(data)) ~= 0
     fprintf('Warning: data contains negative numbers.')
 end
 
-if ~exist('MW') || ~exist('counter') % Check this statement
+if isempty('MW') || isempty('counter') % Check this statement
     databases = load('../../databases/ProtDatabase.mat');
     swissprot = databases.swissprot;
     for i = 1:length(swissprot)
@@ -72,8 +72,8 @@ if ~exist('MW') || ~exist('counter') % Check this statement
     MW(matched_proteins == 0) = MW_ave;
     
     % Identify proteins in the model (N.B. This variable should be renamed.)
-    counter = ismember(pIDs,model.proteins);
-    
+    counter = ismember(pIDs,model.proteins);    
+end
     % Assign output variables
     MW_out = MW;
     counter_out = counter;

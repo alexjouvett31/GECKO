@@ -36,6 +36,12 @@ if nargin < 5
     data = zeros(0,1);
 end
 
+%Set MW and counter to [] if not provided
+if nargin < 7
+    MW = [];
+    counter = [];
+end
+
 %Remove negative values
 for i=1:length(data)
     if data(i)< 0
@@ -47,7 +53,7 @@ if sum(isnan(data)) ~= 0
     fprintf('Warning: data contains negative numbers.')
 end
 
-if ~exist('MW') || ~exist('counter') % Check this statement
+if isempty(MW) || isempty(counter) % Check this statement
     databases = load('../../databases/ProtDatabase.mat');
     swissprot = databases.swissprot;
     for i = 1:length(swissprot)
@@ -72,35 +78,12 @@ if ~exist('MW') || ~exist('counter') % Check this statement
     MW(matched_proteins == 0) = MW_ave;
     
     % Identify proteins in the model (N.B. This variable should be renamed.)
-    counter = ismember(pIDs,model.proteins);
-    
-    % Assign output variables
-    MW_out = MW;
-    counter_out = counter;
-    
-%     %Main loop: grab MW for all proteins in dataset
-%     MW_ave  = mean(cell2mat(swissprot(:,5)));
-%     concs   = zeros(size(pIDs));
-%     MW   = zeros(size(pIDs));
-%     counter = false(size(pIDs));
-%     for i = 1:length(pIDs)
-%         MW(i) = MW_ave;
-%         %Find gene in swissprot database:
-%         for j = 1:length(swissprot)
-%             if sum(strcmp(swissprot{j,1},pIDs{i})) > 0
-%                 MW(i) = swissprot{j,5};	%g/mol
-%                 %Check if uniprot is in model:
-%                 if sum(strcmp(model.proteins,swissprot{j,1})) > 0
-%                     counter(i) = true;
-%                 end
-%             end
-%         end
-%         if rem(i,100) == 0
-%             disp(['Calculating total abundance: Ready with ' num2str(i) '/' ...
-%                 num2str(length(pIDs)) ' genes '])
-%         end
-%     end
-% end
+    counter = ismember(pIDs,model.proteins);   
+end
+
+% Assign output variables
+MW_out = MW;
+counter_out = counter;
 
 % Set up data
 total_protein_mass = Ptot; % User input
@@ -136,8 +119,8 @@ model.ub(strcmp('prot_pool_exchange',model.rxns)) = total_protein_mass*f_resid*s
 
 % Esure the constrained model is solvable
 sol = solveLP(model);
-if isempty(sol.f)
-    [sol,gR,relaxed_index] = ...
-        relax_constraints(model,pIDs,data,MW,loc,counter,total_protein_mass,sigma);
-end
+% if isempty(sol.f)
+%     [sol,gR,relaxed_index] = ...
+%         relax_constraints(model,pIDs,data,MW,loc,counter,total_protein_mass,sigma);
+% end
 end
