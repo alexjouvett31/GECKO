@@ -156,25 +156,63 @@ if ismember(3,analysis)
 end
 
 %% Sensitivity Analysis 4: Metabolite treatment
+% if ismember(4,analysis)
+%     % Should this be something with the b vector?
+%     b_orig = model.b;
+%     met_end = (min(find(startsWith(model.mets,'pmet'),1),find(startsWith(model.mets,'prot'),1))-1);
+%     for i = 1:met_end % End of metabolites, start of proteins
+%         model.b = b_orig;
+%         model.b(1,i) = .01;
+%         sol = solveLP(model);
+%         if ~isempty(sol.f)
+%             gR(i) = -sol.f;
+%         else
+%             gR(i) = NaN;
+%         end
+%     end
+%     sensRes.MP.mets = model.mets(1:met_end);
+%     sensRes.MP.gR = gR;
+% end
+
 if ismember(4,analysis)
-    % Should this be something with the b vector?
-    b_orig = model.b;
     met_end = (min(find(startsWith(model.mets,'pmet'),1),find(startsWith(model.mets,'prot'),1))-1);
     for i = 1:met_end % End of metabolites, start of proteins
-        model.b = b_orig;
-        model.b(1,i) = .01;
-        sol = solveLP(model);
+        rxnsToAdd.rxns = strcat(model.mets(i),'_source');
+        rxnsToAdd.equations = char(strcat(" => ",model.mets(i)));
+        rxnsToAdd.rxnNames = rxnsToAdd.rxns;
+        rxnsToAdd.lb = .01;
+        rxnsToAdd.ub = .02;
+        rxnsToAdd.c = 0;
+        rxnsToAdd.rxnComps = string(model.comps(model.metComps(i)));
+        tModel=addRxns(model,rxnsToAdd,1,char(model.comps(model.metComps(i))),1);
+        sol = solveLP(tModel);
         if ~isempty(sol.f)
             gR(i) = -sol.f;
         else
-            gR(i) = NaN;
+            tModel.lb(end) = 10^(-3);
+            sol = solveLP(tModel);
+            if ~isempty(sol.f)
+                gR(i) = -sol.f;
+            else
+                tModel.lb(end) = 10^(-5);
+                sol = solveLP(tModel);
+                if ~isempty(sol.f)
+                    gR(i) = -sol.f;
+                else
+                    tModel.lb(end) = 10^(-7);
+                    sol = solveLP(tModel);
+                    if ~isempty(sol.f)
+                        gR(i) = -sol.f;
+                    else
+                        gR(i) = NaN;
+                    end
+                end
+            end
         end
     end
     sensRes.MP.mets = model.mets(1:met_end);
     sensRes.MP.gR = gR;
 end
-
-
 
 
 
