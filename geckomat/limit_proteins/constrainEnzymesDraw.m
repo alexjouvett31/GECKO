@@ -36,6 +36,12 @@ if nargin < 5
     data = zeros(0,1);
 end
 
+%Set MW and counter to [] if not provided
+if nargin < 7
+    MW = [];
+    counter = [];
+end
+
 %Remove negative values
 for i=1:length(data)
     if data(i)< 0
@@ -47,7 +53,7 @@ if sum(isnan(data)) ~= 0
     fprintf('Warning: data contains negative numbers.')
 end
 
-if isempty('MW') || isempty('counter') % Check this statement
+if isempty(MW) || isempty(counter) % Check this statement
     databases = load('../../databases/ProtDatabase.mat');
     swissprot = databases.swissprot;
     for i = 1:length(swissprot)
