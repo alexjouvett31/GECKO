@@ -115,6 +115,7 @@ concs_sum = sum(concs(~isnan(concs)));
 mass_fracs = concs/concs_sum;
 
 % Constrain model fluxes
+model_orig = model; % Save the unconstrained model for later
 for i =1:length(model.rxns)
     temp = strsplit(model.rxns{i},'draw_prot_');
     if numel(temp) == 1
@@ -143,7 +144,7 @@ model.ub(strcmp('prot_pool_exchange',model.rxns)) = total_protein_mass*f_resid*s
 sol = solveLP(model);
 if isempty(sol.f)
     [sol,gR,relaxed_index] = ...
-        relax_constraints(model,pIDs,data,MW,loc,counter,total_protein_mass,sigma);
+        relax_constraints(model_orig,pIDs,data,MW,loc,counter,total_protein_mass,sigma);
 end
 end
 
