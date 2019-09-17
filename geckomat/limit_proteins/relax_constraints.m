@@ -1,4 +1,4 @@
-function [sol,gR,relaxed_index] = relax_constraints(model,pIDs,data,MW,loc,counter,total_protein_mass,sigma)
+function [sol,gR,relaxed_index,model_out] = relax_constraints(model,pIDs,data,MW,loc,counter,total_protein_mass,sigma)
 % Run this function when the growth solver returns an infeasible solution.
 % This function checks to see if there is a single index keeping the model
 % from solving the objective function. 
@@ -167,7 +167,9 @@ if isempty(sol.f)
         model_batch.ub(loc(j)) = mass_fracs(j)*total_protein_mass*sigma./model_batch.MWs(loc2);
         
         % Unconstrain protein fluxes set to zero
-        model_batch.ub(intersect(loc(j),find(model_batch.ub==0))) = min(model_batch.ub(intersect(loc(j),find(model_batch.ub~=0))));
+        if length(intersect(loc(j),find(model_batch.ub==0))) >= 1
+            model_batch.ub(intersect(loc(j),find(model_batch.ub==0))) = min(model_batch.ub(intersect(loc(j),find(model_batch.ub~=0))));
+        end
         
         % Calculate metabolic protein fraction
         f_resid = sum(mass_fracs(counter==1));
@@ -200,8 +202,12 @@ if isempty(sol.f)
     relaxed_index = indxs(~ismember(indxs,indxs_ok));
 %     relaxed_flux = sol.x(relaxed_index);
     gR = -sol.f;
+    model_out = model_batch;
 else
     disp("Solution found. Exiting.");
+    gR = -sol.f;
+    relaxed_index = [];
+    model_out = model;
 end
 end
 

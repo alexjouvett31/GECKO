@@ -143,7 +143,7 @@ model.ub(strcmp('prot_pool_exchange',model.rxns)) = total_protein_mass*f_resid*s
 % Esure the constrained model is solvable
 sol = solveLP(model);
 if isempty(sol.f)
-    [sol,gR,relaxed_index] = ...
+    [sol,gR,relaxed_index,model] = ...
         relax_constraints(model_orig,pIDs,data,MW,loc,counter,total_protein_mass,sigma);
 end
 end
