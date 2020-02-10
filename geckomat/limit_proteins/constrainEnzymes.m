@@ -1,4 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function [model,enzUsages,modifications] = constrainEnzymes(model,Ptot,sigma,f,GAM,pIDs,data,gRate,c_UptakeExp,c_source)
+%
 % [model,enzUsages,modifications] = constrainEnzymes(model,Ptot,sigma,f,GAM,pIDs,data,gRate,c_UptakeExp,c_source)
 % Main function for overlaying proteomics data on an enzyme-constrained
 % model. If chosen, also scales the protein content, optimizes GAM, and
@@ -26,14 +27,15 @@
 %   modifications   Table with all the modified values 
 %                   (Protein ID/old value/Flexibilized value)
 %
-% Benjamin J. Sanchez	2018-12-11
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function [model,enzUsages,modifications] = constrainEnzymes(model,Ptot,sigma,f,GAM,pIDs,data,gRate,c_UptakeExp,c_source)
+%   Usage: [model,enzUsages,modifications] = constrainEnzymes(model,f,GAM,Ptot,pIDs,data,gRate,c_UptakeExp)
+%
+%   Benjamin J. Sanchez. Last update 2018-12-11
+%   Ivan Domenzain.      Last update 2020-02-09
+%
 
 %Compute f if not provided:
-if nargin < 4
-    [f,~] = measureAbundance(model.enzymes);
+if nargin < 2
+    [f,~] = measureAbundance(model.enzymes,model.genes);
 end
 
 %Leave GAM empty if not provided (will be fitted later):

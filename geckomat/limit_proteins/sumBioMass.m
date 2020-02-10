@@ -38,7 +38,6 @@ comps = {'s_0404'	89.09       'P'     % A     Alanine         ala
          's_1533'   181.19      'P'     % Y     Tyrosine        tyr
          's_0001'	180.16      'C'     % (1->3)-beta-D-glucan
          's_0004'	180.16      'C'     % (1->6)-beta-D-glucan
-         's_0509'   221.21      'C'     % chitin
          's_0773'   180.16      'C'     % glycogen
          's_1107'   180.16      'C'     % mannan
          's_1520'   342.296 	'C'     % trehalose
@@ -83,11 +82,12 @@ rxnName = strrep(rxnName,'P','protein');
 rxnName = strrep(rxnName,'C','carbohydrate');
 rxnName = strrep(rxnName,'R','RNA');
 rxnName = strrep(rxnName,'D','DNA');
-rxnName = strrep(rxnName,'L','lipid backbone');
+rxnName = strrep(rxnName,'L','lipid');
 
 %Add up fraction:
 fractionPos = strcmp(model.rxnNames,rxnName);
 if contains(rxnName,'lipid')
+    fractionPos = find(strcmp(model.rxnNames,'lipid backbone pseudoreaction'));
     subs = model.S(:,fractionPos) < 0;        %substrates in pseudo-rxn
     F    = -sum(model.S(subs,fractionPos));   %g/gDW
 else
@@ -103,7 +103,8 @@ else
     end
 end
 X = X + F;
-
+X = full(X);
+F = full(F);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

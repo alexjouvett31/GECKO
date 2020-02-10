@@ -33,12 +33,28 @@
 % Ivan Domenzain        2018-09-27
 % Benjamin J. Sanchez   2018-12-11
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function [ecModel_batch,OptSigma] = getConstrainedModel(ecModel,c_source,sigma,Ptot,gRate,modifications,name)
-	
-    %Get f (estimated mass fraction of enzymes in model)
-    [f,~] = measureAbundance(ecModel.enzymes);
-    %Change media to batch conditions:
+
+%Get model parameters values
+cd ..
+parameters = getModelParameters;
+c_source   = parameters.c_source;
+sigma      = parameters.sigma;
+Ptot       = parameters.Ptot;
+gRate      = parameters.gR_exp;
+cd limit_proteins
+%Get f (estimated mass fraction of enzymes in model)
+[f,~] = measureAbundance(ecModel.enzymes,ecModel.genes);
+%Change media to batch conditions:
+cd ../kcat_sensitivity_analysis
+ecModel = changeMedia_batch(ecModel,c_source);
+cd ../limit_proteins
+%Get a preliminary enzyme constrained model for performing the Kcats
+%sensitivity analysis
+[ecModel_batch,~,~] = constrainEnzymes(ecModel,f);
+solution            = solveLP(ecModel_batch,1);
+if ~isempty(solution.f)
+    %Set the media according to the experimental conditions
     cd ../kcat_sensitivity_analysis
     ecModel = changeMedia_batch(ecModel,c_source);
     cd ../limit_proteins

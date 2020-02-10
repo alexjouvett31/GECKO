@@ -2,10 +2,10 @@
 % [f,count] = measureAbundance(enzymes)
 % 
 % Benjamin J. Sanchez. Last edited: 2018-08-10
-% Ivan Domenzain.      Last edited: 2018-11-26
+% Ivan Domenzain.      Last edited: 2020-02-09
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function [f,count] = measureAbundance(enzymes)
+function [f,count] = measureAbundance(enzymes,modelGenes)
 genes     = {};
 abundance = [];
 %Read downloaded data of abundance:
@@ -68,7 +68,7 @@ if ~isempty(genes)
     count = [length(counter);sum(counter,'omitnan')];
 else
     disp('prot_abundance file is not available. A default value of f=0.5 is set instead')
-    f     = 0.5;
+    f     = 0.5*length(enzymes)/length(modelGenes);
     count = 0;
 end
 end
