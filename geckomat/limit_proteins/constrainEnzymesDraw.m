@@ -68,13 +68,14 @@ if isempty(MW) || isempty(counter) % Check this statement
     
     for i = 1:size(swissprot,1)
         swissprot_vector(i) = swissprot{i,1};
+        swissprot_MW(i) = swissprot{i,5};
     end
     
     % Match pIDs to swissprot database
     [matched_proteins,swissprot_indx] = ismember(pIDs,swissprot_vector);
     
     % Get MW
-    MW(matched_proteins ~= 0) = swissprot_indx(swissprot_indx ~= 0);
+    MW(matched_proteins ~= 0) = swissprot_MW(swissprot_indx ~= 0);
     MW(matched_proteins == 0) = MW_ave;
     
     % Identify proteins in the model (N.B. This variable should be renamed.)
