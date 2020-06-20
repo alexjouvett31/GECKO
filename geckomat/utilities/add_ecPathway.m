@@ -3,6 +3,20 @@ function newModel = add_ecPathway(ecModel,fileName)
 %
 %
 %   ecModel         enzyme-constrained model
+%   fileName        (string) name of the file in which the heterologous
+%                   pathway is described. This file must be stored in the
+%                   databases folder as a tab-separated .txt file
+%                   containing 11 columns:
+%                   - rxns.- rxn IDs for each of the introduced reactions
+%                   - rxnNames.- Strings with common names for each of the introduced reactions.
+%                   - formulas.- Rxn formulas in the following format: metName_1[comp] + ... => metName_2[comp] + ...
+%                   - grRules.- Gene-Rxn rules for all of the introduced reactions
+%                   - c.-  Coeffiecients for a given reaction in the objective function                  
+%                   - lb.- Lower bounds for the incorporated reactions [mmol/gDw h]
+%                   - ub.- Upper bounds for the incorporated reactions [mmol/gDw h]
+%                   - proteins.- (Optional) Uniprot code in case that enzyme information is available for the introduced reactions 
+%                   - kcats.- (Optional) Kcat numbers in 1/s.
+%                   - MWs.- (Optional) Molecular weights for the incorporated enzymes [g/mmol].
 %
 %   Output:
 %   newModel        enzyme-constrained model with the introduced
