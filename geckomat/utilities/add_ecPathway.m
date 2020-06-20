@@ -1,4 +1,4 @@
-function ecModel = add_ecPathway(ecModel,fileName)
+function newModel = add_ecPathway(ecModel,fileName)
 % add_ecPathway
 %
 %
@@ -10,7 +10,7 @@ function ecModel = add_ecPathway(ecModel,fileName)
 %
 % usage: [kcat,rxnIdx,rxnName,MW] = add_ecPathway(ecModel,protein)
 %
-% Ivan Domenzain  Last edited: 2019-11-23
+% Ivan Domenzain  Last edited: 2020-06-20
 
 %Load pathway file as a table
 fileName = ['../../databases/' fileName];
@@ -31,8 +31,10 @@ rxnsToAdd.ub = pathwayTable.ub;
 for i=1:length(mets)
     metsToAdd = [];
     met  = mets{i};
-    comp = met(end-2:end);
-    met  = met(1:end-3);
+    brackets = strfind(met,'[');
+    brackets = brackets(end);
+    comp = met(brackets+1:end-1);
+    met  = met(1:brackets-1);
     comp = strrep(comp,'[','');
     comp = strrep(comp,']','');
     comp = find(strcmp(ecModel.comps,comp));
@@ -80,4 +82,40 @@ newModel = addRxns(ecModel,rxnsToAdd,3);
 [grRules, rxnGeneMat] = standardizeGrRules(newModel,true);
 newModel.grRules      = grRules;
 newModel.rxnGeneMat   = rxnGeneMat;
+%Add enzymes
+enzymes = pathwayTable.proteins;
+kcats   = pathwayTable.kcats;
+MWs     = pathwayTable.MWs;
+for i=1:height(pathwayTable)
+    rxnIdx = strcmpi(newModel.rxns,pathwayTable.rxns(1));
+    if ~isempty(enzymes{i})
+        if ~ismember(enzymes{i},newModel.enzymes)
+            newModel.enzymes  = [newModel.enzymes; enzymes(i)];
+            newModel.MWs      = [newModel.MWs; MWs(i)];
+            newModel.enzGenes = [newModel.enzGenes; pathwayTable.grRules(i)];
+            newModel.enzNames = [newModel.enzNames; pathwayTable.grRules(i)];
+            newModel.pathways = [newModel.pathways; {''}];
+            newModel.concs = [newModel.concs; NaN];
+            metsToAdd = [];
+            metId     = ['prot_' enzymes{i}];
+            metsToAdd.mets         = {metId};
+            metsToAdd.metNames     = {metId};
+            metsToAdd.compartments = {'c'};
+            newModel = addMets(newModel,metsToAdd);
+        end
+        metIdx = strcmpi(newModel.mets,metId);
+        %assign Kcat as pseudo-stoichiometric coeff.
+        newModel.S(metIdx,rxnIdx) = -1/(3600*kcats(i));
+        %Add protein draw reaction
+        rxnsToAdd = [];
+        rxnsToAdd.rxns      = {['draw_' metId]};
+        rxnsToAdd.rxnNames  = {['draw_' metId]};
+        rxnsToAdd.grRules   = pathwayTable.grRules(i);
+        rxnsToAdd.equations = {[num2str(MWs(i)) ' prot_pool[c] => ' metId '[c]']};
+        rxnsToAdd.c  = 0;
+        rxnsToAdd.lb = 0;
+        rxnsToAdd.ub = 1000;
+        newModel = addRxns(newModel,rxnsToAdd,3);
+    end
+end    
 end
