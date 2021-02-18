@@ -19,14 +19,6 @@ function generate_protModels(ecModel,grouping,name,ecModel_batch)
 close all
 current = pwd;
 
-%This funcion allows for flexibilization of protein absolute abundances in 
-%case that ecModelP is not feasible using the automatically flexibilized 
-%data, if flex factor is not specified then a factor of 1 is assumed.
-cd ../..
-parameters = getModelParameters;
-Ptot_model = parameters.Ptot;
-c_source   = parameters.c_source;
-cd(current)
 if nargin<4
     ecModel_batch = [];
 end
@@ -39,13 +31,18 @@ parameters = getModelParameters;
 Ptot_model = parameters.Ptot;
 growthRxn  = parameters.exch_names{1};
 NGAM       = parameters.NGAM;
-GAM        = [];
+if isfield(parameters,'GAM')
+    GAM = parameters.GAM;
+else
+    cd limit_proteins
+    GAM = splitGAEC(ecModel_batch);
+    cd ..
+end
 %Get oxPhos related rxn IDs
 oxPhos = getOxPhosRxnIDs(ecModel,parameters);
 %create subfolder for ecModelProts output files
 mkdir(['../models/prot_constrained/' name])
 %Get indexes for carbon source uptake and growth reaction
-positionsEC(1) = find(strcmpi(ecModel.rxnNames,c_source));
 positionsEC(2) = find(strcmpi(ecModel.rxnNames,growthRxn));
 %Remove prot_abundance.txt  and relative_proteomics.txt files
 %(for f factor calculation)
@@ -57,7 +54,7 @@ end
 %Load absolute proteomics dataset [mmol/gDw]
 %and fermentation data (GUR, OUR, CO2 production, byProducts, Ptot, Drate)
 cd utilities/integrate_proteomics/
-[uniprotIDs,absValues,fermData,byProducts] = load_Prot_Ferm_Data(grouping);
+[initialProts,absValues,fermData,byProducts] = load_Prot_Ferm_Data(grouping);
 conditions = fermData.conds;
 Ptot       = fermData.Ptot;
 Drate      = fermData.Drate;
@@ -65,17 +62,28 @@ GUR        = fermData.GUR;
 CO2prod    = fermData.CO2prod;
 OxyUptake  = fermData.OxyUptake;
 byP_flux   = fermData.byP_flux;
+c_source   = fermData.c_source;
 %For each condition create a protein constrained model
 for i=1:length(conditions)
     cd (current)
     disp(conditions{i})
+    c_source_exch = c_source(i);
+    positionsEC(1) = find(strcmpi(ecModel.rxnNames,c_source_exch));
     %Extract data for the i-th condition
     abundances   = cell2mat(absValues(1:grouping(i)));
-    initialProts = uniprotIDs;
     absValues    = absValues(grouping(i)+1:end);
-    %Filter data
-    [pIDs, abundances] = filter_ProtData(uniprotIDs,abundances,1.96,true);
+    
+    %Calculate sample-specific f-factor, before filtering data. While there
+    %might be individual proteins with too much variability, this should
+    %not affect f calculation too much, meanwhile ensuring higher coverage.
+    cd ../../limit_proteins
+    f = measureAbundance(ecModel.enzymes,initialProts,mean(abundances,2,'omitnan'));
+    sumP = sum(mean(abundances,2,'omitnan'),'omitnan'); % Sum of unfiltered proteins
+    %Filter proteomics data, to only keep high quality measurements
+    cd ../utilities/integrate_proteomics
+    [pIDs, abundances] = filter_ProtData(initialProts,abundances,1.96,true);
     filteredProts      = pIDs;
+    disp(['Filtered out ' num2str(round((1-(numel(pIDs)/numel(initialProts)))*100,1)) '% of protein measurements due to low quality.'])
     cd ..
     %correct oxPhos complexes abundances
     if ~isempty(oxPhos)
@@ -85,20 +93,12 @@ for i=1:length(conditions)
     end
     %Set minimal medium
     cd ../kcat_sensitivity_analysis
-    ecModelP  = changeMedia_batch(ecModel,c_source);
-    tempModel = changeMedia_batch(ecModel_batch,c_source);
+    ecModelP  = changeMedia_batch(ecModel,c_source_exch);
+    tempModel = changeMedia_batch(ecModel_batch,c_source_exch);
     cd ../limit_proteins
-    %If the relative difference between the ecModel's protein content and
-    %the Ptot for i-th condition is higher than 5% then biomass should be
-    %rescaled and GAM refitted to this condition.
-    %For fitting GAM a functional model is needed therefore an ecModel with
-    %total protein pool constraint should be used
-    Prot_diff = abs(Ptot_model-Ptot(i))/Ptot_model;
-    if Prot_diff>=0.05
-       [~,GAM] = scaleBioMass(tempModel,Ptot(i),[],true);
-        %Then the GAM and new biomass composition are set in ecModelP, which 
-        %is not functional yet but should be used for incorporation of 
-        %proteomics data
+    %If the ecModel's protein content is not the same as the Ptot for i-th
+    %condition then biomass should be rescaled and GAM refitted to this condition.
+    if Ptot_model ~= Ptot(i)
         ecModelP = scaleBioMass(ecModelP,Ptot(i),GAM,true);
         disp(' ')
     end
@@ -128,9 +128,14 @@ for i=1:length(conditions)
         enzIndex = find(contains(tempModel.enzymes,matchedEnz{j}));
     end
     %Get model with proteomics
-    f       = 1; %Protein mass in model/Total theoretical proteome
     disp(['Incorporation of proteomics constraints for ' conditions{i} ' condition'])
-    [ecModelP,usagesT,modificationsT,~,coverage] = constrainEnzymes(ecModelP,f,GAM,Ptot(i),pIDs,abundances,Drate(i),flexGUR);
+    %Get sum of measured protein after filter, adding flexFactor and setting minimum value. 
+    %If this is higher than the sum of raw measured protein (sumP), then increase the total 
+    %protein content by the same ratio, so that the protein pool is receiving the similar 
+    %flexibilization as applied to the measured proteins.
+    sumPfilt = sum(abundances);
+    flexPtot=Ptot(i)*(sumPfilt/sumP);
+    [ecModelP,usagesT,modificationsT,~,coverage] = constrainEnzymes(ecModelP,f,GAM,flexPtot,pIDs,abundances,Drate(i),flexGUR);
     matchedProteins = usagesT.prot_IDs;
     prot_input = {initialProts filteredProts matchedProteins ecModel.enzymes coverage};
     writeProtCounts(conditions{i},prot_input,name); 
@@ -151,9 +156,18 @@ for i=1:length(conditions)
     [~,~,version] = preprocessModel(ecModelP,'','');
     cd ../../models/prot_constrained
     addpath('..')
-    saveECmodel(ecModelP,'COBRA',name,version);
+    saveECmodel(ecModelP,'RAVEN',name,version);
     rmpath('..')
-    cd ../../geckomat/limit_proteins
+    %Rename model file names to include conditions{i}
+    cd(name)
+    fileNames = struct2cell(dir('.'));
+    fileNames = fileNames(1,:);
+    fileNames(cellfun(@isempty, regexp(fileNames, [name, '(\.\w{3})']))) = [];
+    for j = 1:length(fileNames)
+        newFileName = regexprep(fileNames{j},[name, '(\.\w{3})'], [name, '_', conditions{i}, '$1']);
+        movefile(fileNames{j}, newFileName);
+    end
+    cd ../../../geckomat/limit_proteins
     %save .txt file
     writetable(usagesT,['../../models/prot_constrained/' name '/enzymeUsages_' conditions{i} '.txt'],'Delimiter','\t')
     writetable(modificationsT,['../../models/prot_constrained/' name '/modifiedEnzymes_' conditions{i} '.txt'],'Delimiter','\t')

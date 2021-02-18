@@ -26,9 +26,6 @@ function [ecModel_batch,OptSigma] = getConstrainedModel(ecModel,modifications,na
 %   OptSigma        Optimized saturation factor.
 %
 % Usage: [ecModel_batch,OptSigma] = getConstrainedModel(ecModel,parameters,modifications,name)
-% 
-% Benjamin J. Sanchez   2018-12-11
-% Ivan Domenzain        2019-07-13
 %
 
 %Get model parameters values
@@ -85,5 +82,6 @@ if ~isempty(solution.f)
     cd ../limit_proteins   
 else
     disp('ecModel with enzymes pool constraint is not feasible')
+    OptSigma = parameters.sigma;
 end
 end
