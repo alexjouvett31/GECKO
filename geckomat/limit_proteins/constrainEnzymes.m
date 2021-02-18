@@ -40,7 +40,13 @@ if nargin<9
     cd limit_proteins
 end
 sigma      = parameters.sigma;
-c_source   = parameters.c_source;
+if nargin<8
+    c_UptakeExp = []; c_source = [];
+elseif isempty(c_UptakeExp)
+    c_source = [];
+else
+    c_source = parameters.c_source;
+end
 %Compute f if not provided:
 if nargin < 2
     [f,~] = measureAbundance(model.enzymes);
@@ -111,7 +117,7 @@ disp(['Total protein amount not measured = ' num2str(Ptot - Pmeasured)       ' g
 disp(['Total enzymes not measured = '        num2str(sum(~measured))         ' enzymes'])
 disp(['Total protein in model = '            num2str(Ptot)                   ' g/gDW'])
 enzUsages = [];
-if nargin > 7
+if nargin > 6
     model     = updateProtPool(model,Ptot,f*sigma);
     [tempModel,enzUsages,modifications] = flexibilizeProteins(model,gRate,c_UptakeExp,c_source);
     Pmeasured = sum(tempModel.concs(~isnan(tempModel.concs)));

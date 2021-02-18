@@ -106,6 +106,7 @@ for i=1:length(conditions)
     %and flexibilization
     expData  = [GUR(i),CO2prod(i),OxyUptake(i)];
     flexGUR  = flexFactor*GUR(i);
+    ecModelP = setParam(ecModelP,'ub',positionsEC(1),flexGUR);
     ecModelP = DataConstrains(ecModelP,byProducts,byP_flux(i,:),1.1);
     %Get a temporary model structure with the same constraints to be used
     %for minimal enzyme requirements analysis. For all measured enzymes
@@ -135,7 +136,7 @@ for i=1:length(conditions)
     %flexibilization as applied to the measured proteins.
     sumPfilt = sum(abundances);
     flexPtot=Ptot(i)*(sumPfilt/sumP);
-    [ecModelP,usagesT,modificationsT,~,coverage] = constrainEnzymes(ecModelP,f,GAM,flexPtot,pIDs,abundances,Drate(i),flexGUR);
+    [ecModelP,usagesT,modificationsT,~,coverage] = constrainEnzymes(ecModelP,f,GAM,flexPtot,pIDs,abundances,Drate(i));
     matchedProteins = usagesT.prot_IDs;
     prot_input = {initialProts filteredProts matchedProteins ecModel.enzymes coverage};
     writeProtCounts(conditions{i},prot_input,name); 
