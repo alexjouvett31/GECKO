@@ -6,6 +6,9 @@ toolbox = 'COBRA';
 cd ..
 [ecModel,ecModel_batch] = enhanceGEM(model,toolbox,name);
 cd test
+%find differences between curated Kcats and those in the ecModel
+kcats_table = find_kcat_discrepancies(ecModel_batch);
+writetable(kcats_table,'kcat_data_comparison.txt','delimiter','\t','QuoteStrings',false);
 %Check the status of this repo and branch in git, no changes should be
 %present in the ecModel output files (probably just white spaces)
 

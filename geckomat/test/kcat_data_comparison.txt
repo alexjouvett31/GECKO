@@ -1,0 +1,79 @@
+name	proteins	ecNumber	genes	kcat	kcat_model	grRules	rxnNames	rxns
+ACO1	P19414	4.2.1.3	YLR304C	143.3	286.6052//286.6052//286.6052//286.6052//286.6052//286.6052//286.6052//143.3026	YLR304C//YLR304C//YLR304C//YLR304C//YLR304C//YLR304C//YLR304C//YLR304C	cis-aconitate(3-) to isocitrate (No1)//citrate to cis-aconitate(3-) (No1)//citrate to cis-aconitate(3-), cytoplasmic (No1)//cis-aconitate(3-) to isocitrate (No1)//cis-aconitate(3-) to isocitrate (reversible) (No1)//citrate to cis-aconitate(3-) (reversible) (No1)//citrate to cis-aconitate(3-), cytoplasmic (reversible) (No1)//cis-aconitate(3-) to isocitrate (reversible) (No1)	r_0280No1//r_0302No1//r_0303No1//r_2305No1//r_0280_REVNo1//r_0302_REVNo1//r_0303_REVNo1//r_2305_REVNo1
+ACS1	Q01574	6.2.1.1	YAL054C	62.4	62.3995//62.3995	YAL054C//YAL054C	acetyl-CoA synthetase (No1)//acetyl-CoA synthetase (No1)	r_0112No1//r_0113No1
+ACS2	P52910	6.2.1.1	YLR153C	62.4	62.3995//62.3995	YLR153C//YLR153C	acetyl-CoA synthetase (No2)//acetyl-CoA synthetase nuclear (No1)	r_0112No2//r_0114No1
+ADH1	P00330	1.1.1.1	YOL086C	900	900.0058//900.0058//900.0058//900.0058//900.0058//900.0058	YOL086C//YOL086C//YOL086C//YOL086C//YOL086C//YOL086C	aldehyde dehydrogenase (2-methylbutanol, NAD) (No3)//aldehyde dehydrogenase (2-phenylethanol, NAD) (No3)//aldehyde dehydrogenase (isoamyl alcohol, NAD) (No3)//aldehyde dehydrogenase (isobutyl alcohol, NAD) (No3)//aldehyde dehydrogenase (tryptophol, NAD) (No3)//alcohol dehydrogenase, (acetaldehyde to ethanol) (No2)	r_0166No3//r_0169No3//r_0179No3//r_0182No3//r_0186No3//r_2115No2
+ADH2	P00331	1.1.1.1	YMR303C	900	143.0001	YMR303C	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	r_0163No1
+ADH4	P10127	1.1.1.1	YGL256W	900	900.0058//900.0058//900.0058//900.0058//900.0058//900.0058	YGL256W//YGL256W//YGL256W//YGL256W//YGL256W//YGL256W	mitochondrial alcohol dehydrogenase (No1)//aldehyde dehydrogenase (2-methylbutanol, NAD) (No1)//aldehyde dehydrogenase (2-phenylethanol, NAD) (No1)//aldehyde dehydrogenase (isoamyl alcohol, NAD) (No1)//aldehyde dehydrogenase (isobutyl alcohol, NAD) (No1)//aldehyde dehydrogenase (tryptophol, NAD) (No1)	r_0165No1//r_0167No1//r_0170No1//r_0180No1//r_0183No1//r_0187No1
+ADH6	Q04894	1.1.1.1	YMR318C	900	900.0058//900.0058//900.0058//900.0058	YMR318C//YMR318C//YMR318C//YMR318C	aldehyde dehydrogenase (2-methylbutanol, NADP) (No3)//aldehyde dehydrogenase (2-phenylethanol, NADP) (No2)//aldehyde dehydrogenase (isoamyl alcohol, NADP) (No2)//aldehyde dehydrogenase (isobutyl alcohol, NADP) (No2)	r_0168No3//r_0171No2//r_0181No2//r_0184No2
+ALD2	P47771	1.2.1.3	YMR170C	31.7	31.7//31.7//31.7	YMR170C//YMR170C//YMR170C	aldehyde dehydrogenase (3-aminopropanal, NAD) (No3)//aldehyde dehydrogenase (phenylacetaldehyde, NAD) (No2)//acetaldehyde dehydrogenase (No2)	r_0172No3//r_0185No2//r_2116No2
+ALD6	P54115	1.2.1.4	YPL061W	22	22.0005//22.0005	YPL061W//YPL061W	aldehyde dehydrogenase (acetaldehyde, NADP) (No1)//aldehyde dehydrogenase (indole-3-acetaldehyde, NADP) (No1)	r_0173No1//r_0177No1
+ATP1	3 P07251 + 3 P00830 + 1 P38077 + 1 Q12165 + 1 P21306 + 1 P05626 + 1 P30902 + 1 Q12349 + 10 P61829 + 1 P00854 + 1 P00856 + 1 Q06405 + 1 P09457 + 1 P81450 + 1 P81451 + 1 Q12233 + 1 P81449	3.6.3.14	YBL099W and YJR121W and YBR039W and YDL004W and YPL271W and YPL078C and YKL016C and YLR295C and Q0130 and Q0085 and Q0080 and YDR377W and YDR298C and YML081C-A and YOL077W-A and YPR020W and YDR322C-A	120				
+CAT2	P32796	2.3.1.7	YML042W	257	257.0113//257.0113	YML042W//YML042W	carnitine O-acetyltransferase (No1)//carnitine O-acetyltransferase (No1)	r_0253No1//r_0254No1
+CDC19	P00549	2.7.1.40	YAL038W	232	232.0035	YAL038W	pyruvate kinase (No1)	r_0962No1
+CIT1	P00890	2.3.3.1	YNR001C	141.3	141.298	YNR001C	citrate synthase (No1)	r_0300No1
+CIT3	P43635	2.3.3.1	YPR001W	141.3	141.298//141.298	YPR001W//YPR001W	2-methylcitrate synthase (No1)//citrate synthase (No2)	r_0028No1//r_0300No2
+COX1	P00401 + Q01519 + P32799 + P00410 + P00420 + P04037 + P00427 + P10174 + 2 P04039 + P07255 + P00425	1.9.3.1	Q0045 and YLR038C and YGL191W and Q0250 and Q0275 and YGL187C and YHR051W and YMR256C and YLR395C and YDL067C and YIL111W	693.5				
+ENO1	P00924	4.2.1.11	YGR254W	71	229.9999//229.9999	YGR254W//YGR254W	enolase (No2)//enolase (reversible) (No2)	r_0366No2//r_0366_REVNo2
+ENO2	P00925	4.2.1.11	YHR174W	71	70.9993//70.9993	YHR174W//YHR174W	enolase (No3)//enolase (reversible) (No3)	r_0366No3//r_0366_REVNo3
+FBA1	P14540	4.1.2.13	YKL060C	32.5	32.5//32.5	YKL060C//YKL060C	fructose-bisphosphate aldolase (No1)//fructose-bisphosphate aldolase (reversible) (No1)	r_0450No1//r_0450_REVNo1
+FBP1	P09201	3.1.3.11	YLR377C	69.7	69.7006	YLR377C	fructose-bisphosphatase (No1)	r_0449No1
+FRD1	P32614	1.3.1.6	YEL047C	15.4	15.3996//15.3996//15.3996//15.3996//15.3996//15.3996	YEL047C//YEL047C//YEL047C//YEL047C//YEL047C//YEL047C	fumarate reductase (No1)//soluble fumarate reductase (No1)//fumarate reductase (FMN) (No1)//fumarate reductase (reversible) (No1)//soluble fumarate reductase (reversible) (No1)//fumarate reductase (FMN) (reversible) (No1)	r_0454No1//r_0455No1//r_1000No1//r_0454_REVNo1//r_0455_REVNo1//r_1000_REVNo1
+FUM1	P08417	4.2.1.2	YPL262W	1035	1035.0167//1035.0167//1035.0167//1035.0167	YPL262W//YPL262W//YPL262W//YPL262W	fumarase (No1)//fumarase, cytoplasmic (No1)//fumarase (reversible) (No1)//fumarase, cytoplasmic (reversible) (No1)	r_0451No1//r_0452No1//r_0451_REVNo1//r_0452_REVNo1
+GAL1	P04385	2.7.1.6	YBR020W	22.3	22.3007	YBR020W	galactokinase (No1)	r_0458No1
+GAL10	P04397	5.1.3.2	YBR019C	40.8	40.7999//40.7999	YBR019C//YBR019C	UDPglucose 4-epimerase (No1)//UDPglucose 4-epimerase (reversible) (No1)	r_1070No1//r_1070_REVNo1
+GAL7	P08431	2.7.7.12	YBR018C	36	36.0002//36.0002//36.0002	YBR018C//YBR018C//YBR018C	galactose-1-phosphate uridylyltransferase (No1)//UDPglucose--hexose-1-phosphate uridylyltransferase (No1)//UDPglucose--hexose-1-phosphate uridylyltransferase (reversible) (No1)	r_0459No1//r_1071No1//r_1071_REVNo1
+GLK1	P17709	2.7.1.2	YCL040W	274	273.9966	YCL040W	hexokinase (D-glucose:ATP) (No2)	r_0534No2
+GND1	P38720	1.1.1.44	YHR183W	36.4	36.3998	YHR183W	phosphogluconate dehydrogenase (No2)	r_0889No2
+GND2	P53319	1.1.1.44	YGR256W	36.4	36.3998	YGR256W	phosphogluconate dehydrogenase (No1)	r_0889No1
+GPD1	Q00055	1.1.1.8	YDL022W	113	113.0005	YDL022W	glycerol-3-phosphate dehydrogenase (NAD) (No1)	r_0491No1
+GPD2	P41911	1.1.1.8	YOL059W	113	113.0005//113.0005	YOL059W//YOL059W	glycerol-3-phosphate dehydrogenase (NAD) (No2)//glycerol-3-phosphate dehydrogenase (NAD) (No1)	r_0491No2//r_0492No1
+GPM1	P00950	5.4.2.11	YKL152C	576	576.0037//576.0037//576.0037//576.0037	YKL152C//YKL152C//YKL152C//YKL152C	diphosphoglyceromutase (No1)//phosphoglycerate mutase (No1)//diphosphoglyceromutase (reversible) (No1)//phosphoglycerate mutase (reversible) (No1)	r_0356No1//r_0893No1//r_0356_REVNo1//r_0893_REVNo1
+GPM3	Q12326	5.4.2.11	YOL056W	576				
+HOR2	P40106	3.1.3.21	YER062C	11.16	11.1602	YER062C	glycerol-3-phosphatase (No1)	r_0489No1
+HXK1	P04806	2.7.1.1	YFR053C	274	273.9966//273.9966//273.9966	YFR053C//YFR053C//YFR053C	hexokinase (D-fructose:ATP) (No2)//hexokinase (D-glucose:ATP) (No3)//hexokinase (D-mannose:ATP) (No2)	r_0533No2//r_0534No3//r_0535No2
+HXK2	P04807	2.7.1.1	YGL253W	126.7	126.7003//126.7003//126.7003	YGL253W//YGL253W//YGL253W	hexokinase (D-fructose:ATP) (No3)//hexokinase (D-glucose:ATP) (No4)//hexokinase (D-mannose:ATP) (No3)	r_0533No3//r_0534No4//r_0535No3
+ICL1	P28240	4.1.3.1	YER065C	13.2	13.1999	YER065C	isocitrate lyase (No1)	r_0662No1
+ICL2	Q12031	4.1.3.1	YPR006C	13.2	13.1999	YPR006C	methylisocitrate lyase (No1)	r_0734No1
+IDH	P28834	1.1.1.41	YNL037C	23.7	29.9999	YNL037C and YOR136W	isocitrate dehydrogenase (NAD+) (No1)	r_0658No1
+IDPH	P21954	1.1.1.42	YDL066W	28	28.0001	YDL066W	isocitrate dehydrogenase (No1)	r_2131No1
+KGD1	P20967 + P19262 + P09624	1.2.4.2	YIL125W and YDR148C and YFL018C	27.8				
+MAE1	P36013	1.1.1.38	YKL029C	134	133.998//133.998	YKL029C//YKL029C	malic enzyme (NAD) (No1)//malic enzyme (NADP) (No1)	r_0718No1//r_0719No1
+MDH1	P17505	1.1.1.37	YKL085W	190.4	190.4022//190.4022	YKL085W//YKL085W	malate dehydrogenase (No1)//malate dehydrogenase (reversible) (No1)	r_0713No1//r_0713_REVNo1
+MLS1	P30952	2.3.3.9	YNL117W	19.2	19.1995//19.1995	YNL117W//YNL117W	malate synthase (No2)//malate synthase (No1)	r_0716No2//r_0717No1
+MLS2	P21826	2.3.3.9	YIR031C	19.2	19.1995	YIR031C	malate synthase (No1)	r_0716No1
+NDE1	P40215	1.6.5.3	YMR145C	500	499.996	YMR145C	NADH dehydrogenase, cytosolic/mitochondrial (No2)	r_0770No2
+NDE2	Q07500	1.6.5.3	YDL085W	500	499.996	YDL085W	NADH dehydrogenase, cytosolic/mitochondrial (No1)	r_0770No1
+NDI1	P32340	1.6.5.3	YML120C	500	499.996	YML120C	NADH:ubiquinone oxidoreductase (No1)	r_0773No1
+PCK1	P10963	4.1.1.49	YKR097W	62	61.9998	YKR097W	phosphoenolpyruvate carboxykinase (No1)	r_0884No1
+PDA1	2 P16387 + 2 P32473	1.2.4.1	YER178W and YBR221C	83.3				
+PDC1	P06169	4.1.1.1	YLR044C	62	61.9998//61.9998//61.9998//144.9999//144.9999//144.9999	YLR044C//YLR044C//YLR044C//YLR044C//YLR044C//YLR044C	3-methyl-2-oxobutanoate decarboxylase (No2)//3-methyl-2-oxopentanoate decarboxylase (No3)//acetaldehyde condensation (No2)//indole-3-pyruvate decarboxylase (No2)//pyruvate decarboxylase (No2)//pyruvate decarboxylase (acetoin-forming) (No2)	r_0062No2//r_0064No3//r_0095No2//r_0567No2//r_0959No2//r_0960No2
+PDC5	P16467	4.1.1.1	YLR134W	62	61.9998//61.9998//61.9998//61.9998//61.9998//61.9998	YLR134W//YLR134W//YLR134W//YLR134W//YLR134W//YLR134W	3-methyl-2-oxobutanoate decarboxylase (No3)//3-methyl-2-oxopentanoate decarboxylase (No4)//acetaldehyde condensation (No3)//indole-3-pyruvate decarboxylase (No3)//pyruvate decarboxylase (No3)//pyruvate decarboxylase (acetoin-forming) (No3)	r_0062No3//r_0064No4//r_0095No3//r_0567No3//r_0959No3//r_0960No3
+PDC6	P26263	4.1.1.1	YGR087C	62	61.9998//61.9998//61.9998//61.9998//61.9998//61.9998	YGR087C//YGR087C//YGR087C//YGR087C//YGR087C//YGR087C	3-methyl-2-oxobutanoate decarboxylase (No1)//3-methyl-2-oxopentanoate decarboxylase (No2)//acetaldehyde condensation (No1)//indole-3-pyruvate decarboxylase (No1)//pyruvate decarboxylase (No1)//pyruvate decarboxylase (acetoin-forming) (No1)	r_0062No1//r_0064No2//r_0095No1//r_0567No1//r_0959No1//r_0960No1
+PFK	P16861 + P16862	2.7.1.11	YGR240C and YMR205C	642				
+PGI1	P12709	5.3.1.9	YBR196C	685	684.9916//684.9916	YBR196C//YBR196C	glucose-6-phosphate isomerase (No1)//glucose-6-phosphate isomerase (reversible) (No1)	r_0467No1//r_0467_REVNo1
+PGK1	P00560	2.7.2.3	YCR012W	536.7	536.6961//536.6961	YCR012W//YCR012W	phosphoglycerate kinase (No1)//phosphoglycerate kinase (reversible) (No1)	r_0892No1//r_0892_REVNo1
+PGM1	P33401	5.4.2.2	YKL127W	215	214.9983//214.9983//214.9983//214.9983	YKL127W//YKL127W//YKL127W//YKL127W	phosphoglucomutase (No2)//phosphopentomutase (No1)//phosphoglucomutase (reversible) (No2)//phosphopentomutase (reversible) (No1)	r_0888No2//r_0907No1//r_0888_REVNo2//r_0907_REVNo1
+PGM2	P37012	5.4.2.2	YMR105C	215	214.9983//214.9983//214.9983//214.9983	YMR105C//YMR105C//YMR105C//YMR105C	phosphoglucomutase (No1)//phosphopentomutase (No2)//phosphoglucomutase (reversible) (No1)//phosphopentomutase (reversible) (No2)	r_0888No1//r_0907No2//r_0888_REVNo1//r_0907_REVNo2
+PYC1	P11154	6.4.1.1	YGL062W	60	60.0004	YGL062W	pyruvate carboxylase (No2)	r_0958No2
+PYC2	P32327	6.4.1.1	YBR218C	60	60.0004	YBR218C	pyruvate carboxylase (No1)	r_0958No1
+PYK2	P52489	2.7.1.40	YOR347C	232	232.0035	YOR347C	pyruvate kinase (No2)	r_0962No2
+RHR2	P41277	3.1.3.21	YIL053W	11.16	11.1602	YIL053W	glycerol-3-phosphatase (No2)	r_0489No2
+RIP1	2 P00127 + 2 P00128 + 2 P00163 + 2 P07143 + 2 P07256 + 2 P07257 + 2 P08067 + 2 P08525 + 2 P22289 + 2 P37299	1.10.2.2	YFR033C and YDR529C and Q0105 and YOR065W and YBL045C and YPR191W and YEL024W and YJL166W and YGR183C and YHR001W-A	220				
+RKI1	Q12189	5.3.1.6	YOR095C	9.6	9.6001//9.6001	YOR095C//YOR095C	ribose-5-phosphate isomerase (No1)//ribose-5-phosphate isomerase (reversible) (No1)	r_0982No1//r_0982_REVNo1
+RPE1	P46969	5.1.3.1	YJL121C	113.5	113.4991//113.4991	YJL121C//YJL121C	ribulose 5-phosphate 3-epimerase (No1)//ribulose 5-phosphate 3-epimerase (reversible) (No1)	r_0984No1//r_0984_REVNo1
+SDH12	Q00711 + P21801	1.3.5.1	YKL148C and YLL041C	219.3				
+SDH34	P37298 + P33421	1.3.5.1	YDR178W and YKL141W	219.3				
+SOL3	P38858	3.1.1.31	YHR163W	10	9.9999	YHR163W	6-phosphogluconolactonase (No2)	r_0091No2
+SOL4	P53315	3.1.1.31	YGR248W	10	9.9999	YGR248W	6-phosphogluconolactonase (No1)	r_0091No1
+TAL1	P15019	2.2.1.2	YLR354C	35.6	35.6002//75.0001	YLR354C//YLR354C	transaldolase (No1)//transaldolase (reversible) (No1)	r_1048No1//r_1048_REVNo1
+TDH1	P00360	1.2.1.12	YJL052W	24.7	29//29	YJL052W//YJL052W	glyceraldehyde-3-phosphate dehydrogenase (No2)//glyceraldehyde-3-phosphate dehydrogenase (reversible) (No2)	r_0486No2//r_0486_REVNo2
+TDH2	P00358	1.2.1.12	YJR009C	24.7	16.7//16.7	YJR009C//YJR009C	glyceraldehyde-3-phosphate dehydrogenase (No3)//glyceraldehyde-3-phosphate dehydrogenase (reversible) (No3)	r_0486No3//r_0486_REVNo3
+TDH3	P00359	1.2.1.12	YGR192C	24.7	9.1//9.1	YGR192C//YGR192C	glyceraldehyde-3-phosphate dehydrogenase (No1)//glyceraldehyde-3-phosphate dehydrogenase (reversible) (No1)	r_0486No1//r_0486_REVNo1
+TKL1a	P23254	2.2.1.1	YPR074C	56.7	68.9994//68.9994//68.9994//68.9994	YPR074C//YPR074C//YPR074C//YPR074C	transketolase 1 (No2)//transketolase 2 (No2)//transketolase 1 (reversible) (No2)//transketolase 2 (reversible) (No2)	r_1049No2//r_1050No2//r_1049_REVNo2//r_1050_REVNo2
+TKL1b	P23254	2.2.1.1	YPR074C	69	68.9994//68.9994//68.9994//68.9994	YPR074C//YPR074C//YPR074C//YPR074C	transketolase 1 (No2)//transketolase 2 (No2)//transketolase 1 (reversible) (No2)//transketolase 2 (reversible) (No2)	r_1049No2//r_1050No2//r_1049_REVNo2//r_1050_REVNo2
+TKL2a	P33315	2.2.1.1	YBR117C	56.7	68.9994//68.9994//68.9994//68.9994	YBR117C//YBR117C//YBR117C//YBR117C	transketolase 1 (No1)//transketolase 2 (No1)//transketolase 1 (reversible) (No1)//transketolase 2 (reversible) (No1)	r_1049No1//r_1050No1//r_1049_REVNo1//r_1050_REVNo1
+TKL2b	P33315	2.2.1.1	YBR117C	69	68.9994//68.9994//68.9994//68.9994	YBR117C//YBR117C//YBR117C//YBR117C	transketolase 1 (No1)//transketolase 2 (No1)//transketolase 1 (reversible) (No1)//transketolase 2 (reversible) (No1)	r_1049No1//r_1050No1//r_1049_REVNo1//r_1050_REVNo1
+TPI1	P00942	5.3.1.1	YDR050C	8662.5	8662.4186//8662.4186	YDR050C//YDR050C	triose-phosphate isomerase (No1)//triose-phosphate isomerase (reversible) (No1)	r_1054No1//r_1054_REVNo1
+UGP1	P32861	2.7.7.9	YKL035W	27	27.0002//27.0002	YKL035W//YKL035W	UTP-glucose-1-phosphate uridylyltransferase (No2)//UTP-glucose-1-phosphate uridylyltransferase (reversible) (No2)	r_1084No2//r_1084_REVNo2
+ZWF1	P11412	1.1.1.49	YNL241C	632.8	632.7944	YNL241C	glucose 6-phosphate dehydrogenase (No1)	r_0466No1
