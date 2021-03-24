@@ -1,0 +1,2242 @@
+Var1	Var2	Var3	Var4
+s_0001	(1->3)-beta-D-glucan	cell envelope	0.204881386115678
+s_0002	(1->3)-beta-D-glucan	cytoplasm	0
+s_0003	(1->3)-beta-D-glucan	extracellular	5e-16
+s_0004	(1->6)-beta-D-glucan	cell envelope	0.0684337465293232
+s_0006	(2-amino-4-hydroxy-7,8-dihydropteridin-6-yl)methyl trihydrogen diphosphate	mitochondrion	1e-15
+s_0007	(2E)-3-(methoxycarbonyl)pent-2-enedioic acid	cytoplasm	5e-16
+s_0008	(2R,3R)-2,3-dihydroxy-3-methylpentanoate	mitochondrion	0.0782929719376504
+s_0009	(2R,3S)-3-isopropylmalate	cytoplasm	0.120440362530263
+s_0010	(2S)-2-isopropyl-3-oxosuccinate	cytoplasm	0.120440362530263
+s_0011	(2S)-2-isopropyl-3-oxosuccinate	mitochondrion	5e-16
+s_0012	(2S,3R)-3-hydroxybutane-1,2,3-tricarboxylic acid	mitochondrion	5e-16
+s_0013	(5S,6S)-di-HETE	cytoplasm	0
+s_0014	(5S,6S)-di-HETE	nucleus	0
+s_0015	(N(omega)-L-arginino)succinic acid	cytoplasm	0.0653108011241446
+s_0016	(R)-2,3-dihydroxy-3-methylbutanoate	mitochondrion	0.227943137442104
+s_0017	(R)-4'-phosphopantothenic acid	cytoplasm	1e-15
+s_0018	(R)-5-diphosphomevalonic acid	cytoplasm	0.0546091110093027
+s_0019	(R)-5-phosphomevalonic acid	cytoplasm	0.0546091110093042
+s_0020	(R)-acetoin	cytoplasm	1e-15
+s_0021	(R)-carnitine	cytoplasm	2.5e-15
+s_0022	(R)-carnitine	extracellular	0
+s_0023	(R)-carnitine	mitochondrion	1.5e-15
+s_0024	(R)-carnitine	peroxisome	1.5e-15
+s_0025	(R)-lactate	cytoplasm	0.738830178654269
+s_0026	(R)-lactate	extracellular	0
+s_0027	(R)-lactate	mitochondrion	1.5e-15
+s_0028	(R)-mevalonate	cytoplasm	0.0546091110093042
+s_0029	(R)-mevalonate	extracellular	0
+s_0030	(R)-pantoate	cytoplasm	1e-15
+s_0031	(R)-pantothenate	cytoplasm	1e-15
+s_0032	(R)-pantothenate	extracellular	0
+s_0033	(R)-S-lactoylglutathione	cytoplasm	0.738830178654268
+s_0034	(R)-S-lactoylglutathione	mitochondrion	5e-16
+s_0035	(R,R)-2,3-butanediol	cytoplasm	0
+s_0036	(R,R)-2,3-butanediol	extracellular	0
+s_0037	(S)-2,3-epoxysqualene	cytoplasm	0.00910135578915914
+s_0038	(S)-2,3-epoxysqualene	endoplasmic reticulum	0.00910135578915964
+s_0039	(S)-2-acetyl-2-hydroxybutanoate	mitochondrion	0.0782929719376504
+s_0042	(R)-3-hydroxydecanoyl-CoA	peroxisome	1e-15
+s_0045	(S)-3-hydroxyhexacosanoyl-CoA	peroxisome	1e-15
+s_0048	(R)-3-hydroxylauroyl-CoA	peroxisome	1e-15
+s_0051	(S)-3-hydroxypalmitoyl-CoA	peroxisome	1e-15
+s_0054	(S)-3-hydroxytetradecanoyl-CoA	peroxisome	1e-15
+s_0056	(S)-3-methyl-2-oxopentanoate	cytoplasm	0.0782929719376499
+s_0058	(S)-3-methyl-2-oxopentanoate	extracellular	0
+s_0060	(S)-3-methyl-2-oxopentanoate	mitochondrion	0.0782929719376499
+s_0061	(S)-dihydroorotate	cytoplasm	0.0331552855691318
+s_0062	(S)-lactaldehyde	cytoplasm	1e-15
+s_0063	(S)-lactate	cytoplasm	1.5e-15
+s_0064	(S)-lactate	extracellular	5e-16
+s_0065	(S)-lactate	mitochondrion	0
+s_0066	(S)-malate	cytoplasm	0.479361409814062
+s_0067	(S)-malate	extracellular	0
+s_0068	(S)-malate	mitochondrion	0.479361409814063
+s_0069	(S)-malate	peroxisome	5e-16
+s_0075	1,3-bisphospho-D-glycerate	cytoplasm	29.303303622144
+s_0076	1-(2-carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate	cytoplasm	0.0115594462107033
+s_0077	1-(5-phospho-D-ribosyl)-5-[(5-phospho-D-ribosylamino)methylideneamino]imidazole-4-carboxamide	cytoplasm	0.0269423732657159
+s_0078	1-(5-phosphoribosyl)-5'-AMP	cytoplasm	0.0269423732657159
+s_0079	1-(sn-glycero-3-phospho)-1D-myo-inositol	cytoplasm	0
+s_0080	1-(sn-glycero-3-phospho)-1D-myo-inositol	extracellular	0
+s_0084	1-acylglycerophosphocholine	extracellular	0
+s_0086	1-C-(indol-3-yl)glycerol 3-phosphate	cytoplasm	0.0115594462107033
+s_0087	1-methylnicotinamide	cytoplasm	5e-16
+s_0089	1-phosphatidyl-1D-myo-inositol backbone	cytoplasm	0.00197712304248574
+s_0116	1-pyrroline-3-hydroxy-5-carboxylic acid	cytoplasm	5e-16
+s_0117	1-pyrroline-3-hydroxy-5-carboxylic acid	mitochondrion	5e-16
+s_0118	1-pyrroline-5-carboxylate	cytoplasm	0.0669112402001939
+s_0119	1-pyrroline-5-carboxylate	mitochondrion	5e-16
+s_0120	10-formyl-THF	cytoplasm	0.0863799079310225
+s_0121	10-formyl-THF	mitochondrion	5e-16
+s_0122	14-demethyllanosterol	cytoplasm	0.00910135578915964
+s_0123	1D-myo-inositol 1,3,4,5-tetrakisphosphate	nucleus	1e-15
+s_0124	1D-myo-inositol 1,4,5,6-tetrakisphosphate	nucleus	1e-15
+s_0125	1D-myo-inositol 1,4,5-trisphosphate	nucleus	5e-15
+s_0126	1D-myo-inositol 1-phosphate	cytoplasm	0.00198243427684065
+s_0127	1D-myo-inositol 1-phosphate	endoplasmic reticulum	5e-15
+s_0129	1D-myo-inositol 3-phosphate	mitochondrion	5e-15
+s_0131	2',3'-cyclic AMP	cytoplasm	5e-16
+s_0132	2'-deoxyadenosine	cytoplasm	1.5e-15
+s_0133	2'-deoxyadenosine	extracellular	5e-16
+s_0134	2'-deoxyguanosine	cytoplasm	1e-15
+s_0135	2'-deoxyguanosine	extracellular	5e-16
+s_0136	2'-deoxyinosine	cytoplasm	1e-15
+s_0137	2'-deoxyinosine	extracellular	5e-16
+s_0138	2'-deoxyuridine	cytoplasm	2e-15
+s_0139	2'-deoxyuridine	extracellular	5e-16
+s_0140	2,3-bisphospho-D-glyceric acid	cytoplasm	0
+s_0141	2,5-diamino-4-hydroxy-6-(5-phosphoribosylamino)pyrimidine	cytoplasm	0.000322170533812192
+s_0142	2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone	cytoplasm	0.000322170533812192
+s_0143	2-(3-amino-3-carboxypropyl)-L-histidine	cytoplasm	5e-16
+s_0144	2-[3-carboxy-3-(methylammonio)propyl]-L-histidine	cytoplasm	5e-16
+s_0145	2-acetamido-5-oxopentanoate	mitochondrion	0.0653108011241456
+s_0146	2-acetyllactic acid	mitochondrion	0.227943137442104
+s_0147	2-amino-3-carboxymuconate-6-semialdehyde	cytoplasm	1e-15
+s_0148	2-amino-6-(hydroxymethyl)-7,8-dihydropteridin-4-ol	mitochondrion	1.5e-15
+s_0149	2-dehydropantoate	cytoplasm	5e-16
+s_0150	2-dehydropantoate	mitochondrion	5e-16
+s_0152	2-deoxy-D-ribose	cytoplasm	5e-16
+s_0153	2-deoxy-D-ribose 5-phosphate	cytoplasm	5e-16
+s_0154	2-hexaprenyl-5-hydroxy-6-methoxy-3-methyl-1,4-benzoquinone	mitochondrion	1e-15
+s_0155	2-hexaprenyl-6-methoxy-1,4-benzoquinone	mitochondrion	1e-15
+s_0156	2-hexaprenyl-6-methoxy-3-methyl-1,4-benzoquinone	mitochondrion	1e-15
+s_0157	2-hexaprenyl-6-methoxyphenol	mitochondrion	1e-15
+s_0158	2-hydroxy-3-oxobutyl phosphate	cytoplasm	0.000644341067624385
+s_0161	2-hydroxyhexadecanal	endoplasmic reticulum	5e-16
+s_0162	2-isopropylmalate	cytoplasm	0.120440362530262
+s_0163	2-isopropylmalate	extracellular	0
+s_0164	2-isopropylmalate	mitochondrion	0.120440362530262
+s_0165	2-isopropylmaleic acid	cytoplasm	0.120440362530262
+s_0166	2-methylbutanal	cytoplasm	1.5e-15
+s_0167	2-methylbutanal	extracellular	0
+s_0168	2-methylbutanal	mitochondrion	5e-16
+s_0169	2-methylbutanol	cytoplasm	1.5e-15
+s_0170	2-methylbutanol	extracellular	0
+s_0171	2-methylbutanol	mitochondrion	5e-16
+s_0172	2-methylbutyl acetate	cytoplasm	1e-15
+s_0173	2-methylbutyl acetate	extracellular	5e-16
+s_0174	2-methylcitrate	mitochondrion	5e-16
+s_0176	2-oxoadipic acid	cytoplasm	0.116305840679672
+s_0177	2-oxoadipic acid	mitochondrion	0.116305840679673
+s_0178	2-oxobutanoate	cytoplasm	0.0026675622572215
+s_0179	2-oxobutanoate	mitochondrion	0.0782929719376499
+s_0180	2-oxoglutarate	cytoplasm	2.08654958919272
+s_0181	2-oxoglutarate	extracellular	0
+s_0182	2-oxoglutarate	mitochondrion	0.289119416715661
+s_0183	2-oxoglutarate	nucleus	5e-16
+s_0184	2-oxoglutarate	peroxisome	1.5e-15
+s_0185	2-phenylethanol	cytoplasm	1.5e-15
+s_0186	2-phenylethanol	extracellular	0
+s_0187	2-phenylethanol	mitochondrion	5e-16
+s_0188	2-phospho-D-glyceric acid	cytoplasm	29.0573209240491
+s_0189	geranylgeranyl diphosphate	cytoplasm	1e-15
+s_0190	farnesyl diphosphate	cytoplasm	0.0182030370031009
+s_0191	farnesyl diphosphate	mitochondrion	3.25424781128477e-07
+s_0192	3',5'-cyclic AMP	cytoplasm	1e-15
+s_0193	3',5'-cyclic CMP	cytoplasm	5e-16
+s_0194	3',5'-cyclic dAMP	cytoplasm	5e-16
+s_0195	3',5'-cyclic GMP	cytoplasm	5e-16
+s_0196	3',5'-cyclic IMP	cytoplasm	5e-16
+s_0197	3'-dephospho-CoA	cytoplasm	1e-15
+s_0200	3'-dephospho-CoA	mitochondrion	1e-15
+s_0201	3'-phospho-5'-adenylyl sulfate	cytoplasm	0.0232522417341745
+s_0204	3-(4-hydroxyphenyl)pyruvate	cytoplasm	0.0414360120199719
+s_0206	3-(4-hydroxyphenyl)pyruvate	peroxisome	5e-16
+s_0207	3-(imidazol-4-yl)-2-oxopropyl dihydrogen phosphate	cytoplasm	0.0269423732657159
+s_0208	3-aminopropanal	cytoplasm	2e-15
+s_0209	3-dehydro-4-methylzymosterol	cytoplasm	0.00910135578915964
+s_0210	3-dehydroquinate	cytoplasm	0.107413641064153
+s_0211	3-dehydroshikimate	cytoplasm	0.107413641064153
+s_0212	3-hexaprenyl-4,5-dihydroxybenzoic acid	cytoplasm	5e-16
+s_0213	3-hexaprenyl-4,5-dihydroxybenzoic acid	mitochondrion	5e-16
+s_0214	3-hexaprenyl-4-hydroxy-5-methoxybenzoic acid	mitochondrion	1e-15
+s_0215	3-hexaprenyl-4-hydroxybenzoic acid	cytoplasm	5e-16
+s_0216	3-hexaprenyl-4-hydroxybenzoic acid	mitochondrion	5e-16
+s_0217	3-hydroxy-2-isopropyl-4-methoxy-4-oxobutanoate	cytoplasm	5e-16
+s_0218	3-hydroxy-3-methylglutaryl-CoA	cytoplasm	0.0546091110093027
+s_0221	3-hydroxy-3-methylglutaryl-CoA	mitochondrion	0.0546091110093022
+s_0222	3-hydroxy-L-kynurenine	cytoplasm	1e-15
+s_0224	3-hydroxyanthranilate	cytoplasm	1e-15
+s_0229	3-hydroxyoctadecanoyl-CoA	peroxisome	1e-15
+s_0231	3-ketosphinganine	endoplasmic reticulum	1e-15
+s_0232	3-methyl-2-oxobutanoate	cytoplasm	1e-15
+s_0233	3-methyl-2-oxobutanoate	mitochondrion	0.227943137442104
+s_0234	3-methylbutanal	cytoplasm	1.5e-15
+s_0235	3-methylbutanal	extracellular	0
+s_0236	3-methylbutanal	mitochondrion	5e-16
+s_0239	3-oxodecanoyl-CoA	peroxisome	1e-15
+s_0243	3-oxohexacosanoyl-CoA	peroxisome	1e-15
+s_0247	3-oxolauroyl-CoA	peroxisome	1e-15
+s_0250	3-oxooctadecanoyl-CoA	peroxisome	1e-15
+s_0253	3-oxopalmitoyl-CoA	peroxisome	1e-15
+s_0257	3-oxotetradecanoyl-CoA	peroxisome	1e-15
+s_0258	3-phospho-hydroxypyruvate	cytoplasm	0.245982698094958
+s_0259	3-phospho-serine	cytoplasm	0.245982698094958
+s_0260	3-phosphonato-D-glycerate(3-)	cytoplasm	29.303303622144
+s_0261	3-phosphoshikimic acid	cytoplasm	0.107413641064153
+s_0262	4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol	cytoplasm	0.00910135578915964
+s_0263	4,5-bis(diphospho)-1D-myo-inositol tetrakisphosphate	cytoplasm	5e-16
+s_0264	4-(phosphonooxy)-L-threonine	cytoplasm	5e-16
+s_0267	4-amino-2-methyl-5-diphosphomethylpyrimidine	cytoplasm	1e-15
+s_0268	4-amino-2-methyl-5-phosphomethylpyrimidine	cytoplasm	1e-15
+s_0269	4-amino-4-deoxychorismate	cytoplasm	1e-15
+s_0270	4-amino-5-hydroxymethyl-2-methylpyrimidine	cytoplasm	1.5e-15
+s_0271	4-aminobenzoate	cytoplasm	5e-16
+s_0272	4-aminobenzoate	extracellular	0
+s_0273	4-aminobenzoate	mitochondrion	1e-15
+s_0274	4-aminobutanal	cytoplasm	5e-16
+s_0275	4-aminobutanal	mitochondrion	5e-16
+s_0279	4-diphospho-1D-myo-inositol pentakisphosphate	cytoplasm	5e-16
+s_0280	4-guanidinobutanamide	cytoplasm	5e-16
+s_0281	4-guanidinobutanoic acid	cytoplasm	5e-16
+s_0282	4-hydroxy-2-oxoglutarate	cytoplasm	5e-16
+s_0283	4-hydroxy-2-oxoglutarate	mitochondrion	5e-16
+s_0284	4-hydroxy-2-oxoglutarate	peroxisome	5e-16
+s_0285	4-hydroxy-L-threonine	cytoplasm	5e-16
+s_0286	4-hydroxybenzoate	cytoplasm	5e-16
+s_0287	4-hydroxybenzoate	mitochondrion	1e-15
+s_0290	4-hydroxybenzoyl-CoA	mitochondrion	5e-16
+s_0291	4-methyl-2-oxopentanoate	cytoplasm	0.120440362530263
+s_0292	4-methyl-2-oxopentanoate	mitochondrion	5e-16
+s_0293	4-methyl-5-(2-phosphonooxyethyl)thiazole	cytoplasm	2e-15
+s_0294	4-methylthio-2-oxobutanoate	cytoplasm	1e-15
+s_0295	4-phospho-L-aspartate	cytoplasm	0.181023059765302
+s_0296	4alpha-methylzymosterol	cytoplasm	0.00910135578915964
+s_0297	4beta-methylzymosterol-4alpha-carboxylic acid	cytoplasm	0.00910135578915964
+s_0298	5'-adenylyl sulfate	cytoplasm	0.023252241734175
+s_0299	5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole	cytoplasm	0.0297187673326533
+s_0300	5'-phosphoribosyl-5-aminoimidazole	cytoplasm	0.0297187673326538
+s_0301	5'-phosphoribosyl-N-formylglycineamide	cytoplasm	0.0297187673326533
+s_0302	5'-phosphoribosyl-N-formylglycineamidine	cytoplasm	0.0297187673326533
+s_0303	5'-S-methyl-5'-thioadenosine	cytoplasm	1.5e-15
+s_0304	5,10-methenyl-THF	cytoplasm	0.0863799079310225
+s_0305	5,10-methenyl-THF	mitochondrion	1e-15
+s_0306	5,10-methylenetetrahydrofolate	cytoplasm	0.143330683821875
+s_0307	5,10-methylenetetrahydrofolate	mitochondrion	2e-15
+s_0308	5,6,7,8-tetrahydrofolyl-L-glutamic acid	cytoplasm	0
+s_0309	5,6-bis(diphospho)-1D-myo-inositol tetrakisphosphate	cytoplasm	1.5e-15
+s_0310	5-(2-hydroxyethyl)-4-methylthiazole	cytoplasm	1e-15
+s_0311	5-(methylsulfanyl)-2,3-dioxopentyl phosphate	cytoplasm	1e-15
+s_0312	5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide	cytoplasm	0.0269423732657159
+s_0313	5-amino-6-(5-phosphoribitylamino)uracil	cytoplasm	0.000322170533812192
+s_0314	5-amino-6-(D-ribitylamino)uracil	cytoplasm	0.000644341067624384
+s_0315	5-aminolevulinate	cytoplasm	2.60339825302782e-06
+s_0316	5-aminolevulinate	extracellular	5e-16
+s_0317	5-aminolevulinate	mitochondrion	2.60339825252782e-06
+s_0318	5-diphospho-1D-myo-inositol pentakisphosphate	cytoplasm	1e-15
+s_0319	5-formyltetrahydrofolic acid	cytoplasm	1e-15
+s_0320	5-formyltetrahydrofolic acid	extracellular	0
+s_0321	5-formyltetrahydrofolic acid	mitochondrion	1e-15
+s_0322	5-methyltetrahydrofolate	cytoplasm	0.0557792466769904
+s_0323	5-methyltetrahydropteroyltri-L-glutamic acid	cytoplasm	5e-16
+s_0324	5-O-(1-carboxyvinyl)-3-phosphoshikimic acid	cytoplasm	0.107413641064153
+s_0325	5-phospho-ribosyl-glycineamide	cytoplasm	0.0297187673326533
+s_0326	5-phosphoribosyl-ATP	cytoplasm	0.0269423732657159
+s_0327	5-phosphoribosylamine	cytoplasm	0.0297187673326533
+s_0328	6,7-dimethyl-8-(1-D-ribityl)lumazine	cytoplasm	0.000644341067624384
+s_0329	6-(alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0330	6-(alpha-D-glucosaminyl)-O-acyl-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0331	6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0332	6-[6-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-2-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-alpha-2-(2-aminoethylphosphoryl)mannosyl-(1->4)-alpha-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0333	6-diphospho-1D-myo-inositol pentakisphosphate	cytoplasm	5e-16
+s_0334	6-O-[alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0335	6-O-phosphono-D-glucono-1,5-lactone	cytoplasm	1.3629943873121
+s_0337	6-O-{2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0338	6-O-{alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0339	6-O-{alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol	endoplasmic reticulum	0
+s_0340	6-phospho-D-gluconate	cytoplasm	1.3629943873121
+s_0341	7,8-diaminononanoate	cytoplasm	0
+s_0342	7,8-diaminononanoate	extracellular	0
+s_0343	7,8-dihydroneopterin	cytoplasm	1e-15
+s_0344	7,8-dihydroneopterin	mitochondrion	5e-16
+s_0345	7,8-dihydroneopterin 3'-phosphate	cytoplasm	1e-15
+s_0346	7,8-dihydroneopterin 3'-triphosphate	cytoplasm	1.5e-15
+s_0347	7,8-dihydropteroate	cytoplasm	5e-16
+s_0348	7,8-dihydropteroate	mitochondrion	1e-15
+s_0349	7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid	cytoplasm	0.107413641064153
+s_0350	7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid	mitochondrion	0.107413641064153
+s_0352	8-amino-7-oxononanoate	cytoplasm	5e-16
+s_0354	8-amino-7-oxononanoate	extracellular	0
+s_0357	9H-xanthine	cytoplasm	1e-15
+s_0358	9H-xanthine	extracellular	0
+s_0359	acetaldehyde	cytoplasm	27.2718059769913
+s_0360	acetaldehyde	extracellular	0
+s_0361	acetaldehyde	mitochondrion	1.5e-15
+s_0362	acetate	cytoplasm	0.355830909119773
+s_0363	acetate	endoplasmic reticulum	0
+s_0364	acetate	extracellular	0
+s_0365	acetate	mitochondrion	2.60339825402782e-06
+s_0366	acetate	nucleus	5e-16
+s_0367	acetoacetyl-CoA	cytoplasm	1e-15
+s_0370	acetoacetyl-CoA	mitochondrion	0.0546091110093027
+s_0372	acetyl-ACP	mitochondrion	5e-16
+s_0373	acetyl-CoA	cytoplasm	0.355830909119776
+s_0376	acetyl-CoA	mitochondrion	0.814537614478327
+s_0377	acetyl-CoA	nucleus	1e-15
+s_0378	acetyl-CoA	peroxisome	1.1e-14
+s_0383	adenine	cytoplasm	2e-15
+s_0384	adenine	extracellular	5e-16
+s_0385	adenine	mitochondrion	0
+s_0386	adenosine	cytoplasm	0.0351945672000389
+s_0387	adenosine	extracellular	5e-16
+s_0389	adenosine 2'-phosphate	cytoplasm	5e-16
+s_0390	adenosine 3',5'-bismonophosphate	cytoplasm	0.0232522417341745
+s_0391	adenosine 3',5'-bismonophosphate	extracellular	0
+s_0392	adenosine 3',5'-bismonophosphate	mitochondrion	5e-16
+s_0393	adenylo-succinate	cytoplasm	0.041835926534111
+s_0394	ADP	cytoplasm	58.9671905508184
+s_0395	ADP	endoplasmic reticulum	1e-15
+s_0397	ADP	mitochondrion	0.187273170433318
+s_0398	ADP	nucleus	1.2e-14
+s_0399	ADP	peroxisome	5e-16
+s_0402	ADP-ribose	nucleus	5e-16
+s_0403	AICAR	cytoplasm	0.0566611405983687
+s_0404	Ala-tRNA(Ala)	cytoplasm	0.166774756639049
+s_0405	allantoate	cytoplasm	5e-16
+s_0406	allantoate	extracellular	5e-16
+s_0407	allantoin	cytoplasm	5e-16
+s_0408	allantoin	extracellular	5e-16
+s_0409	alpha,alpha-trehalose 6-phosphate	cytoplasm	0.028394190843995
+s_0410	alpha-D-galactose 1-phosphate	cytoplasm	1e-15
+s_0411	alpha-D-glucosamine 1-phosphate	cytoplasm	0
+s_0412	alpha-D-glucosamine 6-phosphate	cytoplasm	1e-15
+s_0413	alpha-D-glucosamine 6-phosphate	extracellular	0
+s_0414	alpha-D-mannosyl-beta-D-mannosyldiacetylchitobiosyldiphosphodolichol	Golgi	5e-16
+s_0415	alpha-D-ribose 1-phosphate(2-)	cytoplasm	5e-16
+s_0416	alpha-D-ribose 1-phosphate(2-)	mitochondrion	0
+s_0417	aminoacetaldehyde	cytoplasm	5e-16
+s_0418	aminoacetone	cytoplasm	1e-15
+s_0419	ammonium	cytoplasm	2.27970709545222
+s_0420	ammonium	extracellular	2.20109065128162
+s_0421	ammonium	mitochondrion	0.0756254096804299
+s_0423	AMP	cytoplasm	2.29271530294498
+s_0424	AMP	mitochondrion	2.6033982610297e-06
+s_0425	AMP	nucleus	5e-16
+s_0426	AMP	peroxisome	1e-15
+s_0427	anthranilate	cytoplasm	0.0115594462107038
+s_0428	Arg-tRNA(Arg)	cytoplasm	0.0584288055162417
+s_0429	Arg-tRNA(Arg)	mitochondrion	5e-16
+s_0430	Asn-tRNA(Asn)	cytoplasm	0.0369506346728926
+s_0431	Asn-tRNA(Asn)	mitochondrion	5e-16
+s_0432	Asp-tRNA(Asp)	cytoplasm	0.108147096402945
+s_0433	Asp-tRNA(Asp)	mitochondrion	5e-16
+s_0434	ATP	cytoplasm	58.9439383090842
+s_0435	ATP	endoplasmic reticulum	1e-15
+s_0437	ATP	mitochondrion	0.187273170433326
+s_0438	ATP	nucleus	1.25e-14
+s_0439	ATP	peroxisome	1e-15
+s_0441	beta-alanine	cytoplasm	1e-15
+s_0442	beta-D-fructose 2,6-bisphosphate	cytoplasm	1e-15
+s_0443	beta-D-mannosyldiacetylchitobiosyldiphosphodolichol	cytoplasm	5e-16
+s_0444	beta-D-mannosyldiacetylchitobiosyldiphosphodolichol	Golgi	5e-16
+s_0445	bicarbonate	cytoplasm	1.55254655820965
+s_0446	bicarbonate	extracellular	0
+s_0447	bicarbonate	mitochondrion	5e-16
+s_0448	bicarbonate	nucleus	0
+s_0450	biomass	cytoplasm	0.325424781628476
+s_0451	biotin	cytoplasm	1e-15
+s_0452	biotin	extracellular	5e-16
+s_0453	biotinyl-5'-AMP	cytoplasm	5e-16
+s_0454	but-1-ene-1,2,4-tricarboxylic acid	mitochondrion	0.116305840679672
+s_0455	carbamoyl phosphate	cytoplasm	0.0984660866932779
+s_0456	carbon dioxide	cytoplasm	31.2902122215382
+s_0457	carbon dioxide	endoplasmic reticulum	5e-16
+s_0458	carbon dioxide	extracellular	29.7079468959959
+s_0460	carbon dioxide	mitochondrion	1.60862647504166
+s_0461	carbon dioxide	nucleus	0
+s_0462	carbon dioxide	peroxisome	5e-16
+s_0465	carboxyacetyl-ACP	mitochondrion	1.5e-15
+s_0467	CDP	cytoplasm	0.00208546166245904
+s_0468	CDP	nucleus	5e-16
+s_0469	CDP-choline	cytoplasm	0.000326302951829944
+s_0474	CDP-ethanolamine	cytoplasm	5e-16
+s_0475	ceramide-1 (C24)	endoplasmic reticulum	3e-15
+s_0476	ceramide-1 (C24)	Golgi	4.5e-15
+s_0477	ceramide-1 (C24)	mitochondrion	1.5e-15
+s_0478	ceramide-1 (C26)	endoplasmic reticulum	3e-15
+s_0479	ceramide-1 (C26)	Golgi	4.5e-15
+s_0480	ceramide-1 (C26)	mitochondrion	1.5e-15
+s_0481	ceramide-2 (C24)	endoplasmic reticulum	4e-15
+s_0482	ceramide-2 (C24)	Golgi	4.5e-15
+s_0483	ceramide-2 (C24)	mitochondrion	1.5e-15
+s_0484	ceramide-2 (C26)	endoplasmic reticulum	4e-15
+s_0485	ceramide-2 (C26)	Golgi	4.5e-15
+s_0486	ceramide-2 (C26)	mitochondrion	1.5e-15
+s_0487	ceramide-2' (C24)	endoplasmic reticulum	2e-15
+s_0488	ceramide-2' (C24)	Golgi	4.5e-15
+s_0489	ceramide-2' (C24)	mitochondrion	1.5e-15
+s_0490	ceramide-2' (C26)	endoplasmic reticulum	2e-15
+s_0491	ceramide-2' (C26)	Golgi	4.5e-15
+s_0492	ceramide-2' (C26)	mitochondrion	1.5e-15
+s_0493	ceramide-3 (C24)	endoplasmic reticulum	2.5e-15
+s_0494	ceramide-3 (C24)	Golgi	4.5e-15
+s_0495	ceramide-3 (C24)	mitochondrion	1.5e-15
+s_0496	ceramide-3 (C26)	endoplasmic reticulum	2.5e-15
+s_0497	ceramide-3 (C26)	Golgi	4.5e-15
+s_0498	ceramide-3 (C26)	mitochondrion	1.5e-15
+s_0499	ceramide-4 (C24)	endoplasmic reticulum	2e-15
+s_0500	ceramide-4 (C24)	Golgi	4.5e-15
+s_0501	ceramide-4 (C24)	mitochondrion	1.5e-15
+s_0502	ceramide-4 (C26)	endoplasmic reticulum	2e-15
+s_0503	ceramide-4 (C26)	Golgi	4.5e-15
+s_0504	ceramide-4 (C26)	mitochondrion	1.5e-15
+s_0507	cerotic acid	endoplasmic reticulum	1e-15
+s_0509	chitin	cytoplasm	1e-15
+s_0510	chitosan	cell envelope	5e-16
+s_0511	choline	cell envelope	0.000326302951833444
+s_0512	choline	cytoplasm	0.000326302951830944
+s_0513	choline	extracellular	5e-16
+s_0514	choline phosphate	cytoplasm	0.000326302951830444
+s_0515	chorismate	cytoplasm	0.107413641064154
+s_0516	cis-aconitate	cytoplasm	0.413961474842227
+s_0517	cis-aconitate	mitochondrion	0
+s_0522	citrate	cytoplasm	0.413961474842227
+s_0523	citrate	extracellular	0
+s_0524	citrate	mitochondrion	0.413961474842227
+s_0525	citrate	peroxisome	5e-16
+s_0526	CMP	cytoplasm	0.0154197053247286
+s_0528	CMP	mitochondrion	1e-15
+s_0529	coenzyme A	cytoplasm	0.410440020129078
+s_0530	coenzyme A	endoplasmic reticulum	2.5e-15
+s_0531	coenzyme A	lipid particle	2.4e-14
+s_0532	coenzyme A	mitochondrion	0.81453761447833
+s_0533	coenzyme A	nucleus	1e-15
+s_0534	coenzyme A	peroxisome	1.55e-14
+s_0538	coproporphyrinogen III	cytoplasm	3.25424781628477e-07
+s_0539	CTP	cytoplasm	0.0154197095472092
+s_0541	CTP	mitochondrion	1e-15
+s_0542	Cys-tRNA(Cys)	cytoplasm	0.00238647300057194
+s_0543	cytidine	cytoplasm	2e-15
+s_0544	cytidine	extracellular	5e-16
+s_0545	cytosine	cytoplasm	1.5e-15
+s_0546	cytosine	extracellular	5e-16
+s_0547	D-arabinono-1,4-lactone	cytoplasm	1e-15
+s_0548	D-arabinose	cytoplasm	1e-15
+s_0549	D-arabinose	extracellular	0
+s_0550	D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate	cytoplasm	0.0269423732657159
+s_0551	D-erythrose 4-phosphate	cytoplasm	14.8495123999185
+s_0552	D-erythrose 4-phosphate	mitochondrion	0.107413641064153
+s_0553	D-fructose	cytoplasm	1.5e-15
+s_0554	D-fructose	extracellular	1.5e-15
+s_0555	D-fructose 1,6-bisphosphate	cytoplasm	1.5e-15
+s_0556	D-fructose 1-phosphate	cytoplasm	5e-16
+s_0557	D-fructose 6-phosphate	cytoplasm	14.5612443899842
+s_0558	D-galactose	cytoplasm	1e-15
+s_0559	D-galactose	extracellular	5e-16
+s_0560	D-galacturonate	extracellular	5e-16
+s_0561	D-glucitol	cytoplasm	5e-16
+s_0562	D-glucitol	extracellular	0
+s_0563	D-glucose	cytoplasm	15.9405626145398
+s_0565	D-glucose	extracellular	15.9405626145398
+s_0566	D-glucose	vacuole	1.5e-15
+s_0567	D-glucose 1-phosphate	cytoplasm	0.334662842701911
+s_0568	D-glucose 6-phosphate	cytoplasm	15.9405626145398
+s_0570	D-glyceraldehyde	cytoplasm	5e-16
+s_0571	D-mannose	cytoplasm	1e-15
+s_0572	D-mannose	extracellular	5e-16
+s_0573	D-mannose 1-phosphate	cytoplasm	0.167861261709163
+s_0574	D-mannose 6-phosphate	cytoplasm	0.167861261709163
+s_0575	D-ribose	cytoplasm	1.5e-15
+s_0576	D-ribose	extracellular	5e-16
+s_0577	D-ribulose 5-phosphate	cytoplasm	1.3629943873121
+s_0578	D-xylose	cytoplasm	5e-16
+s_0579	D-xylose	extracellular	0
+s_0580	D-xylulose	cytoplasm	1e-15
+s_0581	D-xylulose 5-phosphate	cytoplasm	0.804844902222797
+s_0582	dADP	cytoplasm	0.00117152921386302
+s_0583	dADP	nucleus	5e-16
+s_0584	dAMP	cytoplasm	0.00117152921386352
+s_0585	dAMP	mitochondrion	5e-16
+s_0586	dATP	cytoplasm	0.00117152921386302
+s_0587	dCDP	cytoplasm	1e-15
+s_0588	dCDP	nucleus	5e-16
+s_0589	dCMP	cytoplasm	0.000781019475908345
+s_0590	dCTP	cytoplasm	1.5e-15
+s_0591	deamido-NAD(+)	cytoplasm	1e-15
+s_0593	deamido-NAD(+)	nucleus	0
+s_0595	decanoate	cytoplasm	0
+s_0597	decanoate	extracellular	0
+s_0600	decanoate	peroxisome	5e-16
+s_0605	decanoyl-CoA	peroxisome	1.5e-15
+s_0606	decaprenyl diphosphate	lipid particle	1e-15
+s_0607	dehydro-D-arabinono-1,4-lactone	cytoplasm	0
+s_0608	Delta(6)-trans,Delta(8)-cis-leukotriene B4	cytoplasm	0
+s_0609	Delta(6)-trans,Delta(8)-cis-leukotriene B4	nucleus	0
+s_0610	deoxycytidine	cytoplasm	1.5e-15
+s_0611	deoxycytidine	extracellular	5e-16
+s_0612	dethiobiotin	cytoplasm	0
+s_0613	dGDP	cytoplasm	0.000781019475909345
+s_0614	dGDP	nucleus	5e-16
+s_0615	dGMP	cytoplasm	0.000781019475909345
+s_0616	dGMP	mitochondrion	5e-16
+s_0617	dGTP	cytoplasm	0.000781019475908845
+s_0618	dIDP	cytoplasm	5e-16
+s_0620	diglyceride backbone	endoplasmic reticulum	0
+s_0625	dihydrofolic acid	cytoplasm	0.00117152921386302
+s_0626	dihydrofolic acid	mitochondrion	5e-16
+s_0627	dihydrolipoamide	mitochondrion	1.5e-15
+s_0628	dihydrolipoylprotein	mitochondrion	1e-15
+s_0629	dihydroxyacetone phosphate	cytoplasm	14.8495123999185
+s_0631	dihydroxyacetone phosphate	lipid particle	2e-15
+s_0632	dihydroxyacetone phosphate	mitochondrion	1e-15
+s_0633	diphosphate	cytoplasm	2.82939974986762
+s_0635	diphosphate	lipid particle	8.5e-15
+s_0636	diphosphate	mitochondrion	2.92882304515629e-06
+s_0637	diphosphate	nucleus	1e-15
+s_0638	diphosphate	peroxisome	0
+s_0639	dITP	cytoplasm	5e-16
+s_0640	docosaprenyl diphosphate	lipid particle	5e-16
+s_0641	dodecaprenyl diphosphate	lipid particle	1e-15
+s_0642	dolichol	cytoplasm	5e-16
+s_0644	dolichyl D-mannosyl phosphate	endoplasmic reticulum	0.167861261709164
+s_0645	dolichyl phosphate	cytoplasm	0.167861261709164
+s_0646	dolichyl phosphate	endoplasmic reticulum	0.167861261709163
+s_0647	dTDP	cytoplasm	1e-15
+s_0649	dTMP	cytoplasm	0.00117152921386402
+s_0650	dTTP	cytoplasm	5e-16
+s_0651	dTTP	extracellular	0
+s_0652	dUDP	cytoplasm	5e-16
+s_0653	dUDP	nucleus	5e-16
+s_0654	dUMP	cytoplasm	0.00195254868977186
+s_0655	dUMP	nucleus	5e-16
+s_0656	dUTP	cytoplasm	0.00195254868977136
+s_0657	episterol	cytoplasm	1e-15
+s_0659	episterol	extracellular	0
+s_0662	ergosta-5,7,22,24(28)-tetraen-3beta-ol	cytoplasm	0.00910135578915964
+s_0663	ergosta-5,7,22,24(28)-tetraen-3beta-ol	endoplasmic reticulum	0.00910135578915914
+s_0664	ergosta-5,7,24(28)-trien-3beta-ol	cytoplasm	1e-15
+s_0665	ergosterol	cell envelope	1e-15
+s_0666	ergosterol	cytoplasm	0.00760569786673794
+s_0667	ergosterol	endoplasmic reticulum	0.00910135578915864
+s_0668	ergosterol	extracellular	0
+s_0669	ergosterol	lipid particle	1e-15
+s_0670	ergosterol 3-beta-D-glucoside	cytoplasm	5e-16
+s_0672	ergosterol ester backbone	cytoplasm	0.00194722475083248
+s_0677	erythro-4-hydroxy-L-glutamic acid	cytoplasm	5e-16
+s_0678	erythro-4-hydroxy-L-glutamic acid	mitochondrion	5e-16
+s_0679	erythro-4-hydroxy-L-glutamic acid	peroxisome	5e-16
+s_0680	ethanol	cytoplasm	26.9392273096057
+s_0681	ethanol	extracellular	26.9392273096057
+s_0682	ethanol	mitochondrion	5e-16
+s_0683	ethanolamine	cytoplasm	5e-16
+s_0684	ethanolamine	extracellular	0
+s_0685	ethyl acetate	cytoplasm	1.5e-15
+s_0686	ethyl acetate	extracellular	5e-16
+s_0687	FAD	cytoplasm	5e-16
+s_0688	FAD	mitochondrion	1.5e-15
+s_0689	FADH2	cytoplasm	5e-16
+s_0690	FADH2	mitochondrion	1.5e-15
+s_0692	farnesyl diphosphate	lipid particle	5e-16
+s_0694	fatty acid backbone	cytoplasm	0.000423475223731581
+s_0699	fecosterol	cell envelope	0
+s_0700	fecosterol	cytoplasm	1e-15
+s_0702	fecosterol	extracellular	0
+s_0703	fecosterol	lipid particle	1e-15
+s_0709	ferricytochrome c	mitochondrion	8.32787887249448
+s_0710	ferrocytochrome c	mitochondrion	8.32787887249448
+s_0712	ferroheme b	mitochondrion	3.25424781628477e-07
+s_0713	fMet-tRNA(fMet)	mitochondrion	5e-16
+s_0714	FMN	cytoplasm	2.5e-15
+s_0715	FMN	extracellular	5e-16
+s_0716	FMN	mitochondrion	1.5e-15
+s_0717	FMNH2	cytoplasm	1e-15
+s_0719	folate	cytoplasm	0
+s_0720	folate	extracellular	0
+s_0721	formaldehyde	cytoplasm	5e-16
+s_0722	formate	cytoplasm	0.0100678673905982
+s_0723	formate	extracellular	0.0100678673905952
+s_0724	formate	mitochondrion	5e-16
+s_0725	fumarate	cytoplasm	0.170020780560041
+s_0726	fumarate	extracellular	0
+s_0727	fumarate	mitochondrion	0.0331552855691313
+s_0734	gamma-aminobutyrate	cytoplasm	2.5e-15
+s_0736	gamma-aminobutyrate	extracellular	5e-16
+s_0738	gamma-aminobutyrate	mitochondrion	5e-16
+s_0739	GDP	cytoplasm	0.210868717457142
+s_0740	GDP	Golgi	6e-15
+s_0741	GDP	mitochondrion	5e-16
+s_0742	GDP	nucleus	5e-16
+s_0743	GDP-alpha-D-mannose	cytoplasm	0.167861261709165
+s_0744	GDP-alpha-D-mannose	Golgi	6e-15
+s_0745	geranyl diphosphate	cytoplasm	0.0182030370031009
+s_0746	geranylgeranyl diphosphate	lipid particle	1e-15
+s_0747	Gln-tRNA(Gln)	cytoplasm	0.0383029601553182
+s_0748	Glu-tRNA(Glu)	cytoplasm	0.109698275392931
+s_0749	Glu-tRNA(Glu)	mitochondrion	5e-16
+s_0750	glutathione	cytoplasm	0.738830178654272
+s_0751	glutathione	extracellular	5e-16
+s_0752	glutathione	mitochondrion	1.5e-15
+s_0753	glutathione	vacuole	5e-16
+s_0754	glutathione disulfide	cytoplasm	1e-15
+s_0755	glutathione disulfide	extracellular	5e-16
+s_0756	glutathione disulfide	mitochondrion	5e-16
+s_0757	Gly-tRNA(Gly)	cytoplasm	0.105561630524702
+s_0764	glyceraldehyde 3-phosphate	cytoplasm	29.303303622144
+s_0765	glycerol	cytoplasm	3e-15
+s_0766	glycerol	extracellular	1e-15
+s_0767	glycerol 3-phosphate	cytoplasm	0.0171660758287882
+s_0769	glycerol 3-phosphate	lipid particle	2e-15
+s_0770	glycerol 3-phosphate	mitochondrion	1e-15
+s_0771	glycerone	cytoplasm	1e-15
+s_0773	glycogen	cytoplasm	0.0817384344627819
+s_0774	glycogen	vacuole	1e-15
+s_0775	glycolaldehyde	cytoplasm	5e-16
+s_0776	glycolaldehyde	extracellular	0
+s_0777	glycolaldehyde	mitochondrion	5e-16
+s_0779	glyoxylate	cytoplasm	2e-15
+s_0780	glyoxylate	extracellular	0
+s_0781	glyoxylate	peroxisome	5e-16
+s_0782	GMP	cytoplasm	0.0148935589326253
+s_0783	GMP	Golgi	1e-15
+s_0785	GTP	cytoplasm	0.210800378253
+s_0786	GTP	mitochondrion	5e-16
+s_0787	guanine	cytoplasm	1e-15
+s_0788	guanine	extracellular	0
+s_0789	guanine	mitochondrion	0
+s_0790	guanosine	cytoplasm	2e-15
+s_0791	guanosine	extracellular	5e-16
+s_0792	guanosine	mitochondrion	5e-16
+s_0793	H+	cell envelope	0.000326302951866444
+s_0794	H+	cytoplasm	107.309007563864
+s_0795	H+	endoplasmic reticulum	0.167861261709173
+s_0796	H+	extracellular	0.0776452889633619
+s_0797	H+	Golgi	2.5e-15
+s_0798	H+	lipid particle	0.00143014598403092
+s_0799	H+	mitochondrion	16.6069046629543
+s_0800	H+	nucleus	1.6e-14
+s_0801	H+	peroxisome	1.8e-14
+s_0802	H+	vacuole	9e-15
+s_0803	H2O	cytoplasm	37.2775576519912
+s_0804	H2O	endoplasmic reticulum	0.00910135578918014
+s_0805	H2O	extracellular	8.41648147126119
+s_0806	H2O	Golgi	1e-15
+s_0807	H2O	mitochondrion	4.77375846183738
+s_0808	H2O	nucleus	7.5e-15
+s_0809	H2O	peroxisome	1.75e-14
+s_0810	H2O	vacuole	1e-15
+s_0811	heme a	mitochondrion	3.25424781128477e-07
+s_0812	heme o	mitochondrion	3.25424781628477e-07
+s_0813	henicosaprenyl diphosphate	lipid particle	1e-15
+s_0814	heptadecaprenyl diphosphate	lipid particle	0
+s_0815	heptaprenyl diphosphate	lipid particle	1e-15
+s_0816	hexacosanoyl-CoA	cytoplasm	5e-16
+s_0817	hexacosanoyl-CoA	endoplasmic reticulum	1e-15
+s_0819	hexacosanoyl-CoA	peroxisome	1e-15
+s_0823	hexadec-2-enoyl-CoA	peroxisome	1e-15
+s_0825	hexadecanal	endoplasmic reticulum	5e-16
+s_0826	hexadecanal	extracellular	0
+s_0829	hexadecaprenyl diphosphate	lipid particle	5e-16
+s_0830	hexaprenyl diphosphate	lipid particle	1e-15
+s_0831	hexaprenyl diphosphate	mitochondrion	1e-15
+s_0832	His-tRNA(His)	cytoplasm	0.0241033739107844
+s_0833	His-tRNA(His)	mitochondrion	5e-16
+s_0834	homocitrate	mitochondrion	0.116305840679673
+s_0835	homocitrate	nucleus	5e-16
+s_0836	homoisocitrate	mitochondrion	0.116305840679673
+s_0837	hydrogen peroxide	cytoplasm	5.5e-15
+s_0838	hydrogen peroxide	mitochondrion	1e-15
+s_0839	hydrogen peroxide	nucleus	5e-16
+s_0840	hydrogen peroxide	peroxisome	1.05e-14
+s_0841	hydrogen sulfide	cytoplasm	0.023252241734175
+s_0843	hypoxanthine	cytoplasm	1e-15
+s_0844	hypoxanthine	extracellular	0
+s_0845	icosaprenyl diphosphate	lipid particle	1e-15
+s_0846	IDP	cytoplasm	2e-15
+s_0847	Ile-tRNA(Ile)	cytoplasm	0.0700429909674892
+s_0848	Ile-tRNA(Ile)	mitochondrion	5e-16
+s_0849	IMP	cytoplasm	0.0566611405983717
+s_0850	indol-3-ylacetaldehyde	cytoplasm	1.5e-15
+s_0851	indol-3-ylacetaldehyde	extracellular	0
+s_0852	indol-3-ylacetaldehyde	mitochondrion	1.5e-15
+s_0853	indole-3-acetate	cytoplasm	5e-16
+s_0854	indole-3-acetate	mitochondrion	1e-15
+s_0855	indole-3-pyruvate	cytoplasm	1.5e-15
+s_0856	inosine	cytoplasm	2e-15
+s_0857	inosine	extracellular	5e-16
+s_0859	inositol phosphomannosylinositol phosphoceramide backbone	Golgi	7.17477442e-15
+s_0861	inositol phosphomannosylinositol phosphoceramide A (C24)	endoplasmic reticulum	5e-16
+s_0862	inositol phosphomannosylinositol phosphoceramide A (C24)	Golgi	4.5e-15
+s_0863	inositol phosphomannosylinositol phosphoceramide A (C24)	mitochondrion	5e-16
+s_0864	inositol phosphomannosylinositol phosphoceramide A (C26)	endoplasmic reticulum	5e-16
+s_0865	inositol phosphomannosylinositol phosphoceramide A (C26)	Golgi	4.5e-15
+s_0866	inositol phosphomannosylinositol phosphoceramide A (C26)	mitochondrion	5e-16
+s_0867	inositol phosphomannosylinositol phosphoceramide B (C24)	endoplasmic reticulum	5e-16
+s_0868	inositol phosphomannosylinositol phosphoceramide B (C24)	Golgi	4.5e-15
+s_0869	inositol phosphomannosylinositol phosphoceramide B (C24)	mitochondrion	5e-16
+s_0870	inositol phosphomannosylinositol phosphoceramide B (C26)	endoplasmic reticulum	5e-16
+s_0871	inositol phosphomannosylinositol phosphoceramide B (C26)	Golgi	4.5e-15
+s_0872	inositol phosphomannosylinositol phosphoceramide B (C26)	mitochondrion	5e-16
+s_0873	inositol phosphomannosylinositol phosphoceramide B' (C24)	endoplasmic reticulum	5e-16
+s_0874	inositol phosphomannosylinositol phosphoceramide B' (C24)	Golgi	4.5e-15
+s_0875	inositol phosphomannosylinositol phosphoceramide B' (C24)	mitochondrion	5e-16
+s_0876	inositol phosphomannosylinositol phosphoceramide B' (C26)	endoplasmic reticulum	5e-16
+s_0877	inositol phosphomannosylinositol phosphoceramide B' (C26)	Golgi	4.5e-15
+s_0878	inositol phosphomannosylinositol phosphoceramide B' (C26)	mitochondrion	5e-16
+s_0879	inositol phosphomannosylinositol phosphoceramide C (C24)	endoplasmic reticulum	5e-16
+s_0880	inositol phosphomannosylinositol phosphoceramide C (C24)	Golgi	4.5e-15
+s_0881	inositol phosphomannosylinositol phosphoceramide C (C24)	mitochondrion	5e-16
+s_0882	inositol phosphomannosylinositol phosphoceramide C (C26)	endoplasmic reticulum	5e-16
+s_0883	inositol phosphomannosylinositol phosphoceramide C (C26)	Golgi	4.5e-15
+s_0884	inositol phosphomannosylinositol phosphoceramide C (C26)	mitochondrion	5e-16
+s_0885	inositol phosphomannosylinositol phosphoceramide D (C24)	endoplasmic reticulum	5e-16
+s_0886	inositol phosphomannosylinositol phosphoceramide D (C24)	Golgi	4.5e-15
+s_0887	inositol phosphomannosylinositol phosphoceramide D (C24)	mitochondrion	5e-16
+s_0888	inositol phosphomannosylinositol phosphoceramide D (C26)	endoplasmic reticulum	5e-16
+s_0889	inositol phosphomannosylinositol phosphoceramide D (C26)	Golgi	4.5e-15
+s_0890	inositol phosphomannosylinositol phosphoceramide D (C26)	mitochondrion	5e-16
+s_0892	inositol-P-ceramide backbone	Golgi	5.15345091e-15
+s_0894	inositol-P-ceramide A (C24)	endoplasmic reticulum	5e-16
+s_0895	inositol-P-ceramide A (C24)	Golgi	5e-15
+s_0896	inositol-P-ceramide A (C24)	mitochondrion	5e-16
+s_0897	inositol-P-ceramide A (C26)	endoplasmic reticulum	5e-16
+s_0898	inositol-P-ceramide A (C26)	Golgi	5e-15
+s_0899	inositol-P-ceramide A (C26)	mitochondrion	5e-16
+s_0900	inositol-P-ceramide B (C24)	endoplasmic reticulum	5e-16
+s_0901	inositol-P-ceramide B (C24)	Golgi	5e-15
+s_0902	inositol-P-ceramide B (C24)	mitochondrion	5e-16
+s_0903	inositol-P-ceramide B (C26)	endoplasmic reticulum	5e-16
+s_0904	inositol-P-ceramide B (C26)	Golgi	5e-15
+s_0905	inositol-P-ceramide B (C26)	mitochondrion	5e-16
+s_0906	inositol-P-ceramide B' (C24)	endoplasmic reticulum	5e-16
+s_0907	inositol-P-ceramide B' (C24)	Golgi	5e-15
+s_0908	inositol-P-ceramide B' (C24)	mitochondrion	5e-16
+s_0909	inositol-P-ceramide B' (C26)	endoplasmic reticulum	5e-16
+s_0910	inositol-P-ceramide B' (C26)	Golgi	5e-15
+s_0911	inositol-P-ceramide B' (C26)	mitochondrion	5e-16
+s_0912	inositol-P-ceramide C (C24)	endoplasmic reticulum	5e-16
+s_0913	inositol-P-ceramide C (C24)	Golgi	5e-15
+s_0914	inositol-P-ceramide C (C24)	mitochondrion	5e-16
+s_0915	inositol-P-ceramide C (C26)	endoplasmic reticulum	5e-16
+s_0916	inositol-P-ceramide C (C26)	Golgi	5e-15
+s_0917	inositol-P-ceramide C (C26)	mitochondrion	5e-16
+s_0918	inositol-P-ceramide D (C24)	endoplasmic reticulum	5e-16
+s_0919	inositol-P-ceramide D (C24)	Golgi	5e-15
+s_0920	inositol-P-ceramide D (C24)	mitochondrion	5e-16
+s_0921	inositol-P-ceramide D (C26)	endoplasmic reticulum	5e-16
+s_0922	inositol-P-ceramide D (C26)	Golgi	5e-15
+s_0923	inositol-P-ceramide D (C26)	mitochondrion	5e-16
+s_0924	iron(2+)	cytoplasm	3.25424782128477e-07
+s_0925	iron(2+)	extracellular	3.25424781128477e-07
+s_0926	iron(2+)	mitochondrion	3.25424781628477e-07
+s_0927	isoamyl acetate	cytoplasm	1.5e-15
+s_0928	isoamyl acetate	extracellular	5e-16
+s_0929	isoamylol	cytoplasm	2e-15
+s_0930	isoamylol	extracellular	0
+s_0931	isoamylol	mitochondrion	5e-16
+s_0932	isobutanol	cytoplasm	2e-15
+s_0933	isobutanol	extracellular	0
+s_0934	isobutanol	mitochondrion	5e-16
+s_0935	isobutyl acetate	cytoplasm	1.5e-15
+s_0936	isobutyl acetate	extracellular	5e-16
+s_0937	isobutyraldehyde	cytoplasm	1.5e-15
+s_0938	isobutyraldehyde	extracellular	0
+s_0939	isobutyraldehyde	mitochondrion	5e-16
+s_0940	isocitrate	cytoplasm	0.413961474842228
+s_0941	isocitrate	mitochondrion	1e-15
+s_0942	isocitrate	peroxisome	5e-16
+s_0943	isopentenyl diphosphate	cytoplasm	0.0546091110093032
+s_0944	isopentenyl diphosphate	lipid particle	8.5e-15
+s_0945	isopentenyl diphosphate	mitochondrion	5e-16
+s_0946	itaconate	mitochondrion	0
+s_0949	itaconyl-CoA	mitochondrion	0
+s_0950	ITP	cytoplasm	1.5e-15
+s_0951	keto-phenylpyruvate	cytoplasm	0.240836467290224
+s_0952	L-2-amino-3-oxobutanoate	cytoplasm	1e-15
+s_0953	L-2-aminoadipate	cytoplasm	0.116305840679673
+s_0954	L-4-hydroxyglutamic semialdehyde	mitochondrion	5e-16
+s_0955	L-alanine	cytoplasm	0.186418284456749
+s_0956	L-alanine	extracellular	0
+s_0957	L-alanine	mitochondrion	5e-16
+s_0958	L-allothreonine	cytoplasm	5e-16
+s_0959	L-allysine	cytoplasm	0.116305840679673
+s_0960	L-alpha-formylglycine	cytoplasm	5e-16
+s_0961	L-arabinitol	cytoplasm	5e-16
+s_0962	L-arabinitol	extracellular	0
+s_0963	L-arabinose	cytoplasm	5e-16
+s_0964	L-arabinose	extracellular	0
+s_0965	L-arginine	cytoplasm	0.0653108011241466
+s_0966	L-arginine	extracellular	0
+s_0967	L-arginine	mitochondrion	1e-15
+s_0968	L-arginine	vacuole	5e-16
+s_0969	L-asparagine	cytoplasm	0.0413029132842883
+s_0970	L-asparagine	extracellular	5e-16
+s_0971	L-asparagine	mitochondrion	1e-15
+s_0972	L-asparagine	vacuole	1e-15
+s_0973	L-aspartate	cytoplasm	0.513231971816381
+s_0974	L-aspartate	extracellular	5e-16
+s_0975	L-aspartate	mitochondrion	1.5e-15
+s_0976	L-aspartate	peroxisome	0
+s_0977	L-aspartate	vacuole	5e-16
+s_0978	L-aspartate 4-semialdehyde	cytoplasm	0.181023059765303
+s_0979	L-citrulline	cytoplasm	0.0653108011241451
+s_0980	L-cystathionine	cytoplasm	0.0026675622572225
+s_0981	L-cysteine	cytoplasm	0.0026675622572245
+s_0982	L-cysteine	extracellular	0
+s_0983	L-cysteinylglycine	cytoplasm	5e-16
+s_0984	L-cystine	cytoplasm	5e-16
+s_0985	L-cystine	vacuole	5e-16
+s_0986	L-gamma-glutamyl phosphate	cytoplasm	0.0669112402001944
+s_0987	L-gamma-glutamyl-L-alanine	cytoplasm	5e-16
+s_0988	L-gamma-glutamyl-L-cysteine	cytoplasm	1e-15
+s_0989	L-glucitol	cytoplasm	5e-16
+s_0990	L-glucitol	extracellular	0
+s_0991	L-glutamate	cytoplasm	2.2227773166966
+s_0992	L-glutamate	extracellular	0
+s_0993	L-glutamate	mitochondrion	0.238124377160134
+s_0994	L-glutamate	nucleus	0
+s_0995	L-glutamate	peroxisome	1e-15
+s_0996	L-glutamate	vacuole	5e-16
+s_0997	L-glutamic 5-semialdehyde	cytoplasm	0.0669112402001944
+s_0999	L-glutamine	cytoplasm	0.295348079578502
+s_1000	L-glutamine	extracellular	0
+s_1001	L-glutamine	nucleus	0
+s_1002	L-glutamine	vacuole	1e-15
+s_1003	L-glycine	cytoplasm	0.147716491452014
+s_1004	L-glycine	extracellular	0
+s_1005	L-glycine	mitochondrion	2.60339825402782e-06
+s_1006	L-histidine	cytoplasm	0.0269423732657174
+s_1007	L-histidine	extracellular	0
+s_1008	L-histidine	mitochondrion	1e-15
+s_1009	L-histidine	vacuole	5e-16
+s_1010	L-histidinol	cytoplasm	0.0269423732657159
+s_1011	L-histidinol phosphate	cytoplasm	0.0269423732657159
+s_1012	L-homocysteine	cytoplasm	0.0584468089342134
+s_1014	L-homoserine	cytoplasm	0.181023059765303
+s_1015	L-homoserine	extracellular	0
+s_1016	L-isoleucine	cytoplasm	0.0782929719376514
+s_1017	L-isoleucine	extracellular	0
+s_1018	L-isoleucine	mitochondrion	1e-15
+s_1019	L-isoleucine	vacuole	1e-15
+s_1020	L-kynurenine	cytoplasm	1.5e-15
+s_1021	L-leucine	cytoplasm	0.120440362530263
+s_1022	L-leucine	extracellular	0
+s_1023	L-leucine	mitochondrion	5e-16
+s_1024	L-leucine	vacuole	1e-15
+s_1025	L-lysine	cytoplasm	0.116305840679674
+s_1026	L-lysine	extracellular	0
+s_1027	L-lysine	mitochondrion	1e-15
+s_1028	L-lysine	vacuole	5e-16
+s_1029	L-methionine	cytoplasm	0.0557792466769929
+s_1030	L-methionine	extracellular	0
+s_1031	L-methionine	mitochondrion	1e-15
+s_1032	L-phenylalanine	cytoplasm	0.240836467290224
+s_1033	L-phenylalanine	extracellular	0
+s_1034	L-phenylalanine	mitochondrion	1e-15
+s_1035	L-proline	cytoplasm	0.0669112402001949
+s_1036	L-proline	extracellular	0
+s_1037	L-proline	mitochondrion	5e-16
+s_1038	L-saccharopine	cytoplasm	0.116305840679673
+s_1039	L-serine	cytoplasm	0.245982698094958
+s_1040	L-serine	endoplasmic reticulum	5e-16
+s_1041	L-serine	extracellular	0
+s_1042	L-serine	mitochondrion	0
+s_1043	L-sorbose	cytoplasm	5e-16
+s_1044	L-sorbose	extracellular	0
+s_1045	L-threonine	cytoplasm	0.157770818031128
+s_1046	L-threonine	extracellular	0
+s_1047	L-threonine	mitochondrion	0.0756254096804294
+s_1048	L-tryptophan	cytoplasm	0.0115594462107053
+s_1049	L-tryptophan	extracellular	0
+s_1050	L-tryptophan	mitochondrion	1e-15
+s_1051	L-tyrosine	cytoplasm	0.0414360120199739
+s_1052	L-tyrosine	extracellular	0
+s_1053	L-tyrosine	mitochondrion	1e-15
+s_1054	L-tyrosine	peroxisome	5e-16
+s_1055	L-tyrosine	vacuole	1e-15
+s_1056	L-valine	cytoplasm	0.107502774911841
+s_1057	L-valine	extracellular	0
+s_1058	L-valine	mitochondrion	0.107502774911841
+s_1059	lanosterol	cytoplasm	0.00910135578915964
+s_1061	lanosterol	extracellular	0
+s_1065	laurate	cytoplasm	0
+s_1067	laurate	extracellular	0
+s_1070	laurate	peroxisome	5e-16
+s_1073	lauroyl-CoA	cytoplasm	5e-16
+s_1076	lauroyl-CoA	peroxisome	2e-15
+s_1077	Leu-tRNA(Leu)	cytoplasm	0.107749219401621
+s_1078	Leu-tRNA(Leu)	mitochondrion	5e-16
+s_1079	leukotriene A4	cytoplasm	0
+s_1080	leukotriene A4	nucleus	0
+s_1081	leukotriene B4	cytoplasm	0
+s_1082	leukotriene B4	nucleus	0
+s_1085	lignoceric acid	endoplasmic reticulum	1e-15
+s_1096	lipid	cytoplasm	0.325424781628477
+s_1097	lipoamide	mitochondrion	1.5e-15
+s_1098	lipoylprotein	mitochondrion	1e-15
+s_1099	Lys-tRNA(Lys)	cytoplasm	0.104050282714437
+s_1100	Lys-tRNA(Lys)	mitochondrion	5e-16
+s_1101	malonyl-CoA	cytoplasm	0.292203005946517
+s_1104	malonyl-CoA	mitochondrion	5e-16
+s_1105	maltose	cytoplasm	1e-15
+s_1106	maltose	extracellular	5e-16
+s_1107	mannan	cytoplasm	0.194599636217845
+s_1108	mannan	endoplasmic reticulum	0.167861261709163
+s_1109	mannose-(1D-myo-inositol 1-phosphate)2	endoplasmic reticulum	5e-15
+s_1110	mannose-(1D-myo-inositol 1-phosphate)2	mitochondrion	5e-15
+s_1111	mannose-1D-myo-inositol 1-phosphate	endoplasmic reticulum	5e-15
+s_1112	mannose-1D-myo-inositol 1-phosphate	mitochondrion	5e-15
+s_1114	mannosylinositol phosphorylceramide backbone	Golgi	5.96416291e-15
+s_1116	mannosylinositol phosphorylceramide A (C24)	endoplasmic reticulum	5e-16
+s_1117	mannosylinositol phosphorylceramide A (C24)	Golgi	5e-15
+s_1118	mannosylinositol phosphorylceramide A (C24)	mitochondrion	5e-16
+s_1119	mannosylinositol phosphorylceramide A (C26)	endoplasmic reticulum	5e-16
+s_1120	mannosylinositol phosphorylceramide A (C26)	Golgi	5e-15
+s_1121	mannosylinositol phosphorylceramide A (C26)	mitochondrion	5e-16
+s_1122	mannosylinositol phosphorylceramide B (C24)	endoplasmic reticulum	5e-16
+s_1123	mannosylinositol phosphorylceramide B (C24)	Golgi	5e-15
+s_1124	mannosylinositol phosphorylceramide B (C24)	mitochondrion	5e-16
+s_1125	mannosylinositol phosphorylceramide B (C26)	endoplasmic reticulum	5e-16
+s_1126	mannosylinositol phosphorylceramide B (C26)	Golgi	5e-15
+s_1127	mannosylinositol phosphorylceramide B (C26)	mitochondrion	5e-16
+s_1128	mannosylinositol phosphorylceramide B' (C24)	endoplasmic reticulum	5e-16
+s_1129	mannosylinositol phosphorylceramide B' (C24)	Golgi	5e-15
+s_1130	mannosylinositol phosphorylceramide B' (C24)	mitochondrion	5e-16
+s_1131	mannosylinositol phosphorylceramide B' (C26)	endoplasmic reticulum	5e-16
+s_1132	mannosylinositol phosphorylceramide B' (C26)	Golgi	5e-15
+s_1133	mannosylinositol phosphorylceramide B' (C26)	mitochondrion	5e-16
+s_1134	mannosylinositol phosphorylceramide C (C24)	endoplasmic reticulum	5e-16
+s_1135	mannosylinositol phosphorylceramide C (C24)	Golgi	5e-15
+s_1136	mannosylinositol phosphorylceramide C (C24)	mitochondrion	5e-16
+s_1137	mannosylinositol phosphorylceramide C (C26)	endoplasmic reticulum	5e-16
+s_1138	mannosylinositol phosphorylceramide C (C26)	Golgi	5e-15
+s_1139	mannosylinositol phosphorylceramide C (C26)	mitochondrion	5e-16
+s_1140	mannosylinositol phosphorylceramide D (C24)	endoplasmic reticulum	5e-16
+s_1141	mannosylinositol phosphorylceramide D (C24)	Golgi	5e-15
+s_1142	mannosylinositol phosphorylceramide D (C24)	mitochondrion	5e-16
+s_1143	mannosylinositol phosphorylceramide D (C26)	endoplasmic reticulum	5e-16
+s_1144	mannosylinositol phosphorylceramide D (C26)	Golgi	5e-15
+s_1145	mannosylinositol phosphorylceramide D (C26)	mitochondrion	5e-16
+s_1148	Met-tRNA(Met)	cytoplasm	0.0184156115006193
+s_1149	Met-tRNA(Met)	mitochondrion	1e-15
+s_1150	methanethiol	cytoplasm	5e-16
+s_1151	methylglyoxal	cytoplasm	0.738830178654269
+s_1153	myo-inositol	cytoplasm	0.00198243427684065
+s_1154	myo-inositol	extracellular	5e-16
+s_1156	myo-inositol 1,3,4,5,6-pentakisphosphate	cytoplasm	1e-15
+s_1157	myo-inositol 1,3,4,5,6-pentakisphosphate	nucleus	1.5e-15
+s_1158	myo-inositol hexakisphosphate	cytoplasm	1e-15
+s_1159	myo-inositol hexakisphosphate	nucleus	5e-16
+s_1161	myristate	cytoplasm	0
+s_1163	myristate	extracellular	0
+s_1166	myristate	peroxisome	5e-16
+s_1176	myristoyl-CoA	cytoplasm	5e-16
+s_1179	myristoyl-CoA	peroxisome	2e-15
+s_1180	N(1)-acetylspermidine	cytoplasm	1.5e-15
+s_1181	N(1)-acetylspermine	cytoplasm	1e-15
+s_1182	N(2)-acetyl-L-ornithine	mitochondrion	0.0653108011241456
+s_1183	N(pros)-methyl-L-histidine	cytoplasm	5e-16
+s_1184	N,N'-diacetylchitobiosyldiphosphodolichol	cytoplasm	5e-16
+s_1185	N,N'-diformyldityrosine	cytoplasm	1e-15
+s_1186	N,N'-diformyldityrosine	extracellular	5e-16
+s_1187	N-(5-phospho-beta-D-ribosyl)anthranilate	cytoplasm	0.0115594462107033
+s_1188	N-[(R)-4-phosphonopantothenoyl]-L-cysteine	cytoplasm	1e-15
+s_1189	N-acetyl-alpha-D-glucosamine 1-phosphate	cytoplasm	0
+s_1190	N-acetyl-D-glucosamine 6-phosphate	cytoplasm	0
+s_1191	N-acetyl-L-gamma-glutamyl phosphate	mitochondrion	0.0653108011241456
+s_1192	N-acetyl-L-glutamate	mitochondrion	0.0653108011241461
+s_1193	N-acetylputrescine	cytoplasm	5e-16
+s_1194	N-carbamoyl-L-aspartate	cytoplasm	0.0331552855691318
+s_1195	N-formyl-L-kynurenine	cytoplasm	1e-15
+s_1196	N-formyl-L-tyrosine	cytoplasm	1.5e-15
+s_1198	NAD	cytoplasm	29.8638438398338
+s_1199	NAD	endoplasmic reticulum	5e-16
+s_1200	NAD	mitochondrion	1.03865274767166
+s_1201	NAD	nucleus	1e-15
+s_1202	NAD	peroxisome	9.5e-15
+s_1203	NADH	cytoplasm	29.8638438398338
+s_1204	NADH	endoplasmic reticulum	5e-16
+s_1205	NADH	mitochondrion	1.03865274767166
+s_1206	NADH	peroxisome	9e-15
+s_1207	NADP(+)	cytoplasm	3.60944619259219
+s_1208	NADP(+)	endoplasmic reticulum	0.0182027115783238
+s_1210	NADP(+)	mitochondrion	0.371546910503906
+s_1211	NADP(+)	peroxisome	1.5e-15
+s_1212	NADPH	cytoplasm	3.60944619259219
+s_1213	NADPH	endoplasmic reticulum	0.0182027115783238
+s_1214	NADPH	mitochondrion	0.371546910503906
+s_1215	NADPH	peroxisome	1.5e-15
+s_1216	nicotinamide	cytoplasm	1.5e-15
+s_1217	nicotinamide	nucleus	5e-16
+s_1218	nicotinamide ribose	cytoplasm	1e-15
+s_1219	nicotinate	cytoplasm	1e-15
+s_1220	nicotinate	extracellular	0
+s_1221	nicotinate	mitochondrion	5e-16
+s_1222	nicotinic acid D-ribonucleotide	cytoplasm	1.5e-15
+s_1223	nicotinic acid D-ribonucleotide	mitochondrion	1e-15
+s_1224	NMN	cytoplasm	1.5e-15
+s_1225	NMN	extracellular	5e-16
+s_1227	NMN	nucleus	5e-16
+s_1228	NMN	peroxisome	5e-16
+s_1229	nonadecaprenyl diphosphate	lipid particle	1e-15
+s_1230	nonaprenyl 4-hydroxybenzoate	cytoplasm	0
+s_1231	nonaprenyl diphosphate	cytoplasm	0
+s_1232	nonaprenyl diphosphate	lipid particle	1e-15
+s_1233	O-acetyl-L-homoserine	cytoplasm	0.0232522417341765
+s_1234	O-acetyl-L-serine	cytoplasm	1e-15
+s_1235	O-acetylcarnitine	cytoplasm	2.5e-15
+s_1236	O-acetylcarnitine	mitochondrion	1.5e-15
+s_1237	O-acetylcarnitine	peroxisome	1.5e-15
+s_1238	O-phospho-L-homoserine	cytoplasm	0.157770818031128
+s_1239	O-phosphoethanolamine	cytoplasm	1e-15
+s_1240	O-phosphoethanolamine	endoplasmic reticulum	1e-15
+s_1241	O-succinyl-L-homoserine	cytoplasm	0
+s_1246	octadecaprenyl diphosphate	lipid particle	5e-16
+s_1248	octanoate	cytoplasm	0
+s_1250	octanoate	extracellular	0
+s_1253	octanoate	peroxisome	5e-16
+s_1254	octanoyl-ACP	mitochondrion	5e-16
+s_1258	octanoyl-CoA	peroxisome	1.5e-15
+s_1259	octaprenyl diphosphate	lipid particle	1e-15
+s_1260	oleate	cytoplasm	5e-16
+s_1262	oleoyl-CoA	cytoplasm	5e-16
+s_1265	oleoyl-CoA	peroxisome	1.5e-15
+s_1266	ornithine	cytoplasm	0.0653108011241471
+s_1267	ornithine	extracellular	0
+s_1268	ornithine	mitochondrion	0.0653108011241456
+s_1269	orotate	cytoplasm	0.0331552855691318
+s_1270	orotidine 5'-(dihydrogen phosphate)	cytoplasm	0.0331552855691318
+s_1271	oxaloacetate	cytoplasm	1.16187746556985
+s_1272	oxaloacetate	extracellular	0
+s_1273	oxaloacetate	mitochondrion	0.413961474842229
+s_1274	oxaloacetate	peroxisome	5e-16
+s_1275	oxygen	cytoplasm	2.21271309742677
+s_1276	oxygen	endoplasmic reticulum	0.00910135578916414
+s_1277	oxygen	extracellular	2.21271309742677
+s_1278	oxygen	mitochondrion	2.08197053168557
+s_1279	oxygen	peroxisome	9.5e-15
+s_1282	P(1),P(4)-bis(5'-adenosyl) tetraphosphate	cytoplasm	5e-16
+s_1283	P(1),P(4)-bis(5'-guanosyl) tetraphosphate	cytoplasm	5e-16
+s_1284	P1-(5'-adenosyl),P4-(5'-guanosyl) tetraphosphate	cytoplasm	5e-16
+s_1286	palmitate	cytoplasm	0.00143014598399442
+s_1288	palmitate	extracellular	0
+s_1291	palmitate	peroxisome	5e-16
+s_1293	palmitoleate	cytoplasm	5e-16
+s_1295	palmitoleate	extracellular	0
+s_1298	palmitoleate	peroxisome	5e-16
+s_1302	palmitoyl-CoA	cytoplasm	0.0308022855660968
+s_1303	palmitoyl-CoA	endoplasmic reticulum	5e-16
+s_1305	palmitoyl-CoA	peroxisome	2e-15
+s_1307	pantetheine 4'-phosphate	cytoplasm	1e-15
+s_1308	pantetheine 4'-phosphate	mitochondrion	1e-15
+s_1309	pectin	extracellular	5e-16
+s_1310	pentadecaprenyl diphosphate	lipid particle	1e-15
+s_1311	pentaprenyl diphosphate	cytoplasm	5e-16
+s_1312	pentaprenyl diphosphate	lipid particle	1e-15
+s_1313	pentaprenyl diphosphate	mitochondrion	5e-16
+s_1314	Phe-tRNA(Phe)	cytoplasm	0.0486840039984471
+s_1315	Phe-tRNA(Phe)	mitochondrion	5e-16
+s_1316	phenethyl acetate	cytoplasm	1e-15
+s_1317	phenethyl acetate	extracellular	5e-16
+s_1318	phenylacetaldehyde	cytoplasm	2e-15
+s_1319	phenylacetaldehyde	extracellular	0
+s_1320	phenylacetaldehyde	mitochondrion	5e-16
+s_1321	phenylacetic acid	cytoplasm	5e-16
+s_1322	phosphate	cytoplasm	29.992083684206
+s_1323	phosphate	endoplasmic reticulum	1.5e-15
+s_1324	phosphate	extracellular	0.0776452889633524
+s_1325	phosphate	Golgi	1e-15
+s_1326	phosphate	mitochondrion	0.187273170433318
+s_1329	phosphate	vacuole	0
+s_1337	phosphatidyl-L-serine backbone	cytoplasm	0.00170259808149549
+s_1346	phosphatidylcholine backbone	cytoplasm	0.00737684297770843
+s_1351	phosphatidylethanolamine backbone	cytoplasm	0.00198255938267396
+s_1352	phosphatidylethanolamine backbone	endoplasmic reticulum	0
+s_1360	phosphoenolpyruvate	cytoplasm	29.0573209240491
+s_1361	phosphoenolpyruvate	mitochondrion	0.107413641064153
+s_1364	phosphoribosyl-carboxy-aminoimidazole	cytoplasm	0.0297187673326533
+s_1365	phosphoribosyl-formamido-carboxamide	cytoplasm	0.0566611405983682
+s_1366	phytosphingosine	endoplasmic reticulum	5e-15
+s_1367	phytosphingosine 1-phosphate	endoplasmic reticulum	2e-15
+s_1368	pimeloyl-CoA	cytoplasm	5e-16
+s_1371	polysulphur	cytoplasm	0
+s_1372	porphobilinogen	cytoplasm	1.30169912651391e-06
+s_1373	potassium	cytoplasm	0
+s_1374	potassium	extracellular	0
+s_1375	precorrin-2	cytoplasm	1e-15
+s_1376	prenyl diphosphate(3-)	cytoplasm	0.0182030370031004
+s_1377	prephenate	cytoplasm	0.0958541948534496
+s_1378	preuroporphyrinogen	cytoplasm	3.25424781628477e-07
+s_1379	Pro-tRNA(Pro)	cytoplasm	0.0598606391318326
+s_1382	propionyl-CoA	mitochondrion	5e-16
+s_1383	protoporphyrin	mitochondrion	3.25424781628477e-07
+s_1384	protoporphyrinogen	cytoplasm	3.25424781128477e-07
+s_1385	protoporphyrinogen	mitochondrion	3.25424781128478e-07
+s_1386	PRPP	cytoplasm	0.101375872378208
+s_1387	PRPP	mitochondrion	1e-15
+s_1388	pseudouridine 5'-phosphate	cytoplasm	0
+s_1389	putrescine	cytoplasm	1e-15
+s_1390	putrescine	extracellular	0
+s_1391	putrescine	vacuole	0
+s_1392	pyridoxal	cytoplasm	1.5e-15
+s_1393	pyridoxal 5'-phosphate	cytoplasm	1e-15
+s_1394	pyridoxamine	cytoplasm	1.5e-15
+s_1395	pyridoxamine 5'-phosphate	cytoplasm	1.5e-15
+s_1396	pyridoxine	cytoplasm	1e-15
+s_1397	pyridoxine	extracellular	0
+s_1398	pyridoxine 5'-phosphate	cytoplasm	5e-16
+s_1399	pyruvate	cytoplasm	29.5928832667858
+s_1400	pyruvate	extracellular	0
+s_1401	pyruvate	mitochondrion	1.34871425790193
+s_1403	quinolinate	cytoplasm	1e-15
+s_1404	quinolinate	mitochondrion	5e-16
+s_1405	riboflavin	cytoplasm	0.000322170533813692
+s_1406	riboflavin	extracellular	1e-15
+s_1407	riboflavin	mitochondrion	1e-15
+s_1408	ribose-5-phosphate	cytoplasm	0.557505144021681
+s_1409	S(8)-aminomethyldihydrolipoamide	mitochondrion	1e-15
+s_1410	S(8)-aminomethyldihydrolipoylprotein	mitochondrion	1e-15
+s_1411	S(8)-succinyldihydrolipoamide	mitochondrion	1e-15
+s_1412	S-adenosyl-4-methylthio-2-oxobutanoate	cytoplasm	0
+s_1413	S-adenosyl-L-homocysteine	cytoplasm	0.0351945672000414
+s_1415	S-adenosyl-L-homocysteine	mitochondrion	1.5e-15
+s_1416	S-adenosyl-L-methionine	cytoplasm	0.0351945672000424
+s_1418	S-adenosyl-L-methionine	extracellular	5e-16
+s_1419	S-adenosyl-L-methionine	mitochondrion	1.5e-15
+s_1420	S-adenosylmethioninamine	cytoplasm	1.5e-15
+s_1421	S-formylglutathione	cytoplasm	5e-16
+s_1422	S-methyl-5-thio-alpha-D-ribose 1-phosphate	cytoplasm	5e-16
+s_1423	S-methyl-5-thio-D-ribulose 1-phosphate	cytoplasm	5e-16
+s_1424	S-methyl-L-methionine	cytoplasm	5e-16
+s_1425	S-methyl-L-methionine	extracellular	5e-16
+s_1426	sedoheptulose 1,7-bisphosphate	cytoplasm	14.8495123999185
+s_1427	sedoheptulose 7-phosphate	cytoplasm	14.8495123999185
+s_1428	Ser-tRNA(Ser)	cytoplasm	0.0673780157437797
+s_1429	shikimate	cytoplasm	0.107413641064153
+s_1430	siroheme	cytoplasm	5e-16
+s_1431	sirohydrochlorin	cytoplasm	1e-15
+s_1432	sn-glycero-3-phosphocholine	cell envelope	2e-15
+s_1433	sn-glycero-3-phosphocholine	cytoplasm	5e-16
+s_1435	sn-glycero-3-phosphocholine	extracellular	0
+s_1437	sodium	cytoplasm	0
+s_1438	sodium	extracellular	0
+s_1439	spermidine	cytoplasm	2.5e-15
+s_1440	spermidine	extracellular	0
+s_1441	spermidine	vacuole	0
+s_1442	spermine	cytoplasm	1.5e-15
+s_1443	spermine	extracellular	0
+s_1444	spermine	vacuole	0
+s_1445	sphinganine	endoplasmic reticulum	3.5e-15
+s_1446	sphinganine 1-phosphate	endoplasmic reticulum	2e-15
+s_1447	squalene	cytoplasm	0.00910135578915914
+s_1448	squalene	endoplasmic reticulum	0.00910135578915964
+s_1449	stearate	cytoplasm	5e-16
+s_1450	stearate	extracellular	0
+s_1451	stearate	peroxisome	5e-16
+s_1454	stearoyl-CoA	cytoplasm	0.00957337587297991
+s_1457	stearoyl-CoA	peroxisome	2e-15
+s_1458	succinate	cytoplasm	0.0331552855691343
+s_1459	succinate	extracellular	0
+s_1460	succinate	mitochondrion	0.0331552855691328
+s_1461	succinic semialdehyde	cytoplasm	1e-15
+s_1464	succinyl-CoA	mitochondrion	2.60339825352782e-06
+s_1466	sucrose	extracellular	5e-16
+s_1467	sulphate	cytoplasm	0.0297607373667445
+s_1468	sulphate	extracellular	0.0297607373667435
+s_1469	sulphite	cytoplasm	0.0232522417341755
+s_1470	sulphite	extracellular	5e-16
+s_1471	taurine	cytoplasm	5e-16
+s_1472	taurine	extracellular	0
+s_1473	taurocholic acid	cytoplasm	5e-16
+s_1474	taurocholic acid	vacuole	5e-16
+s_1475	TDP	cytoplasm	2e-15
+s_1476	TDP	extracellular	5e-16
+s_1477	TDP	mitochondrion	5e-16
+s_1479	tetracosanoyl-CoA	cytoplasm	5e-16
+s_1480	tetracosanoyl-CoA	endoplasmic reticulum	1e-15
+s_1482	tetracosanoyl-CoA	peroxisome	1.5e-15
+s_1483	tetradecaprenyl diphosphate	lipid particle	1e-15
+s_1486	tetrahydropteroyltri-L-glutamic acid	cytoplasm	5e-16
+s_1487	THF	cytoplasm	0.143330683821875
+s_1488	THF	mitochondrion	3e-15
+s_1489	thiamine	cytoplasm	2e-15
+s_1490	thiamine	extracellular	1.5e-15
+s_1491	Thr-tRNA(Thr)	cytoplasm	0.0695657673330894
+s_1492	Thr-tRNA(Thr)	mitochondrion	5e-16
+s_1493	thymidine	cytoplasm	1.5e-15
+s_1494	thymidine	extracellular	5e-16
+s_1497	TMP	cytoplasm	1.5e-15
+s_1498	TMP	extracellular	5e-16
+s_1503	trans-aconitate	cytoplasm	5e-16
+s_1504	trans-aconitate	mitochondrion	0
+s_1507	trans-dec-2-enoyl-CoA	peroxisome	1.5e-15
+s_1510	trans-dodec-2-enoyl-CoA	peroxisome	2e-15
+s_1513	trans-hexacos-2-enoyl-CoA	peroxisome	1e-15
+s_1516	trans-octadec-2-enoyl-CoA	peroxisome	1e-15
+s_1519	trans-tetradec-2-enoyl-CoA	peroxisome	1.5e-15
+s_1520	trehalose	cytoplasm	0.032917039173192
+s_1521	trehalose	extracellular	0
+s_1522	trehalose	vacuole	5e-16
+s_1523	tridecaprenyl diphosphate	lipid particle	1e-15
+s_1524	triglyceride backbone	cytoplasm	0.0019619014000628
+s_1526	trimethylenediamine	cytoplasm	5e-16
+s_1527	Trp-tRNA(Trp)	cytoplasm	0.0103413877070561
+s_1528	Trp-tRNA(Trp)	mitochondrion	5e-16
+s_1529	tryptophol	cytoplasm	5e-16
+s_1530	tryptophol	extracellular	0
+s_1531	tryptophol	mitochondrion	5e-16
+s_1532	thiamine(1+) triphosphate(4-)	cytoplasm	5e-16
+s_1533	Tyr-tRNA(Tyr)	cytoplasm	0.0370698197595012
+s_1534	Tyr-tRNA(Tyr)	mitochondrion	5e-16
+s_1535	ubiquinol-6	mitochondrion	3.42510925759297
+s_1537	ubiquinone-6	mitochondrion	3.42510925759297
+s_1538	UDP	cytoplasm	0.349949639276434
+s_1539	UDP	Golgi	5e-16
+s_1540	UDP	nucleus	5e-16
+s_1541	UDP-D-galactose	cytoplasm	1e-15
+s_1542	UDP-D-galactose	Golgi	5e-16
+s_1543	UDP-D-glucose	cytoplasm	0.334662842701912
+s_1544	UDP-N-acetyl-alpha-D-glucosamine	cytoplasm	5e-16
+s_1545	UMP	cytoplasm	0.033155279686357
+s_1546	UMP	Golgi	5e-16
+s_1547	UMP	mitochondrion	1e-15
+s_1548	UMP	nucleus	5e-16
+s_1549	undecaprenyl diphosphate	lipid particle	1e-15
+s_1550	uracil	cytoplasm	2e-15
+s_1551	uracil	extracellular	5e-16
+s_1552	urea	cytoplasm	1e-15
+s_1553	urea	extracellular	0
+s_1554	urea-1-carboxylic acid	cytoplasm	1e-15
+s_1555	ureidoglycolic acid	cytoplasm	5e-16
+s_1556	uridine	cytoplasm	3e-15
+s_1557	uridine	extracellular	5e-16
+s_1558	uroporphyrinogen III	cytoplasm	3.25424782128477e-07
+s_1559	UTP	cytoplasm	0.349949639276434
+s_1560	UTP	mitochondrion	1e-15
+s_1561	Val-tRNA(Val)	cytoplasm	0.0961748699793022
+s_1562	Val-tRNA(Val)	mitochondrion	5e-16
+s_1563	xanthosine	cytoplasm	1e-15
+s_1564	xanthosine	extracellular	5e-16
+s_1565	xanthosine-5-phosphate	cytoplasm	0.0148252140642587
+s_1566	xylitol	cytoplasm	1e-15
+s_1567	xylitol	extracellular	0
+s_1568	zymosterol	cell envelope	1e-15
+s_1569	zymosterol	cytoplasm	0.00910135578916014
+s_1571	zymosterol	extracellular	0
+s_1572	zymosterol	lipid particle	1e-15
+s_1576	zymosterol intermediate 1a	cytoplasm	0.00910135578915964
+s_1577	zymosterol intermediate 1b	cytoplasm	0.00910135578915964
+s_1578	zymosterol intermediate 1c	cytoplasm	0.00910135578915964
+s_1579	zymosterol intermediate 2	cytoplasm	0.00910135578915964
+s_1582	tRNA(Ala)	cytoplasm	0.166774756639049
+s_1583	tRNA(Arg)	cytoplasm	0.0584288055162417
+s_1584	tRNA(Arg)	mitochondrion	5e-16
+s_1585	tRNA(Asn)	cytoplasm	0.0369506346728926
+s_1586	tRNA(Asn)	mitochondrion	5e-16
+s_1587	tRNA(Asp)	cytoplasm	0.108147096402945
+s_1588	tRNA(Asp)	mitochondrion	5e-16
+s_1589	tRNA(Cys)	cytoplasm	0.00238647300057194
+s_1590	tRNA(Gln)	cytoplasm	0.0383029601553182
+s_1591	tRNA(Glu)	cytoplasm	0.109698275392931
+s_1592	tRNA(Glu)	mitochondrion	5e-16
+s_1593	tRNA(Gly)	cytoplasm	0.105561630524702
+s_1594	tRNA(His)	cytoplasm	0.0241033739107844
+s_1595	tRNA(His)	mitochondrion	5e-16
+s_1596	tRNA(Ile)	cytoplasm	0.0700429909674892
+s_1597	tRNA(Ile)	mitochondrion	5e-16
+s_1598	tRNA(Leu)	cytoplasm	0.107749219401621
+s_1599	tRNA(Leu)	mitochondrion	5e-16
+s_1600	tRNA(Lys)	cytoplasm	0.104050282714437
+s_1601	tRNA(Lys)	mitochondrion	5e-16
+s_1602	tRNA(Met)	cytoplasm	0.0184156115006193
+s_1603	tRNA(Met)	mitochondrion	5e-16
+s_1604	tRNA(Phe)	cytoplasm	0.0486840039984471
+s_1605	tRNA(Phe)	mitochondrion	5e-16
+s_1606	tRNA(Pro)	cytoplasm	0.0598606391318326
+s_1607	tRNA(Ser)	cytoplasm	0.0673780157437797
+s_1608	tRNA(Thr)	cytoplasm	0.0695657673330894
+s_1609	tRNA(Thr)	mitochondrion	5e-16
+s_1610	tRNA(Trp)	cytoplasm	0.0103413877070561
+s_1611	tRNA(Trp)	mitochondrion	5e-16
+s_1612	tRNA(Tyr)	cytoplasm	0.0370698197595012
+s_1613	tRNA(Tyr)	mitochondrion	5e-16
+s_1614	tRNA(Val)	cytoplasm	0.0961748699793022
+s_1615	tRNA(Val)	mitochondrion	5e-16
+s_1616	TRX1	cytoplasm	0.0271573391137187
+s_1617	TRX1	mitochondrion	1e-15
+s_1618	TRX1	nucleus	2e-15
+s_1619	TRX1	peroxisome	5e-16
+s_1620	TRX1 disulphide	cytoplasm	0.0271573391137187
+s_1621	TRX1 disulphide	mitochondrion	1e-15
+s_1622	TRX1 disulphide	nucleus	2e-15
+s_1623	TRX1 disulphide	peroxisome	5e-16
+s_2763	kynurenic acid	cytoplasm	5e-16
+s_2764	quinaldic acid	cytoplasm	5e-16
+s_1845	ACP1	mitochondrion	1.5e-15
+s_2766	14-demethyllanosterol	extracellular	0
+s_2768	ergosta-5,7,22,24(28)-tetraen-3beta-ol	extracellular	0
+s_2770	acetoacetyl-ACP	mitochondrion	1e-15
+s_2771	butanoyl-ACP	mitochondrion	1e-15
+s_2772	3-oxo-hexanoyl-ACP	mitochondrion	1e-15
+s_2773	hexanoyl-ACP	mitochondrion	1e-15
+s_2774	3-oxo-octanoyl-ACP	mitochondrion	1e-15
+s_2775	3-hydroxybutanoyl-ACP	mitochondrion	5e-16
+s_2776	3-hydroxyhexanoyl-ACP	mitochondrion	5e-16
+s_2777	3-hydroxyoctanoyl-ACP	mitochondrion	5e-16
+s_2778	trans-but-2-enoyl-ACP	mitochondrion	5e-16
+s_2779	trans-hex-2-enoyl-ACP	mitochondrion	5e-16
+s_2780	trans-oct-2-enoyl-ACP	mitochondrion	5e-16
+s_2781	lauroyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2782	malonyl-CoA	endoplasmic reticulum membrane	3.5e-15
+s_2783	H+	endoplasmic reticulum membrane	0.0457207332310812
+s_2784	carbon dioxide	endoplasmic reticulum membrane	3.5e-15
+s_2785	coenzyme A	endoplasmic reticulum membrane	0.0403756614390977
+s_2786	3-oxotetradecanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2787	myristoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2788	3-oxopalmitoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2789	palmitoyl-CoA	endoplasmic reticulum membrane	0.0308022855660998
+s_2790	3-oxooctadecanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2791	stearoyl-CoA	endoplasmic reticulum membrane	0.00957337587298491
+s_2792	3-oxoicosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2793	icosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2794	3-oxodocosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2795	docosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2796	3-oxotetracosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2797	tetracosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2798	3-oxohexacosanoyl-CoA	endoplasmic reticulum membrane	1e-15
+s_2799	NADPH	endoplasmic reticulum membrane	9e-15
+s_2800	NADP(+)	endoplasmic reticulum membrane	9e-15
+s_2801	(S)-3-hydroxytetradecanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2802	(S)-3-hydroxypalmitoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2803	3-hydroxyoctadecanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2804	3-hydroxyicosanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2805	3-hydroxydocosanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2806	3-hydroxytetracosanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2807	(S)-3-hydroxyhexacosanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2808	H2O	endoplasmic reticulum membrane	0.0612546532713453
+s_2809	trans-tetradec-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2810	trans-hexadec-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2811	trans-octadec-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2812	trans-icos-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2813	trans-docos-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2814	trans-tetracos-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2815	trans-hexacos-2-enoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2816	hexacosanoyl-CoA	endoplasmic reticulum membrane	5e-16
+s_2817	oxygen	endoplasmic reticulum membrane	0.0306273266356614
+s_2818	NADH	endoplasmic reticulum membrane	0.0306273266356614
+s_2819	palmitoleoyl-CoA(4-)	endoplasmic reticulum membrane	0.0230200685893125
+s_2820	NAD	endoplasmic reticulum membrane	0.0306273266356614
+s_2821	oleoyl-CoA	endoplasmic reticulum membrane	0.00760725804636041
+s_2822	butyrate	extracellular	0
+s_2824	hexanoate	extracellular	0
+s_2826	oleate	extracellular	0
+s_2828	butyrate	cytoplasm	0
+s_2829	hexanoate	cytoplasm	0
+s_2831	ATP	endoplasmic reticulum membrane	0
+s_2832	laurate	endoplasmic reticulum membrane	0
+s_2833	AMP	endoplasmic reticulum membrane	0
+s_2834	diphosphate	endoplasmic reticulum membrane	0.0150934065953728
+s_2835	myristate	endoplasmic reticulum membrane	0
+s_2836	palmitate	endoplasmic reticulum membrane	5e-16
+s_2837	palmitoleate	endoplasmic reticulum membrane	2.5e-15
+s_2838	stearate	endoplasmic reticulum membrane	5e-16
+s_2839	oleate	endoplasmic reticulum membrane	2.5e-15
+s_2840	ATP	lipid particle	0
+s_2841	laurate	lipid particle	0
+s_2842	AMP	lipid particle	0
+s_2843	lauroyl-CoA	lipid particle	0
+s_2844	myristate	lipid particle	0
+s_2845	myristoyl-CoA	lipid particle	0
+s_2846	palmitate	lipid particle	0.00143014598399842
+s_2847	palmitoyl-CoA	lipid particle	5e-15
+s_2848	palmitoleate	lipid particle	1.3e-14
+s_2849	palmitoleoyl-CoA(4-)	lipid particle	5e-15
+s_2850	stearate	lipid particle	4.5e-15
+s_2851	stearoyl-CoA	lipid particle	5e-15
+s_2852	oleate	lipid particle	1.3e-14
+s_2853	oleoyl-CoA	lipid particle	9e-15
+s_2854	palmitoleoyl-CoA(4-)	peroxisome	1.5e-15
+s_2855	oleate	peroxisome	5e-16
+s_2856	ATP	cell envelope	8e-15
+s_2857	coenzyme A	cell envelope	0
+s_2858	arachidate	cell envelope	0
+s_2859	AMP	cell envelope	0
+s_2860	diphosphate	cell envelope	0
+s_2861	icosanoyl-CoA	cell envelope	0
+s_2862	behenate	cell envelope	0
+s_2863	docosanoyl-CoA	cell envelope	0
+s_2864	lignoceric acid	cell envelope	0
+s_2865	tetracosanoyl-CoA	cell envelope	0
+s_2866	cerotic acid	cell envelope	0
+s_2867	hexacosanoyl-CoA	cell envelope	0
+s_2868	behenate	endoplasmic reticulum membrane	0
+s_2869	lignoceric acid	endoplasmic reticulum membrane	0
+s_2870	cerotic acid	endoplasmic reticulum membrane	0
+s_2871	behenate	lipid particle	0
+s_2872	docosanoyl-CoA	lipid particle	0
+s_2873	lignoceric acid	lipid particle	0
+s_2874	tetracosanoyl-CoA	lipid particle	0
+s_2875	cerotic acid	lipid particle	0
+s_2876	hexacosanoyl-CoA	lipid particle	0
+s_2877	palmitoleoyl-CoA(4-)	cytoplasm	5e-16
+s_2878	icosanoyl-CoA	cytoplasm	5e-16
+s_2879	icosanoyl-CoA	peroxisome	1.5e-15
+s_2880	docosanoyl-CoA	cytoplasm	5e-16
+s_2881	docosanoyl-CoA	peroxisome	1.5e-15
+s_2882	butyrate	peroxisome	5e-16
+s_2883	hexanoate	peroxisome	5e-16
+s_2884	butanoyl-CoA	peroxisome	1.5e-15
+s_2885	hexanoyl-CoA	peroxisome	1.5e-15
+s_2886	but-2-enoyl-CoA	peroxisome	1e-15
+s_2887	trans-hex-2-enoyl-CoA	peroxisome	1e-15
+s_2888	trans-oct-2-enoyl-CoA	peroxisome	1e-15
+s_2889	trans-icos-2-enoyl-CoA	peroxisome	1e-15
+s_2890	trans-docos-2-enoyl-CoA	peroxisome	1e-15
+s_2891	trans-tetracos-2-enoyl-CoA	peroxisome	1e-15
+s_2892	trans-2,cis-9-hexadecadienoyl-CoA	peroxisome	1e-15
+s_2893	cis-tetradec-7-enoyl-CoA	peroxisome	1e-15
+s_2894	trans-2,cis-7-tetradecadienoyl-CoA	peroxisome	1e-15
+s_2895	cis-dodec-5-enoyl-CoA	peroxisome	1e-15
+s_2896	trans-2,cis-5-dodecadienoyl-CoA	peroxisome	1.5e-15
+s_2897	trans-2,cis-9-octadecadienoyl-CoA	peroxisome	1e-15
+s_2898	cis-hexadec-7-enoyl-CoA	peroxisome	1e-15
+s_2899	trans-2,cis-7-hexadecadienoyl-CoA	peroxisome	1e-15
+s_2900	cis-tetradec-5-enoyl-CoA	peroxisome	1e-15
+s_2901	trans-2,cis-5-tetradecadienoyl-CoA	peroxisome	1.5e-15
+s_2902	(R)-3-hydroxybutanoyl-CoA	peroxisome	1e-15
+s_2903	(R)-3-hydroxyhexanoyl-CoA	peroxisome	1e-15
+s_2904	(R)-3-hydroxyoctanoyl-CoA	peroxisome	1e-15
+s_2905	(R)-3-hydroxyicosanoyl-CoA	peroxisome	1e-15
+s_2906	(R)-3-hydroxydocosanoyl-CoA	peroxisome	1e-15
+s_2907	(R)-3-hydroxytetracosanoyl-CoA	peroxisome	1e-15
+s_2908	(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA	peroxisome	1e-15
+s_2909	(R)-3-hydroxy-cis-tetradec-7-enoyl-CoA	peroxisome	1e-15
+s_2910	(R)-3-hydroxy-cis-dodec-5-enoyl-CoA	peroxisome	1e-15
+s_2911	(R)-3-hydroxy-cis-octadec-9-enoyl-CoA	peroxisome	1e-15
+s_2912	(R)-3-hydroxy-cis-hexadec-7-enoyl-CoA	peroxisome	1e-15
+s_2913	(R)-3-hydroxy-cis-tetradec-5-enoyl-CoA	peroxisome	1e-15
+s_2914	acetoacetyl-CoA	peroxisome	1e-15
+s_2915	3-oxohexanoyl-CoA	peroxisome	1e-15
+s_2916	3-oxooctanoyl-CoA	peroxisome	1e-15
+s_2917	3-oxoicosanoyl-CoA	peroxisome	1e-15
+s_2918	3-oxodocosanoyl-CoA	peroxisome	1e-15
+s_2919	3-oxotetracosanoyl-CoA	peroxisome	1e-15
+s_2920	3-oxo-cis-hexadec-9-enoyl-CoA	peroxisome	1e-15
+s_2921	3-oxo-cis-tetradec-7-enoyl-CoA	peroxisome	1e-15
+s_2922	3-oxo-cis-dodec-5-enoyl-CoA	peroxisome	1e-15
+s_2923	3-oxo-cis-octadec-9-enoyl-CoA	peroxisome	1e-15
+s_2924	3-oxo-cis-hexadec-7-enoyl-CoA	peroxisome	1e-15
+s_2925	3-oxo-cis-tetradec-5-enoyl-CoA	peroxisome	1e-15
+s_2926	cis-dec-3-enoyl-CoA	peroxisome	1e-15
+s_2927	cis-dodec-3-enoyl-CoA	peroxisome	1e-15
+s_2928	trans-3,cis-5-dodecadienoyl-CoA	peroxisome	1e-15
+s_2929	trans-dodec-3-enoyl-CoA	peroxisome	1e-15
+s_2930	trans-3,cis-5-tetradecadienoyl-CoA	peroxisome	1e-15
+s_2931	trans-tetradec-3-enoyl-CoA	peroxisome	1e-15
+s_2932	trans-2,trans-4-dodecadienoyl-CoA	peroxisome	1e-15
+s_2933	trans-2,trans-4-tetradecadienoyl-CoA	peroxisome	1e-15
+s_2934	glycerol 3-phosphate	endoplasmic reticulum membrane	0.0171660758287872
+s_2935	1-acyl-sn-glycerol 3-phosphate (16:0)	endoplasmic reticulum membrane	0.00427940175938301
+s_2936	1-acyl-sn-glycerol 3-phosphate (16:1)	endoplasmic reticulum membrane	0.0109205562427807
+s_2937	1-acyl-sn-glycerol 3-phosphate (18:0)	endoplasmic reticulum membrane	0.00196611782662601
+s_2938	1-acyl-sn-glycerol 3-phosphate (18:1)	endoplasmic reticulum membrane	2e-15
+s_2939	dihydroxyacetone phosphate	endoplasmic reticulum membrane	2e-15
+s_2940	acylglycerone phosphate (16:0)	endoplasmic reticulum membrane	1e-15
+s_2941	acylglycerone phosphate (16:1)	endoplasmic reticulum membrane	1e-15
+s_2942	acylglycerone phosphate (18:0)	endoplasmic reticulum membrane	1e-15
+s_2943	acylglycerone phosphate (18:1)	endoplasmic reticulum membrane	1e-15
+s_2944	1-acyl-sn-glycerol 3-phosphate (16:0)	lipid particle	1.5e-15
+s_2945	1-acyl-sn-glycerol 3-phosphate (16:1)	lipid particle	1.5e-15
+s_2946	1-acyl-sn-glycerol 3-phosphate (18:0)	lipid particle	1.5e-15
+s_2947	1-acyl-sn-glycerol 3-phosphate (18:1)	lipid particle	1.5e-15
+s_2948	acylglycerone phosphate (16:0)	lipid particle	1e-15
+s_2949	acylglycerone phosphate (16:1)	lipid particle	1e-15
+s_2950	acylglycerone phosphate (18:0)	lipid particle	1e-15
+s_2951	acylglycerone phosphate (18:1)	lipid particle	1e-15
+s_2952	NADPH	lipid particle	2e-15
+s_2953	NADP(+)	lipid particle	2e-15
+s_2954	phosphatidate (1-16:0, 2-16:1)	endoplasmic reticulum membrane	0.00117895610374866
+s_2955	phosphatidate (1-16:0, 2-18:1)	endoplasmic reticulum membrane	0.00310044565563535
+s_2956	phosphatidate (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.0112468591946101
+s_2957	phosphatidate (1-16:1, 2-18:1)	endoplasmic reticulum membrane	2e-15
+s_2958	phosphatidate (1-18:0, 2-16:1)	endoplasmic reticulum membrane	2e-15
+s_2959	phosphatidate (1-18:0, 2-18:1)	endoplasmic reticulum membrane	0.00196611782662551
+s_2960	phosphatidate (1-18:1, 2-16:1)	endoplasmic reticulum membrane	2e-15
+s_2961	phosphatidate (1-18:1, 2-18:1)	endoplasmic reticulum membrane	2e-15
+s_2962	phosphatidate (1-16:0, 2-18:1)	lipid particle	5e-16
+s_2963	phosphatidate (1-16:1, 2-18:1)	lipid particle	5e-16
+s_2964	phosphatidate (1-18:0, 2-18:1)	lipid particle	5e-16
+s_2965	phosphatidate (1-18:1, 2-18:1)	lipid particle	5e-16
+s_2966	phosphate	endoplasmic reticulum membrane	1.65e-14
+s_2967	diglyceride (1-16:0, 2-16:1)	endoplasmic reticulum membrane	0.00117895610375116
+s_2968	diglyceride (1-16:0, 2-18:1)	endoplasmic reticulum membrane	0.000830498669823379
+s_2969	diglyceride (1-16:1, 2-16:1)	endoplasmic reticulum membrane	6.32144598483208e-05
+s_2970	diglyceride (1-16:1, 2-18:1)	endoplasmic reticulum membrane	0.00143014598399842
+s_2971	diglyceride (1-18:0, 2-16:1)	endoplasmic reticulum membrane	4.5e-15
+s_2972	diglyceride (1-18:0, 2-18:1)	endoplasmic reticulum membrane	0.000326302951833944
+s_2973	diglyceride (1-18:1, 2-16:1)	endoplasmic reticulum membrane	4.5e-15
+s_2974	diglyceride (1-18:1, 2-18:1)	endoplasmic reticulum membrane	4.5e-15
+s_2975	phosphatidate (1-16:0, 2-16:1)	vacuolar membrane	1e-15
+s_2976	H2O	vacuolar membrane	1.4e-14
+s_2977	phosphate	vacuolar membrane	1.4e-14
+s_2978	diglyceride (1-16:0, 2-16:1)	vacuolar membrane	5e-16
+s_2979	phosphatidate (1-16:0, 2-18:1)	vacuolar membrane	1e-15
+s_2980	diglyceride (1-16:0, 2-18:1)	vacuolar membrane	5e-16
+s_2981	phosphatidate (1-16:1, 2-16:1)	vacuolar membrane	1e-15
+s_2982	diglyceride (1-16:1, 2-16:1)	vacuolar membrane	5e-16
+s_2983	phosphatidate (1-16:1, 2-18:1)	vacuolar membrane	1e-15
+s_2984	diglyceride (1-16:1, 2-18:1)	vacuolar membrane	5e-16
+s_2985	phosphatidate (1-18:0, 2-16:1)	vacuolar membrane	1e-15
+s_2986	diglyceride (1-18:0, 2-16:1)	vacuolar membrane	5e-16
+s_2987	phosphatidate (1-18:0, 2-18:1)	vacuolar membrane	1e-15
+s_2988	diglyceride (1-18:0, 2-18:1)	vacuolar membrane	5e-16
+s_2989	phosphatidate (1-18:1, 2-16:1)	vacuolar membrane	1e-15
+s_2990	diglyceride (1-18:1, 2-16:1)	vacuolar membrane	5e-16
+s_2991	phosphatidate (1-18:1, 2-18:1)	vacuolar membrane	1e-15
+s_2992	diglyceride (1-18:1, 2-18:1)	vacuolar membrane	5e-16
+s_2993	phosphatidate (1-16:0, 2-16:1)	Golgi membrane	0.00117895610374766
+s_2994	H2O	Golgi membrane	0.0023989721852583
+s_2995	phosphate	Golgi membrane	0.0023989721852583
+s_2996	diglyceride (1-16:0, 2-16:1)	Golgi membrane	0.00117895610375716
+s_2997	phosphatidate (1-16:0, 2-18:1)	Golgi membrane	0.000830498669819879
+s_2998	diglyceride (1-16:0, 2-18:1)	Golgi membrane	0.000830498669829379
+s_2999	phosphatidate (1-16:1, 2-16:1)	Golgi membrane	6.32144598448208e-05
+s_3000	diglyceride (1-16:1, 2-16:1)	Golgi membrane	6.32144598543208e-05
+s_3001	phosphatidate (1-16:1, 2-18:1)	Golgi membrane	1e-15
+s_3002	diglyceride (1-16:1, 2-18:1)	Golgi membrane	1.05e-14
+s_3003	phosphatidate (1-18:0, 2-16:1)	Golgi membrane	1e-15
+s_3004	diglyceride (1-18:0, 2-16:1)	Golgi membrane	1.05e-14
+s_3005	phosphatidate (1-18:0, 2-18:1)	Golgi membrane	0.000326302951830444
+s_3006	diglyceride (1-18:0, 2-18:1)	Golgi membrane	0.000326302951839944
+s_3007	phosphatidate (1-18:1, 2-16:1)	Golgi membrane	1e-15
+s_3008	diglyceride (1-18:1, 2-16:1)	Golgi membrane	1.05e-14
+s_3009	phosphatidate (1-18:1, 2-18:1)	Golgi membrane	1e-15
+s_3010	diglyceride (1-18:1, 2-18:1)	Golgi membrane	1.05e-14
+s_3011	triglyceride (1-16:0, 2-16:1, 3-16:0)	endoplasmic reticulum membrane	0.00117895610374766
+s_3012	triglyceride (1-16:0, 2-18:1, 3-16:0)	endoplasmic reticulum membrane	0.000830498669819879
+s_3013	triglyceride (1-16:1, 2-16:1, 3-16:0)	endoplasmic reticulum membrane	6.32144598448208e-05
+s_3014	triglyceride (1-16:1, 2-18:1, 3-16:0)	endoplasmic reticulum membrane	0.00143014598399492
+s_3015	triglyceride (1-18:0, 2-16:1, 3-16:0)	endoplasmic reticulum membrane	1e-15
+s_3016	triglyceride (1-18:0, 2-18:1, 3-16:0)	endoplasmic reticulum membrane	1e-15
+s_3017	triglyceride (1-18:1, 2-16:1, 3-16:0)	endoplasmic reticulum membrane	1e-15
+s_3018	triglyceride (1-18:1, 2-18:1, 3-16:0)	endoplasmic reticulum membrane	1e-15
+s_3019	triglyceride (1-16:0, 2-16:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3020	triglyceride (1-16:0, 2-18:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3021	triglyceride (1-16:1, 2-16:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3022	triglyceride (1-16:1, 2-18:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3023	triglyceride (1-18:0, 2-16:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3024	triglyceride (1-18:0, 2-18:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3025	triglyceride (1-18:1, 2-16:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3026	triglyceride (1-18:1, 2-18:1, 3-16:1)	endoplasmic reticulum membrane	1e-15
+s_3027	triglyceride (1-16:0, 2-16:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3028	triglyceride (1-16:0, 2-18:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3029	triglyceride (1-16:1, 2-16:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3030	triglyceride (1-16:1, 2-18:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3031	triglyceride (1-18:0, 2-16:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3032	triglyceride (1-18:0, 2-18:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3033	triglyceride (1-18:1, 2-16:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3034	triglyceride (1-18:1, 2-18:1, 3-18:0)	endoplasmic reticulum membrane	1e-15
+s_3035	triglyceride (1-16:0, 2-16:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3036	triglyceride (1-16:0, 2-18:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3037	triglyceride (1-16:1, 2-16:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3038	triglyceride (1-16:1, 2-18:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3039	triglyceride (1-18:0, 2-16:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3040	triglyceride (1-18:0, 2-18:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3041	triglyceride (1-18:1, 2-16:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3042	triglyceride (1-18:1, 2-18:1, 3-18:1)	endoplasmic reticulum membrane	1e-15
+s_3043	diglyceride (1-16:0, 2-16:1)	lipid particle	4.5e-15
+s_3044	triglyceride (1-16:0, 2-16:1, 3-16:0)	lipid particle	1e-15
+s_3045	diglyceride (1-16:0, 2-18:1)	lipid particle	4.5e-15
+s_3046	triglyceride (1-16:0, 2-18:1, 3-16:0)	lipid particle	1e-15
+s_3047	diglyceride (1-16:1, 2-16:1)	lipid particle	4.5e-15
+s_3048	triglyceride (1-16:1, 2-16:1, 3-16:0)	lipid particle	1e-15
+s_3049	diglyceride (1-16:1, 2-18:1)	lipid particle	0.00143014598399842
+s_3050	triglyceride (1-16:1, 2-18:1, 3-16:0)	lipid particle	0.00143014598399492
+s_3051	diglyceride (1-18:0, 2-16:1)	lipid particle	4.5e-15
+s_3052	triglyceride (1-18:0, 2-16:1, 3-16:0)	lipid particle	1e-15
+s_3053	diglyceride (1-18:0, 2-18:1)	lipid particle	4.5e-15
+s_3054	triglyceride (1-18:0, 2-18:1, 3-16:0)	lipid particle	1e-15
+s_3055	diglyceride (1-18:1, 2-16:1)	lipid particle	4.5e-15
+s_3056	triglyceride (1-18:1, 2-16:1, 3-16:0)	lipid particle	1e-15
+s_3057	diglyceride (1-18:1, 2-18:1)	lipid particle	4.5e-15
+s_3058	triglyceride (1-18:1, 2-18:1, 3-16:0)	lipid particle	1e-15
+s_3059	triglyceride (1-16:0, 2-16:1, 3-16:1)	lipid particle	1e-15
+s_3060	triglyceride (1-16:0, 2-18:1, 3-16:1)	lipid particle	1e-15
+s_3061	triglyceride (1-16:1, 2-16:1, 3-16:1)	lipid particle	1e-15
+s_3062	triglyceride (1-16:1, 2-18:1, 3-16:1)	lipid particle	1e-15
+s_3063	triglyceride (1-18:0, 2-16:1, 3-16:1)	lipid particle	1e-15
+s_3064	triglyceride (1-18:0, 2-18:1, 3-16:1)	lipid particle	1e-15
+s_3065	triglyceride (1-18:1, 2-16:1, 3-16:1)	lipid particle	1e-15
+s_3066	triglyceride (1-18:1, 2-18:1, 3-16:1)	lipid particle	1e-15
+s_3067	triglyceride (1-16:0, 2-16:1, 3-18:0)	lipid particle	1e-15
+s_3068	triglyceride (1-16:0, 2-18:1, 3-18:0)	lipid particle	1e-15
+s_3069	triglyceride (1-16:1, 2-16:1, 3-18:0)	lipid particle	1e-15
+s_3070	triglyceride (1-16:1, 2-18:1, 3-18:0)	lipid particle	1e-15
+s_3071	triglyceride (1-18:0, 2-16:1, 3-18:0)	lipid particle	1e-15
+s_3072	triglyceride (1-18:0, 2-18:1, 3-18:0)	lipid particle	1e-15
+s_3073	triglyceride (1-18:1, 2-16:1, 3-18:0)	lipid particle	1e-15
+s_3074	triglyceride (1-18:1, 2-18:1, 3-18:0)	lipid particle	1e-15
+s_3075	triglyceride (1-16:0, 2-16:1, 3-18:1)	lipid particle	1e-15
+s_3076	triglyceride (1-16:0, 2-18:1, 3-18:1)	lipid particle	1e-15
+s_3077	triglyceride (1-16:1, 2-16:1, 3-18:1)	lipid particle	1e-15
+s_3078	triglyceride (1-16:1, 2-18:1, 3-18:1)	lipid particle	1e-15
+s_3079	triglyceride (1-18:0, 2-16:1, 3-18:1)	lipid particle	1e-15
+s_3080	triglyceride (1-18:0, 2-18:1, 3-18:1)	lipid particle	1e-15
+s_3081	triglyceride (1-18:1, 2-16:1, 3-18:1)	lipid particle	1e-15
+s_3082	triglyceride (1-18:1, 2-18:1, 3-18:1)	lipid particle	1e-15
+s_3083	CTP	endoplasmic reticulum membrane	0.0150934065953768
+s_3084	CDP-diacylglycerol (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3085	CDP-diacylglycerol (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.0111836447347653
+s_3086	CDP-diacylglycerol (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3087	CDP-diacylglycerol (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3088	CDP-diacylglycerol (1-16:0, 2-18:1)	endoplasmic reticulum membrane	0.00226994698581447
+s_3089	CDP-diacylglycerol (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3090	CDP-diacylglycerol (1-18:0, 2-18:1)	endoplasmic reticulum membrane	0.00163981487479456
+s_3091	CDP-diacylglycerol (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3092	phosphatidate (1-16:0, 2-16:1)	mitochondrial membrane	0
+s_3093	CTP	mitochondrial membrane	0
+s_3094	H+	mitochondrial membrane	0.0111836447348103
+s_3095	diphosphate	mitochondrial membrane	0
+s_3096	CDP-diacylglycerol (1-16:0, 2-16:1)	mitochondrial membrane	3.5e-15
+s_3097	phosphatidate (1-16:1, 2-16:1)	mitochondrial membrane	0
+s_3098	CDP-diacylglycerol (1-16:1, 2-16:1)	mitochondrial membrane	3.5e-15
+s_3099	phosphatidate (1-18:0, 2-16:1)	mitochondrial membrane	0
+s_3100	CDP-diacylglycerol (1-18:0, 2-16:1)	mitochondrial membrane	3.5e-15
+s_3101	phosphatidate (1-18:1, 2-16:1)	mitochondrial membrane	0
+s_3102	CDP-diacylglycerol (1-18:1, 2-16:1)	mitochondrial membrane	3.5e-15
+s_3103	phosphatidate (1-16:0, 2-18:1)	mitochondrial membrane	0
+s_3104	CDP-diacylglycerol (1-16:0, 2-18:1)	mitochondrial membrane	3.5e-15
+s_3105	phosphatidate (1-16:1, 2-18:1)	mitochondrial membrane	0
+s_3106	CDP-diacylglycerol (1-16:1, 2-18:1)	mitochondrial membrane	3.5e-15
+s_3107	L-serine	endoplasmic reticulum membrane	0.0131109723185366
+s_3108	CMP	endoplasmic reticulum membrane	0.0154197095472182
+s_3109	phosphatidyl-L-serine (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3110	phosphatidyl-L-serine (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.0111836447347653
+s_3111	phosphatidyl-L-serine (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3112	phosphatidyl-L-serine (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3113	phosphatidyl-L-serine (1-16:0, 2-18:1)	endoplasmic reticulum membrane	0.00192732758376889
+s_3114	phosphatidyl-L-serine (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3115	phosphatidyl-L-serine (1-18:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3116	phosphatidyl-L-serine (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3117	myo-inositol	endoplasmic reticulum membrane	0.00198243427684315
+s_3118	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3119	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3120	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3121	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3122	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)	endoplasmic reticulum membrane	0.000342619402046585
+s_3123	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3124	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)	endoplasmic reticulum membrane	0.00163981487479506
+s_3125	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3126	sn-2-acyl-1-lysophosphatidylinositol (16:1)	endoplasmic reticulum membrane	5e-16
+s_3127	sn-2-acyl-1-lysophosphatidylinositol (18:1)	endoplasmic reticulum membrane	5e-16
+s_3128	phosphatidyl-L-serine (1-16:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3129	carbon dioxide	mitochondrial membrane	0.0111836447347683
+s_3130	phosphatidylethanolamine (1-16:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3131	phosphatidyl-L-serine (1-16:1, 2-16:1)	mitochondrial membrane	0.0111836447347648
+s_3132	phosphatidylethanolamine (1-16:1, 2-16:1)	mitochondrial membrane	0.0111836447347648
+s_3133	phosphatidyl-L-serine (1-18:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3134	phosphatidylethanolamine (1-18:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3135	phosphatidyl-L-serine (1-18:1, 2-16:1)	mitochondrial membrane	5e-16
+s_3136	phosphatidylethanolamine (1-18:1, 2-16:1)	mitochondrial membrane	5e-16
+s_3137	phosphatidyl-L-serine (1-16:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3138	phosphatidylethanolamine (1-16:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3139	phosphatidyl-L-serine (1-16:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3140	phosphatidylethanolamine (1-16:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3141	phosphatidyl-L-serine (1-18:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3142	phosphatidylethanolamine (1-18:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3143	phosphatidyl-L-serine (1-18:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3144	phosphatidylethanolamine (1-18:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3145	phosphatidyl-L-serine (1-16:0, 2-16:1)	Golgi membrane	5e-16
+s_3146	H+	Golgi membrane	1.2e-14
+s_3147	carbon dioxide	Golgi membrane	4e-15
+s_3148	phosphatidylethanolamine (1-16:0, 2-16:1)	Golgi membrane	5e-16
+s_3149	phosphatidyl-L-serine (1-16:1, 2-16:1)	Golgi membrane	5e-16
+s_3150	phosphatidylethanolamine (1-16:1, 2-16:1)	Golgi membrane	5e-16
+s_3151	phosphatidyl-L-serine (1-18:0, 2-16:1)	Golgi membrane	5e-16
+s_3152	phosphatidylethanolamine (1-18:0, 2-16:1)	Golgi membrane	5e-16
+s_3153	phosphatidyl-L-serine (1-18:1, 2-16:1)	Golgi membrane	5e-16
+s_3154	phosphatidylethanolamine (1-18:1, 2-16:1)	Golgi membrane	5e-16
+s_3155	phosphatidyl-L-serine (1-16:0, 2-18:1)	Golgi membrane	5e-16
+s_3156	phosphatidylethanolamine (1-16:0, 2-18:1)	Golgi membrane	5e-16
+s_3157	phosphatidyl-L-serine (1-16:1, 2-18:1)	Golgi membrane	5e-16
+s_3158	phosphatidylethanolamine (1-16:1, 2-18:1)	Golgi membrane	5e-16
+s_3159	phosphatidyl-L-serine (1-18:0, 2-18:1)	Golgi membrane	5e-16
+s_3160	phosphatidylethanolamine (1-18:0, 2-18:1)	Golgi membrane	5e-16
+s_3161	phosphatidyl-L-serine (1-18:1, 2-18:1)	Golgi membrane	5e-16
+s_3162	phosphatidylethanolamine (1-18:1, 2-18:1)	Golgi membrane	5e-16
+s_3163	phosphatidyl-L-serine (1-16:0, 2-16:1)	vacuolar membrane	5e-16
+s_3164	H+	vacuolar membrane	2e-14
+s_3165	carbon dioxide	vacuolar membrane	4e-15
+s_3166	phosphatidylethanolamine (1-16:0, 2-16:1)	vacuolar membrane	5e-16
+s_3167	phosphatidyl-L-serine (1-16:1, 2-16:1)	vacuolar membrane	5e-16
+s_3168	phosphatidylethanolamine (1-16:1, 2-16:1)	vacuolar membrane	5e-16
+s_3169	phosphatidyl-L-serine (1-18:0, 2-16:1)	vacuolar membrane	5e-16
+s_3170	phosphatidylethanolamine (1-18:0, 2-16:1)	vacuolar membrane	5e-16
+s_3171	phosphatidyl-L-serine (1-18:1, 2-16:1)	vacuolar membrane	5e-16
+s_3172	phosphatidylethanolamine (1-18:1, 2-16:1)	vacuolar membrane	5e-16
+s_3173	phosphatidyl-L-serine (1-16:0, 2-18:1)	vacuolar membrane	5e-16
+s_3174	phosphatidylethanolamine (1-16:0, 2-18:1)	vacuolar membrane	5e-16
+s_3175	phosphatidyl-L-serine (1-16:1, 2-18:1)	vacuolar membrane	5e-16
+s_3176	phosphatidylethanolamine (1-16:1, 2-18:1)	vacuolar membrane	5e-16
+s_3177	phosphatidyl-L-serine (1-18:0, 2-18:1)	vacuolar membrane	5e-16
+s_3178	phosphatidylethanolamine (1-18:0, 2-18:1)	vacuolar membrane	5e-16
+s_3179	phosphatidyl-L-serine (1-18:1, 2-18:1)	vacuolar membrane	5e-16
+s_3180	phosphatidylethanolamine (1-18:1, 2-18:1)	vacuolar membrane	5e-16
+s_3181	phosphatidylethanolamine (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3182	S-adenosyl-L-methionine	endoplasmic reticulum membrane	0.0260932114108877
+s_3183	S-adenosyl-L-homocysteine	endoplasmic reticulum membrane	0.0260932114108877
+s_3184	phosphatidyl-N-methylethanolamine (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3185	phosphatidylethanolamine (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.0111836447347653
+s_3186	phosphatidyl-N-methylethanolamine (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.00869773713695924
+s_3187	phosphatidylethanolamine (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3188	phosphatidyl-N-methylethanolamine (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3189	phosphatidylethanolamine (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3190	phosphatidyl-N-methylethanolamine (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3191	phosphatidylethanolamine (1-16:0, 2-18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3192	phosphatidyl-N-methylethanolamine (1-16:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3193	phosphatidylethanolamine (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3194	phosphatidyl-N-methylethanolamine (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3195	phosphatidylethanolamine (1-18:0, 2-18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3196	phosphatidyl-N-methylethanolamine (1-18:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3197	phosphatidylethanolamine (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3198	phosphatidyl-N-methylethanolamine (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3199	phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3200	phosphatidyl-N,N-dimethylethanolamine (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.00869773713695924
+s_3201	phosphatidyl-N,N-dimethylethanolamine (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3202	phosphatidyl-N,N-dimethylethanolamine (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3203	phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3204	phosphatidyl-N,N-dimethylethanolamine (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3205	phosphatidyl-N,N-dimethylethanolamine (1-18:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3206	phosphatidyl-N,N-dimethylethanolamine (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3207	phosphatidylcholine (1-16:0, 2-16:1)	endoplasmic reticulum membrane	2e-15
+s_3208	phosphatidylcholine (1-16:1, 2-16:1)	endoplasmic reticulum membrane	0.00869773713695974
+s_3209	phosphatidylcholine (1-18:0, 2-16:1)	endoplasmic reticulum membrane	2e-15
+s_3210	phosphatidylcholine (1-18:1, 2-16:1)	endoplasmic reticulum membrane	2e-15
+s_3211	phosphatidylcholine (1-16:0, 2-18:1)	endoplasmic reticulum membrane	2e-15
+s_3212	phosphatidylcholine (1-16:1, 2-18:1)	endoplasmic reticulum membrane	2e-15
+s_3213	phosphatidylcholine (1-18:0, 2-18:1)	endoplasmic reticulum membrane	0.000326302951831444
+s_3214	phosphatidylcholine (1-18:1, 2-18:1)	endoplasmic reticulum membrane	2e-15
+s_3215	CDP	endoplasmic reticulum membrane	4e-15
+s_3216	CDP-ethanolamine	endoplasmic reticulum membrane	4e-15
+s_3217	CDP-choline	endoplasmic reticulum membrane	0.000326302951833444
+s_3218	glycerol 3-phosphate	mitochondrial membrane	6e-15
+s_3219	CMP	mitochondrial membrane	2.1e-14
+s_3220	3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-16:1)	mitochondrial membrane	1e-15
+s_3221	3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:1, 2-16:1)	mitochondrial membrane	1e-15
+s_3222	3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-18:0, 2-16:1)	mitochondrial membrane	1e-15
+s_3223	3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-18:1, 2-16:1)	mitochondrial membrane	1e-15
+s_3224	3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-18:1)	mitochondrial membrane	1e-15
+s_3225	3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:1, 2-18:1)	mitochondrial membrane	1e-15
+s_3226	H2O	mitochondrial membrane	2.4e-14
+s_3227	phosphatidylglycerol (1-16:0, 2-16:1)	mitochondrial membrane	4.5e-15
+s_3228	phosphate	mitochondrial membrane	3e-15
+s_3229	phosphatidylglycerol (1-16:1, 2-16:1)	mitochondrial membrane	4.5e-15
+s_3230	phosphatidylglycerol (1-18:0, 2-16:1)	mitochondrial membrane	4.5e-15
+s_3231	phosphatidylglycerol (1-18:1, 2-16:1)	mitochondrial membrane	4.5e-15
+s_3232	phosphatidylglycerol (1-16:0, 2-18:1)	mitochondrial membrane	4.5e-15
+s_3233	phosphatidylglycerol (1-16:1, 2-18:1)	mitochondrial membrane	4.5e-15
+s_3234	cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-16:1)	mitochondrial membrane	2e-15
+s_3235	cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3236	cardiolipin (1-16:0, 2-16:1, 3-18:0, 4-16:1)	mitochondrial membrane	2e-15
+s_3237	cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3238	cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-18:1)	mitochondrial membrane	2e-15
+s_3239	cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-18:1)	mitochondrial membrane	1.5e-15
+s_3240	cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3241	cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3242	cardiolipin (1-16:1, 2-16:1, 3-18:0, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3243	cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3244	cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-18:1)	mitochondrial membrane	1.5e-15
+s_3245	cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-18:1)	mitochondrial membrane	1e-15
+s_3246	cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-16:1)	mitochondrial membrane	2e-15
+s_3247	cardiolipin (1-18:0, 2-16:1, 3-16:1, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3248	cardiolipin (1-18:0, 2-16:1, 3-18:0, 4-16:1)	mitochondrial membrane	2e-15
+s_3249	cardiolipin (1-18:0, 2-16:1, 3-18:1, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3250	cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-18:1)	mitochondrial membrane	2e-15
+s_3251	cardiolipin (1-18:0, 2-16:1, 3-16:1, 4-18:1)	mitochondrial membrane	1.5e-15
+s_3252	cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3253	cardiolipin (1-18:1, 2-16:1, 3-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3254	cardiolipin (1-18:1, 2-16:1, 3-18:0, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3255	cardiolipin (1-18:1, 2-16:1, 3-18:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3256	cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-18:1)	mitochondrial membrane	1.5e-15
+s_3257	cardiolipin (1-18:1, 2-16:1, 3-16:1, 4-18:1)	mitochondrial membrane	1e-15
+s_3258	cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-16:1)	mitochondrial membrane	2e-15
+s_3259	cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3260	cardiolipin (1-16:0, 2-18:1, 3-18:0, 4-16:1)	mitochondrial membrane	2e-15
+s_3261	cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3262	cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-18:1)	mitochondrial membrane	2e-15
+s_3263	cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-18:1)	mitochondrial membrane	1.5e-15
+s_3264	cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3265	cardiolipin (1-16:1, 2-18:1, 3-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3266	cardiolipin (1-16:1, 2-18:1, 3-18:0, 4-16:1)	mitochondrial membrane	1.5e-15
+s_3267	cardiolipin (1-16:1, 2-18:1, 3-18:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3268	cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-18:1)	mitochondrial membrane	1.5e-15
+s_3269	cardiolipin (1-16:1, 2-18:1, 3-16:1, 4-18:1)	mitochondrial membrane	1e-15
+s_3270	monolysocardiolipin (2-16:1, 3-16:0, 4-16:1)	mitochondrial membrane	1e-15
+s_3271	palmitate	mitochondrial membrane	1.2e-14
+s_3272	monolysocardiolipin (2-16:1, 3-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3273	monolysocardiolipin (2-16:1, 3-18:0, 4-16:1)	mitochondrial membrane	1e-15
+s_3274	monolysocardiolipin (2-16:1, 3-18:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3275	monolysocardiolipin (2-16:1, 3-16:0, 4-18:1)	mitochondrial membrane	1e-15
+s_3276	monolysocardiolipin (2-16:1, 3-16:1, 4-18:1)	mitochondrial membrane	1e-15
+s_3277	stearate	mitochondrial membrane	6e-15
+s_3278	monolysocardiolipin (2-18:1, 3-16:0, 4-16:1)	mitochondrial membrane	5e-16
+s_3279	monolysocardiolipin (2-18:1, 3-16:1, 4-16:1)	mitochondrial membrane	5e-16
+s_3280	monolysocardiolipin (2-18:1, 3-18:0, 4-16:1)	mitochondrial membrane	5e-16
+s_3281	monolysocardiolipin (2-18:1, 3-18:1, 4-16:1)	mitochondrial membrane	5e-16
+s_3282	monolysocardiolipin (2-18:1, 3-16:0, 4-18:1)	mitochondrial membrane	5e-16
+s_3283	monolysocardiolipin (2-18:1, 3-16:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3284	monolysocardiolipin (1-16:0, 2-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3285	monolysocardiolipin (1-16:0, 2-16:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3286	monolysocardiolipin (1-16:1, 2-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3287	monolysocardiolipin (1-16:1, 2-16:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3288	monolysocardiolipin (1-18:0, 2-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3289	monolysocardiolipin (1-18:0, 2-16:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3290	monolysocardiolipin (1-18:1, 2-16:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3291	monolysocardiolipin (1-18:1, 2-16:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3292	monolysocardiolipin (1-16:0, 2-18:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3293	monolysocardiolipin (1-16:0, 2-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3294	monolysocardiolipin (1-16:1, 2-18:1, 4-16:1)	mitochondrial membrane	1e-15
+s_3295	monolysocardiolipin (1-16:1, 2-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3296	phosphatidylcholine (1-16:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3297	1-acylglycerophosphocholine (16:0)	mitochondrial membrane	1e-15
+s_3298	phosphatidylcholine (1-16:1, 2-16:1)	mitochondrial membrane	5e-16
+s_3299	1-acylglycerophosphocholine (16:1)	mitochondrial membrane	1e-15
+s_3300	phosphatidylcholine (1-18:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3301	1-acylglycerophosphocholine (18:0)	mitochondrial membrane	1e-15
+s_3302	phosphatidylcholine (1-18:1, 2-16:1)	mitochondrial membrane	5e-16
+s_3303	1-acylglycerophosphocholine (18:1)	mitochondrial membrane	1e-15
+s_3304	phosphatidylcholine (1-16:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3305	phosphatidylcholine (1-16:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3306	phosphatidylcholine (1-18:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3307	phosphatidylcholine (1-18:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3308	cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-16:1)	mitochondrial membrane	5e-16
+s_3309	cardiolipin (1-18:1, 2-18:1, 3-16:1, 4-16:1)	mitochondrial membrane	5e-16
+s_3310	cardiolipin (1-18:1, 2-18:1, 3-18:0, 4-16:1)	mitochondrial membrane	5e-16
+s_3311	cardiolipin (1-18:1, 2-18:1, 3-18:1, 4-16:1)	mitochondrial membrane	5e-16
+s_3312	cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-18:1)	mitochondrial membrane	5e-16
+s_3313	cardiolipin (1-18:1, 2-18:1, 3-16:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3314	cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3315	cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3316	cardiolipin (1-18:0, 2-16:1, 3-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3317	cardiolipin (1-18:1, 2-16:1, 3-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3318	cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3319	cardiolipin (1-16:1, 2-18:1, 3-18:1, 4-18:1)	mitochondrial membrane	5e-16
+s_3320	palmitoleoyl-CoA(4-)	mitochondrial membrane	2e-15
+s_3321	coenzyme A	mitochondrial membrane	4e-15
+s_3322	oleoyl-CoA	mitochondrial membrane	2e-15
+s_3323	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)	cell envelope	2e-15
+s_3324	ADP	cell envelope	8e-15
+s_3325	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)	cell envelope	2e-15
+s_3326	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)	cell envelope	2e-15
+s_3327	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)	cell envelope	2e-15
+s_3328	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)	cell envelope	2e-15
+s_3329	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)	cell envelope	2e-15
+s_3330	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)	cell envelope	2e-15
+s_3331	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)	cell envelope	2e-15
+s_3332	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)	cell envelope	2e-15
+s_3333	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)	cell envelope	2e-15
+s_3334	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)	cell envelope	2e-15
+s_3335	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)	cell envelope	2e-15
+s_3336	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)	cell envelope	2e-15
+s_3337	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)	cell envelope	2e-15
+s_3338	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)	cell envelope	2e-15
+s_3339	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)	cell envelope	2e-15
+s_3340	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)	vacuolar membrane	1e-15
+s_3341	ATP	vacuolar membrane	1.2e-14
+s_3342	ADP	vacuolar membrane	1.2e-14
+s_3343	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)	vacuolar membrane	5e-16
+s_3344	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)	vacuolar membrane	1e-15
+s_3345	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)	vacuolar membrane	5e-16
+s_3346	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)	vacuolar membrane	1e-15
+s_3347	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)	vacuolar membrane	5e-16
+s_3348	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)	vacuolar membrane	1e-15
+s_3349	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)	vacuolar membrane	5e-16
+s_3350	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)	vacuolar membrane	1e-15
+s_3351	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)	vacuolar membrane	5e-16
+s_3352	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)	vacuolar membrane	1e-15
+s_3353	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)	vacuolar membrane	5e-16
+s_3354	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)	vacuolar membrane	1e-15
+s_3355	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)	vacuolar membrane	5e-16
+s_3356	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)	vacuolar membrane	1e-15
+s_3357	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)	vacuolar membrane	5e-16
+s_3358	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)	Golgi membrane	1.15e-14
+s_3359	ATP	Golgi membrane	4e-15
+s_3360	ADP	Golgi membrane	4e-15
+s_3361	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)	Golgi membrane	1e-15
+s_3362	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)	Golgi membrane	1.15e-14
+s_3363	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)	Golgi membrane	1e-15
+s_3364	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)	Golgi membrane	1.15e-14
+s_3365	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)	Golgi membrane	1e-15
+s_3366	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)	Golgi membrane	1.15e-14
+s_3367	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)	Golgi membrane	1e-15
+s_3368	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)	Golgi membrane	1.15e-14
+s_3369	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)	Golgi membrane	1e-15
+s_3370	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)	Golgi membrane	1.15e-14
+s_3371	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)	Golgi membrane	1e-15
+s_3372	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)	Golgi membrane	1.15e-14
+s_3373	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)	Golgi membrane	1e-15
+s_3374	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)	Golgi membrane	1.15e-14
+s_3375	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)	Golgi membrane	1e-15
+s_3376	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)	nucleus	5e-16
+s_3377	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)	nucleus	1e-15
+s_3378	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)	nucleus	5e-16
+s_3379	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)	nucleus	1e-15
+s_3380	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)	nucleus	5e-16
+s_3381	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)	nucleus	1e-15
+s_3382	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)	nucleus	5e-16
+s_3383	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)	nucleus	1e-15
+s_3384	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)	nucleus	5e-16
+s_3385	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)	nucleus	1e-15
+s_3386	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)	nucleus	5e-16
+s_3387	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)	nucleus	1e-15
+s_3388	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)	nucleus	5e-16
+s_3389	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)	nucleus	1e-15
+s_3390	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)	nucleus	5e-16
+s_3391	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)	nucleus	1e-15
+s_3392	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)	vacuolar membrane	1.5e-15
+s_3393	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)	vacuolar membrane	1.5e-15
+s_3394	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)	vacuolar membrane	1.5e-15
+s_3395	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)	vacuolar membrane	1.5e-15
+s_3396	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)	vacuolar membrane	1.5e-15
+s_3397	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)	vacuolar membrane	1.5e-15
+s_3398	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)	vacuolar membrane	1.5e-15
+s_3399	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-18:1)	vacuolar membrane	1.5e-15
+s_3400	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)	nucleus	1e-15
+s_3401	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)	nucleus	1e-15
+s_3402	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)	nucleus	1e-15
+s_3403	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)	nucleus	1e-15
+s_3404	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)	nucleus	1e-15
+s_3405	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)	nucleus	1e-15
+s_3406	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)	nucleus	1e-15
+s_3407	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)	nucleus	1e-15
+s_3408	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)	cell envelope	1e-15
+s_3409	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)	cell envelope	1e-15
+s_3410	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)	cell envelope	1e-15
+s_3411	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)	cell envelope	1e-15
+s_3412	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)	cell envelope	1e-15
+s_3413	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)	cell envelope	1e-15
+s_3414	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)	cell envelope	1e-15
+s_3415	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)	cell envelope	1e-15
+s_3416	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)	vacuolar membrane	1e-15
+s_3417	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)	vacuolar membrane	1e-15
+s_3418	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)	vacuolar membrane	1e-15
+s_3419	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)	vacuolar membrane	1e-15
+s_3420	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)	vacuolar membrane	1e-15
+s_3421	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)	vacuolar membrane	1e-15
+s_3422	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)	vacuolar membrane	1e-15
+s_3423	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)	vacuolar membrane	1e-15
+s_3424	1-acylglycerophosphoethanolamine (16:0)	endoplasmic reticulum membrane	0
+s_3425	1-acylglycerophosphoethanolamine (16:1)	endoplasmic reticulum membrane	0
+s_3426	1-acylglycerophosphoethanolamine (18:0)	endoplasmic reticulum membrane	0
+s_3427	1-acylglycerophosphoethanolamine (18:1)	endoplasmic reticulum membrane	0
+s_3428	1-acylglycerophosphocholine (16:0)	endoplasmic reticulum membrane	1.5e-15
+s_3429	1-acylglycerophosphocholine (16:1)	endoplasmic reticulum membrane	1.5e-15
+s_3430	1-acylglycerophosphocholine (18:0)	endoplasmic reticulum membrane	1.5e-15
+s_3431	1-acylglycerophosphocholine (18:1)	endoplasmic reticulum membrane	1.5e-15
+s_3432	episterol	endoplasmic reticulum membrane	0
+s_3433	episteryl oleate	endoplasmic reticulum membrane	0
+s_3434	episteryl palmitoleate	endoplasmic reticulum membrane	0
+s_3435	fecosterol	endoplasmic reticulum membrane	0
+s_3436	fecosteryl oleate	endoplasmic reticulum membrane	0
+s_3437	fecosteryl palmitoleate	endoplasmic reticulum membrane	0
+s_3438	lanosterol	endoplasmic reticulum membrane	0
+s_3439	lanosteryl oleate	endoplasmic reticulum membrane	0
+s_3440	lanosteryl palmitoleate	endoplasmic reticulum membrane	0
+s_3441	ergosterol	endoplasmic reticulum membrane	0.00254069456409405
+s_3442	ergosteryl oleate	endoplasmic reticulum membrane	0.00254069456409455
+s_3443	ergosteryl palmitoleate	endoplasmic reticulum membrane	5e-16
+s_3444	zymosterol	endoplasmic reticulum membrane	0
+s_3445	zymosteryl oleate	endoplasmic reticulum membrane	0
+s_3446	zymosteryl palmitoleate	endoplasmic reticulum membrane	0
+s_3447	sn-glycero-3-phosphocholine	endoplasmic reticulum membrane	2e-15
+s_3448	phosphatidylcholine (1-16:0, 2-16:1)	cell envelope	1e-15
+s_3449	H2O	cell envelope	0.000326302951874444
+s_3450	1-acylglycerophosphocholine (16:0)	cell envelope	1.5e-15
+s_3451	palmitoleate	cell envelope	1.05e-14
+s_3452	phosphatidylcholine (1-16:1, 2-16:1)	cell envelope	0.000326302951830444
+s_3453	1-acylglycerophosphocholine (16:1)	cell envelope	1.5e-15
+s_3454	phosphatidylcholine (1-18:0, 2-16:1)	cell envelope	1e-15
+s_3455	1-acylglycerophosphocholine (18:0)	cell envelope	1.5e-15
+s_3456	phosphatidylcholine (1-18:1, 2-16:1)	cell envelope	1e-15
+s_3457	1-acylglycerophosphocholine (18:1)	cell envelope	1.5e-15
+s_3458	phosphatidylcholine (1-16:0, 2-18:1)	cell envelope	1e-15
+s_3459	oleate	cell envelope	1.05e-14
+s_3460	phosphatidylcholine (1-16:1, 2-18:1)	cell envelope	1e-15
+s_3461	phosphatidylcholine (1-18:0, 2-18:1)	cell envelope	1e-15
+s_3462	phosphatidylcholine (1-18:1, 2-18:1)	cell envelope	1e-15
+s_3463	palmitate	cell envelope	2e-15
+s_3464	stearate	cell envelope	2e-15
+s_3465	phosphatidylethanolamine (1-16:0, 2-16:1)	cell envelope	5e-16
+s_3466	1-acylglycerophosphoethanolamine (16:0)	cell envelope	1.5e-15
+s_3467	phosphatidylethanolamine (1-16:1, 2-16:1)	cell envelope	5e-16
+s_3468	1-acylglycerophosphoethanolamine (16:1)	cell envelope	1.5e-15
+s_3469	phosphatidylethanolamine (1-18:0, 2-16:1)	cell envelope	5e-16
+s_3470	1-acylglycerophosphoethanolamine (18:0)	cell envelope	1.5e-15
+s_3471	phosphatidylethanolamine (1-18:1, 2-16:1)	cell envelope	5e-16
+s_3472	1-acylglycerophosphoethanolamine (18:1)	cell envelope	1.5e-15
+s_3473	phosphatidylethanolamine (1-16:0, 2-18:1)	cell envelope	5e-16
+s_3474	phosphatidylethanolamine (1-16:1, 2-18:1)	cell envelope	5e-16
+s_3475	phosphatidylethanolamine (1-18:0, 2-18:1)	cell envelope	5e-16
+s_3476	phosphatidylethanolamine (1-18:1, 2-18:1)	cell envelope	5e-16
+s_3477	sn-glycero-3-phosphoethanolamine	cell envelope	2e-15
+s_3478	phosphatidyl-L-serine (1-16:0, 2-16:1)	cell envelope	5e-16
+s_3479	1-acylglycerophosphoserine (16:0)	cell envelope	1.5e-15
+s_3480	phosphatidyl-L-serine (1-16:1, 2-16:1)	cell envelope	5e-16
+s_3481	1-acylglycerophosphoserine (16:1)	cell envelope	1.5e-15
+s_3482	phosphatidyl-L-serine (1-18:0, 2-16:1)	cell envelope	5e-16
+s_3483	1-acylglycerophosphoserine (18:0)	cell envelope	1.5e-15
+s_3484	phosphatidyl-L-serine (1-18:1, 2-16:1)	cell envelope	5e-16
+s_3485	1-acylglycerophosphoserine (18:1)	cell envelope	1.5e-15
+s_3486	phosphatidyl-L-serine (1-16:0, 2-18:1)	cell envelope	5e-16
+s_3487	phosphatidyl-L-serine (1-16:1, 2-18:1)	cell envelope	5e-16
+s_3488	phosphatidyl-L-serine (1-18:0, 2-18:1)	cell envelope	5e-16
+s_3489	phosphatidyl-L-serine (1-18:1, 2-18:1)	cell envelope	5e-16
+s_3490	sn-glycero-3-phosphoserine	cell envelope	2e-15
+s_3491	1-acylglycerophosphoinositol (16:0)	cell envelope	1.5e-15
+s_3492	1-acylglycerophosphoinositol (16:1)	cell envelope	1.5e-15
+s_3493	1-acylglycerophosphoinositol (18:0)	cell envelope	1.5e-15
+s_3494	1-acylglycerophosphoinositol (18:1)	cell envelope	1.5e-15
+s_3495	1-(sn-glycero-3-phospho)-1D-myo-inositol	cell envelope	2e-15
+s_3496	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)	cytoplasm	1e-15
+s_3497	diglyceride (1-16:0, 2-16:1)	cytoplasm	5e-16
+s_3498	1D-myo-inositol 1,4,5-trisphosphate	cytoplasm	4e-15
+s_3499	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)	cytoplasm	1e-15
+s_3500	diglyceride (1-16:1, 2-16:1)	cytoplasm	5e-16
+s_3501	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)	cytoplasm	1e-15
+s_3502	diglyceride (1-18:0, 2-16:1)	cytoplasm	5e-16
+s_3503	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)	cytoplasm	1e-15
+s_3504	diglyceride (1-18:1, 2-16:1)	cytoplasm	5e-16
+s_3505	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)	cytoplasm	1e-15
+s_3506	diglyceride (1-16:0, 2-18:1)	cytoplasm	5e-16
+s_3507	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)	cytoplasm	1e-15
+s_3508	diglyceride (1-16:1, 2-18:1)	cytoplasm	0.00143014598399442
+s_3509	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)	cytoplasm	1e-15
+s_3510	diglyceride (1-18:0, 2-18:1)	cytoplasm	5e-16
+s_3511	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)	cytoplasm	1e-15
+s_3512	diglyceride (1-18:1, 2-18:1)	cytoplasm	5e-16
+s_3513	diglyceride (1-16:0, 2-16:1)	nucleus	5e-16
+s_3514	diglyceride (1-16:1, 2-16:1)	nucleus	5e-16
+s_3515	diglyceride (1-18:0, 2-16:1)	nucleus	5e-16
+s_3516	diglyceride (1-18:1, 2-16:1)	nucleus	5e-16
+s_3517	diglyceride (1-16:0, 2-18:1)	nucleus	5e-16
+s_3518	diglyceride (1-16:1, 2-18:1)	nucleus	5e-16
+s_3519	diglyceride (1-18:0, 2-18:1)	nucleus	5e-16
+s_3520	diglyceride (1-18:1, 2-18:1)	nucleus	5e-16
+s_3521	diglyceride (1-16:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3522	diglyceride (1-16:1, 2-16:1)	mitochondrial membrane	5e-16
+s_3523	diglyceride (1-18:0, 2-16:1)	mitochondrial membrane	5e-16
+s_3524	diglyceride (1-18:1, 2-16:1)	mitochondrial membrane	5e-16
+s_3525	diglyceride (1-16:0, 2-18:1)	mitochondrial membrane	5e-16
+s_3526	diglyceride (1-16:1, 2-18:1)	mitochondrial membrane	5e-16
+s_3527	phosphatidate (1-16:0, 2-16:1)	cell envelope	5e-16
+s_3528	phosphatidate (1-16:1, 2-16:1)	cell envelope	0.000326302951829944
+s_3529	phosphatidate (1-18:0, 2-16:1)	cell envelope	5e-16
+s_3530	phosphatidate (1-18:1, 2-16:1)	cell envelope	5e-16
+s_3531	phosphatidate (1-16:0, 2-18:1)	cell envelope	5e-16
+s_3532	phosphatidate (1-16:1, 2-18:1)	cell envelope	5e-16
+s_3533	phosphatidate (1-18:0, 2-18:1)	cell envelope	5e-16
+s_3534	phosphatidate (1-18:1, 2-18:1)	cell envelope	5e-16
+s_3535	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)	cell envelope	1e-15
+s_3536	phosphate	cell envelope	1.6e-14
+s_3537	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)	cell envelope	1e-15
+s_3538	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)	cell envelope	1e-15
+s_3539	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)	cell envelope	1e-15
+s_3540	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)	cell envelope	1e-15
+s_3541	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)	cell envelope	1e-15
+s_3542	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)	cell envelope	1e-15
+s_3543	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-18:1)	cell envelope	1e-15
+s_3544	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)	cytoplasm	1e-15
+s_3545	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)	cytoplasm	1.5e-15
+s_3546	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)	cytoplasm	1e-15
+s_3547	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)	cytoplasm	1.5e-15
+s_3548	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)	cytoplasm	1e-15
+s_3549	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)	cytoplasm	1.5e-15
+s_3550	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)	cytoplasm	1e-15
+s_3551	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)	cytoplasm	1.5e-15
+s_3552	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)	cytoplasm	1e-15
+s_3553	1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)	cytoplasm	0.000342619402046585
+s_3554	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)	cytoplasm	1e-15
+s_3555	1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)	cytoplasm	1.5e-15
+s_3556	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)	cytoplasm	1e-15
+s_3557	1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)	cytoplasm	0.00163981487479506
+s_3558	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-18:1)	cytoplasm	1e-15
+s_3559	1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1)	cytoplasm	1.5e-15
+s_3560	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3561	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3562	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3563	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3564	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3565	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3566	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3567	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3568	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)	Golgi membrane	5e-16
+s_3569	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)	Golgi membrane	5e-16
+s_3570	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)	Golgi membrane	5e-16
+s_3571	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)	Golgi membrane	5e-16
+s_3572	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)	Golgi membrane	5e-16
+s_3573	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)	Golgi membrane	5e-16
+s_3574	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)	Golgi membrane	5e-16
+s_3575	1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-18:1)	Golgi membrane	5e-16
+s_3576	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)	cytoplasm	1e-15
+s_3577	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)	cytoplasm	1e-15
+s_3578	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)	cytoplasm	1e-15
+s_3579	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)	cytoplasm	1e-15
+s_3580	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)	cytoplasm	1e-15
+s_3581	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)	cytoplasm	1e-15
+s_3582	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)	cytoplasm	1e-15
+s_3583	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)	cytoplasm	1e-15
+s_3584	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3585	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3586	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3587	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)	endoplasmic reticulum membrane	1e-15
+s_3588	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3589	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3590	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3591	1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)	endoplasmic reticulum membrane	1e-15
+s_3592	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)	cell envelope	5e-16
+s_3593	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)	cell envelope	5e-16
+s_3594	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)	cell envelope	5e-16
+s_3595	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)	cell envelope	5e-16
+s_3596	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)	cell envelope	5e-16
+s_3597	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)	cell envelope	5e-16
+s_3598	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)	cell envelope	5e-16
+s_3599	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)	cell envelope	5e-16
+s_3600	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)	cytoplasm	5e-16
+s_3601	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)	cytoplasm	5e-16
+s_3602	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)	cytoplasm	5e-16
+s_3603	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)	cytoplasm	5e-16
+s_3604	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)	cytoplasm	5e-16
+s_3605	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)	cytoplasm	5e-16
+s_3606	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)	cytoplasm	5e-16
+s_3607	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)	cytoplasm	5e-16
+s_3608	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3609	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3610	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3611	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)	endoplasmic reticulum membrane	5e-16
+s_3612	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3613	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3614	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3615	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)	endoplasmic reticulum membrane	5e-16
+s_3616	1,2-diacylglycerol 3-diphosphate (1-16:0, 2-16:1)	vacuolar membrane	5e-16
+s_3617	1,2-diacylglycerol 3-diphosphate (1-16:1, 2-16:1)	vacuolar membrane	5e-16
+s_3618	1,2-diacylglycerol 3-diphosphate (1-18:0, 2-16:1)	vacuolar membrane	5e-16
+s_3619	1,2-diacylglycerol 3-diphosphate (1-18:1, 2-16:1)	vacuolar membrane	5e-16
+s_3620	1,2-diacylglycerol 3-diphosphate (1-16:0, 2-18:1)	vacuolar membrane	5e-16
+s_3621	1,2-diacylglycerol 3-diphosphate (1-16:1, 2-18:1)	vacuolar membrane	5e-16
+s_3622	1,2-diacylglycerol 3-diphosphate (1-18:0, 2-18:1)	vacuolar membrane	5e-16
+s_3623	1,2-diacylglycerol 3-diphosphate (1-18:1, 2-18:1)	vacuolar membrane	5e-16
+s_3624	1,2-diacylglycerol 3-diphosphate (1-16:0, 2-16:1)	Golgi membrane	5e-16
+s_3625	1,2-diacylglycerol 3-diphosphate (1-16:1, 2-16:1)	Golgi membrane	5e-16
+s_3626	1,2-diacylglycerol 3-diphosphate (1-18:0, 2-16:1)	Golgi membrane	5e-16
+s_3627	1,2-diacylglycerol 3-diphosphate (1-18:1, 2-16:1)	Golgi membrane	5e-16
+s_3628	1,2-diacylglycerol 3-diphosphate (1-16:0, 2-18:1)	Golgi membrane	5e-16
+s_3629	1,2-diacylglycerol 3-diphosphate (1-16:1, 2-18:1)	Golgi membrane	5e-16
+s_3630	1,2-diacylglycerol 3-diphosphate (1-18:0, 2-18:1)	Golgi membrane	5e-16
+s_3631	1,2-diacylglycerol 3-diphosphate (1-18:1, 2-18:1)	Golgi membrane	5e-16
+s_3632	1-acyl-sn-glycerol 3-phosphate (16:0)	cytoplasm	5e-16
+s_3633	1-monoglyceride (16:0)	cytoplasm	5e-16
+s_3634	1-acyl-sn-glycerol 3-phosphate (16:1)	cytoplasm	5e-16
+s_3635	1-monoglyceride (16:1)	cytoplasm	5e-16
+s_3636	1-acyl-sn-glycerol 3-phosphate (18:0)	cytoplasm	5e-16
+s_3637	1-monoglyceride (18:0)	cytoplasm	5e-16
+s_3638	1-acyl-sn-glycerol 3-phosphate (18:1)	cytoplasm	5e-16
+s_3639	1-monoglyceride (18:1)	cytoplasm	5e-16
+s_3640	1-acyl-sn-glycerol 3-phosphate (16:0)	vacuolar membrane	5e-16
+s_3641	1-monoglyceride (16:0)	vacuolar membrane	5e-16
+s_3642	1-acyl-sn-glycerol 3-phosphate (16:1)	vacuolar membrane	5e-16
+s_3643	1-monoglyceride (16:1)	vacuolar membrane	5e-16
+s_3644	1-acyl-sn-glycerol 3-phosphate (18:0)	vacuolar membrane	5e-16
+s_3645	1-monoglyceride (18:0)	vacuolar membrane	5e-16
+s_3646	1-acyl-sn-glycerol 3-phosphate (18:1)	vacuolar membrane	5e-16
+s_3647	1-monoglyceride (18:1)	vacuolar membrane	5e-16
+s_3648	1-acyl-sn-glycerol 3-phosphate (16:0)	Golgi membrane	5e-16
+s_3649	1-monoglyceride (16:0)	Golgi membrane	5e-16
+s_3650	1-acyl-sn-glycerol 3-phosphate (16:1)	Golgi membrane	5e-16
+s_3651	1-monoglyceride (16:1)	Golgi membrane	5e-16
+s_3652	1-acyl-sn-glycerol 3-phosphate (18:0)	Golgi membrane	5e-16
+s_3653	1-monoglyceride (18:0)	Golgi membrane	5e-16
+s_3654	1-acyl-sn-glycerol 3-phosphate (18:1)	Golgi membrane	5e-16
+s_3655	1-monoglyceride (18:1)	Golgi membrane	5e-16
+s_3656	ergosteryl palmitoleate	lipid particle	5e-16
+s_3657	H2O	lipid particle	0.00143014598402892
+s_3658	ergosteryl oleate	lipid particle	5e-16
+s_3659	episteryl palmitoleate	lipid particle	5e-16
+s_3660	episterol	lipid particle	1e-15
+s_3661	episteryl oleate	lipid particle	5e-16
+s_3662	fecosteryl palmitoleate	lipid particle	5e-16
+s_3663	fecosteryl oleate	lipid particle	5e-16
+s_3664	lanosteryl palmitoleate	lipid particle	5e-16
+s_3665	lanosterol	lipid particle	1e-15
+s_3666	lanosteryl oleate	lipid particle	5e-16
+s_3667	zymosteryl palmitoleate	lipid particle	5e-16
+s_3668	zymosteryl oleate	lipid particle	5e-16
+s_3669	zymosteryl palmitoleate	cell envelope	5e-16
+s_3670	zymosteryl oleate	cell envelope	5e-16
+s_3671	1-monoglyceride (16:0)	lipid particle	1.5e-15
+s_3672	1-monoglyceride (16:1)	lipid particle	1.5e-15
+s_3673	1-monoglyceride (18:0)	lipid particle	1.5e-15
+s_3674	1-monoglyceride (18:1)	lipid particle	1.5e-15
+s_3675	diglyceride (1-16:0, 2-18:1)	mitochondrion	5e-16
+s_3676	1-monoglyceride (16:0)	mitochondrion	5e-16
+s_3677	oleate	mitochondrion	2e-15
+s_3678	diglyceride (1-16:1, 2-18:1)	mitochondrion	5e-16
+s_3679	1-monoglyceride (16:1)	mitochondrion	5e-16
+s_3680	diglyceride (1-18:0, 2-18:1)	mitochondrion	5e-16
+s_3681	1-monoglyceride (18:0)	mitochondrion	5e-16
+s_3682	diglyceride (1-18:1, 2-18:1)	mitochondrion	5e-16
+s_3683	1-monoglyceride (18:1)	mitochondrion	5e-16
+s_3684	glycerol	lipid particle	2e-15
+s_3685	1-acylglycerophosphoethanolamine (16:0)	lipid particle	1.5e-15
+s_3686	phosphatidylethanolamine (1-16:0, 2-18:1)	lipid particle	1e-15
+s_3687	1-acylglycerophosphoethanolamine (16:1)	lipid particle	1.5e-15
+s_3688	phosphatidylethanolamine (1-16:1, 2-18:1)	lipid particle	1e-15
+s_3689	1-acylglycerophosphoethanolamine (18:0)	lipid particle	1.5e-15
+s_3690	phosphatidylethanolamine (1-18:0, 2-18:1)	lipid particle	1e-15
+s_3691	1-acylglycerophosphoethanolamine (18:1)	lipid particle	1.5e-15
+s_3692	phosphatidylethanolamine (1-18:1, 2-18:1)	lipid particle	1e-15
+s_3693	phosphatidylcholine (1-16:0, 2-16:1)	lipid particle	5e-16
+s_3694	1-acylglycerophosphocholine (16:0)	lipid particle	1e-15
+s_3695	phosphatidylcholine (1-16:1, 2-16:1)	lipid particle	5e-16
+s_3696	1-acylglycerophosphocholine (16:1)	lipid particle	1e-15
+s_3697	phosphatidylcholine (1-18:0, 2-16:1)	lipid particle	5e-16
+s_3698	1-acylglycerophosphocholine (18:0)	lipid particle	1e-15
+s_3699	phosphatidylcholine (1-18:1, 2-16:1)	lipid particle	5e-16
+s_3700	1-acylglycerophosphocholine (18:1)	lipid particle	1e-15
+s_3701	phosphatidylcholine (1-16:0, 2-18:1)	lipid particle	5e-16
+s_3702	phosphatidylcholine (1-16:1, 2-18:1)	lipid particle	5e-16
+s_3703	phosphatidylcholine (1-18:0, 2-18:1)	lipid particle	5e-16
+s_3704	phosphatidylcholine (1-18:1, 2-18:1)	lipid particle	5e-16
+s_3705	phosphatidylethanolamine (1-16:0, 2-16:1)	lipid particle	5e-16
+s_3706	phosphatidylethanolamine (1-16:1, 2-16:1)	lipid particle	5e-16
+s_3707	phosphatidylethanolamine (1-18:0, 2-16:1)	lipid particle	5e-16
+s_3708	phosphatidylethanolamine (1-18:1, 2-16:1)	lipid particle	5e-16
+s_3709	ergosterol ester backbone	endoplasmic reticulum membrane	0.00167967380676291
+s_3710	phosphatidyl-L-serine backbone	endoplasmic reticulum membrane	0.00146865825483806
+s_3711	phosphatidylcholine backbone	endoplasmic reticulum membrane	0.00636325917006984
+s_3712	phosphatidylethanolamine backbone	endoplasmic reticulum membrane	0.00171015216793811
+s_3713	triglyceride backbone	endoplasmic reticulum membrane	0.00169233247219878
+s_3714	heme a	cytoplasm	3.25424781128477e-07
+s_3715	raffinose	extracellular	5e-16
+s_3716	melibiose	extracellular	5e-16
+s_3717	protein	cytoplasm	0.325424781628477
+s_3718	carbohydrate	cytoplasm	0.325424781628477
+s_3719	RNA	cytoplasm	0.325424781628477
+s_3720	DNA	cytoplasm	0.325424781628477
+s_3721	ceramide backbone	Golgi	3.9428394e-15
+s_3722	ceramide backbone	cytoplasm	5e-16
+s_3723	inositol phosphomannosylinositol phosphoceramide backbone	cytoplasm	5e-16
+s_3724	inositol-P-ceramide backbone	cytoplasm	5e-16
+s_3725	mannosylinositol phosphorylceramide backbone	cytoplasm	5e-16
+s_3726	long-chain base backbone	endoplasmic reticulum	8.1001687e-16
+s_3727	long-chain base backbone	cytoplasm	5e-16
+s_3728	long-chain base phosphate backbone	endoplasmic reticulum	8.88988832e-16
+s_3729	long-chain base phosphate backbone	cytoplasm	5e-16
+s_3730	phosphatidate backbone	endoplasmic reticulum membrane	3.194719108e-15
+s_3731	phosphatidate backbone	cytoplasm	5e-16
+s_3732	diglyceride backbone	endoplasmic reticulum membrane	2.87681538e-15
+s_3733	diglyceride backbone	cytoplasm	5e-16
+s_3734	sn-2-acyl-1-lysophosphatidylinositol backbone	endoplasmic reticulum membrane	1.078593982e-15
+s_3735	sn-2-acyl-1-lysophosphatidylinositol backbone	cytoplasm	5e-16
+s_3736	phosphatidylglycerol backbone	mitochondrial membrane	2.715979846e-15
+s_3737	phosphatidylglycerol backbone	cytoplasm	5e-16
+s_3738	cardiolipin backbone	mitochondrial membrane	3.3984953436e-14
+s_3739	cardiolipin backbone	cytoplasm	5e-16
+s_3740	C16:0 chain	cytoplasm	0.00231345901188992
+s_3741	C16:1 chain	cytoplasm	0.00678950141176324
+s_3742	C18:0 chain	cytoplasm	0.000648420885768042
+s_3743	C18:1 chain	cytoplasm	0.00249107674729111
+s_3744	C24:0 chain	cytoplasm	3.6864392e-15
+s_3745	C26:0 chain	cytoplasm	3.9669768e-15
+s_3746	lipid backbone	cytoplasm	0.325424781628477
+s_3747	lipid chain	cytoplasm	0.325424781628477

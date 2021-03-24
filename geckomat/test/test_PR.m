@@ -21,5 +21,12 @@ fluxDist.Properties.VariableNames = {'rxns' 'rxnNames' 'flux' 'grRules' 'subSyst
 writetable(fluxDist,'maxGrowth_fluxDist.txt','delimiter','\t','QuoteStrings',false);
 %Obtain a distribution of "net" fluxes
 netFluxDist = getNetFluxes(fluxDist.rxns,fluxDist.rxnNames,fluxDist.flux,fluxDist.grRules,fluxDist.subSystems);
+formulas = constructEquations(model,netFluxDist.rxns);
+netFluxDist.formulas = formulas;
 writetable(netFluxDist,'maxGrowth_net_fluxDist.txt','delimiter','\t','QuoteStrings',false);
+%get metabolites turnover
+metTurnovers = met_turnovers(netFluxDist,model);
+writetable(metTurnovers,'maxGrowth_metsTurnover.txt','delimiter','\t','QuoteStrings',false);
+
+
 
