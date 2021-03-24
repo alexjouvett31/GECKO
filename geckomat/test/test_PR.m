@@ -19,4 +19,7 @@ subSystems = cellfun(@strjoin,ecModel_batch.subSystems,repelem({' // '},length(e
 fluxDist   = table(ecModel_batch.rxns,ecModel_batch.rxnNames,sol.x,ecModel_batch.grRules,subSystems);
 fluxDist.Properties.VariableNames = {'rxns' 'rxnNames' 'flux' 'grRules' 'subSystems'};
 writetable(fluxDist,'maxGrowth_fluxDist.txt','delimiter','\t','QuoteStrings',false);
+%Obtain a distribution of "net" fluxes
+netFluxDist = getNetFluxes(fluxDist.rxns,fluxDist.rxnNames,fluxDist.flux,fluxDist.grRules,fluxDist.subSystems);
+writetable(netFluxDist,'maxGrowth_net_fluxDist.txt','delimiter','\t','QuoteStrings',false);
 
