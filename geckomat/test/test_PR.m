@@ -30,6 +30,11 @@ writetable(netFluxDist,'maxGrowth_net_fluxDist.txt','delimiter','\t','QuoteStrin
 %get metabolites turnover
 metTurnovers = met_turnovers(netFluxDist,model);
 writetable(metTurnovers,'maxGrowth_metsTurnover.txt','delimiter','\t','QuoteStrings',false);
+%get flux control coefficients
+target = find(model.c);
+ECCs = getECCs(ecModel_batch,target,1.01);
+writetable(ECCs,'maxGrowth_FCCs.txt','delimiter','\t','QuoteStrings',false);
+
 
 
 
