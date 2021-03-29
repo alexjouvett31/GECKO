@@ -3152,7 +3152,7 @@ r_0654No1	s_0804[er] + s_0918[er] + 1.3228e-05 prot_P40015[c]  -> s_0127[er] + s
 r_0655No1	s_0804[er] + s_0921[er] + 1.3228e-05 prot_P40015[c]  -> s_0127[er] + s_0502[er] 	YER019W	  0.00	1000.00	  0.00
 r_0656No1	s_0803[c] + s_0927[c] + 2.8374e-07 prot_P41734[c]  -> s_0362[c] + s_0794[c] + s_0929[c] 	YOR126C	  0.00	1000.00	  0.00
 r_0657No1	s_0803[c] + s_0935[c] + 2.8374e-07 prot_P41734[c]  -> s_0362[c] + s_0794[c] + s_0932[c] 	YOR126C	  0.00	1000.00	  0.00
-r_0658No1	s_0941[m] + s_1200[m] + 9.2593e-06 prot_P28241[c] + 9.2593e-06 prot_P28834[c]  -> s_0182[m] + s_0460[m] + s_1205[m] 	YNL037C and YOR136W	  0.00	1000.00	  0.00
+r_0658No1	s_0941[m] + s_1200[m] + 1.1721e-05 prot_P28834[c]  -> s_0182[m] + s_0460[m] + s_1205[m] 	YNL037C and YOR136W	  0.00	1000.00	  0.00
 r_0659No1	s_0940[c] + s_1207[c] + 4.7646e-06 prot_P41939[c]  -> s_0180[c] + s_0456[c] + s_1212[c] 	YLR174W	  0.00	1000.00	  0.00
 r_0661No1	s_0942[p] + s_1211[p] + 4.7646e-06 prot_P53982[c]  -> s_0184[p] + s_0462[p] + s_1215[p] 	YNL009W	  0.00	1000.00	  0.00
 r_0662No1	s_0940[c] + 2.1044e-05 prot_P28240[c]  -> s_0779[c] + s_1458[c] 	YER065C	  0.00	1000.00	  0.00
@@ -3378,12 +3378,8 @@ r_0883No1	7.9365e-05 prot_P22803[c] + pmet_r_0883[c] + 7.9365e-05 prot_P18408[c]
 r_0883No2	7.9365e-05 prot_P22217[c] + pmet_r_0883[c] + 7.9365e-05 prot_P18408[c]  -> s_0390[c] + 2 s_0794[c] + s_1469[c] + s_1620[c] 	YLR043C and YPR167C	  0.00	1000.00	  0.00
 r_0884No1	s_0434[c] + s_1271[c] + 4.4803e-06 prot_P10963[c]  -> s_0394[c] + s_0456[c] + s_1360[c] 	YKR097W	  0.00	1000.00	  0.00
 r_0885No1	s_0539[c] + s_0794[c] + s_1239[c] + 0.00024155 prot_P33412[c]  -> s_0474[c] + s_0633[c] 	YGR007W	  0.00	1000.00	  0.00
-arm_r_0886	s_0434[c] + s_0557[c]  -> pmet_r_0886[c] 	YMR205C or (YGR240C and YMR205C)	  0.00	1000.00	  0.00
-r_0886No1	pmet_r_0886[c] + 7.7809e-07 prot_P16862[c]  -> s_0394[c] + s_0555[c] + s_0794[c] 	YMR205C	  0.00	1000.00	  0.00
-r_0886No2	pmet_r_0886[c] + 4.3268e-07 prot_P16862[c] + 4.3268e-07 prot_P16861[c]  -> s_0394[c] + s_0555[c] + s_0794[c] 	YGR240C and YMR205C	  0.00	1000.00	  0.00
-arm_r_0887	s_0434[c] + s_1427[c]  -> pmet_r_0887[c] 	YMR205C or (YGR240C and YMR205C)	  0.00	1000.00	  0.00
-r_0887No1	7.7809e-07 prot_P16862[c] + pmet_r_0887[c]  -> s_0394[c] + s_0794[c] + s_1426[c] 	YMR205C	  0.00	1000.00	  0.00
-r_0887No2	4.3268e-07 prot_P16862[c] + 4.3268e-07 prot_P16861[c] + pmet_r_0887[c]  -> s_0394[c] + s_0794[c] + s_1426[c] 	YGR240C and YMR205C	  0.00	1000.00	  0.00
+r_0886No1	s_0434[c] + s_0557[c] + 4.3268e-07 prot_P16862[c] + 4.3268e-07 prot_P16861[c]  -> s_0394[c] + s_0555[c] + s_0794[c] 	YMR205C	  0.00	1000.00	  0.00
+r_0887No1	s_0434[c] + s_1427[c] + 4.3268e-07 prot_P16862[c] + 4.3268e-07 prot_P16861[c]  -> s_0394[c] + s_0794[c] + s_1426[c] 	YMR205C	  0.00	1000.00	  0.00
 arm_r_0888	s_0568[c]  -> pmet_r_0888[c] 	YMR105C or YKL127W	  0.00	1000.00	  0.00
 r_0888No1	pmet_r_0888[c] + 1.292e-06 prot_P37012[c]  -> s_0567[c] 	YMR105C	  0.00	1000.00	  0.00
 r_0888No2	pmet_r_0888[c] + 1.292e-06 prot_P33401[c]  -> s_0567[c] 	YKL127W	  0.00	1000.00	  0.00
@@ -3544,9 +3540,7 @@ r_1007No2	0.0065053 prot_Q12246[c] + pmet_r_1007[er]  -> s_0395[er] + s_0795[er]
 r_1010No1	s_0795[er] + s_1204[er] + s_1276[er] + s_1448[er] + 0.003655 prot_P32476[c]  -> s_0038[er] + s_0804[er] + s_1199[er] 	YGR175C	  0.00	1000.00	  0.00
 r_1011No1	s_0795[er] + s_1213[er] + s_1276[er] + s_1448[er] + 0.003655 prot_P32476[c]  -> s_0038[er] + s_0804[er] + s_1208[er] 	YGR175C	  0.00	1000.00	  0.00
 r_1012No1	2 s_0190[c] + s_0794[c] + s_1212[c] + 0.00016835 prot_P29704[c]  -> 2 s_0633[c] + s_1207[c] + s_1447[c] 	YHR190W	  0.00	1000.00	  0.00
-arm_r_1021	s_1460[m] + s_1537[m]  -> pmet_r_1021[m] 	(YDR178W and YJL045W and YKL141W and YLL041C) or (YDR178W and YKL141W and YKL148C and YLL041C)	  0.00	1000.00	  0.00
-r_1021No1	pmet_r_1021[m] + 1.6633e-06 prot_P21801[c] + 1.6633e-06 prot_P33421[c] + 1.6633e-06 prot_P37298[c] + 1.6633e-06 prot_P47052[c]  -> s_0727[m] + s_1535[m] 	YDR178W and YJL045W and YKL141W and YLL041C	  0.00	1000.00	  0.00
-r_1021No2	pmet_r_1021[m] + 1.6633e-06 prot_P21801[c] + 1.6633e-06 prot_P33421[c] + 1.6633e-06 prot_P37298[c] + 1.6633e-06 prot_Q00711[c]  -> s_0727[m] + s_1535[m] 	YDR178W and YKL141W and YKL148C and YLL041C	  0.00	1000.00	  0.00
+r_1021No1	s_1460[m] + s_1537[m] + 1.2667e-06 prot_P33421[c] + 1.2667e-06 prot_P37298[c]  -> s_0727[m] + s_1535[m] 	YDR178W and YJL045W and YKL141W and YLL041C	  0.00	1000.00	  0.00
 r_1022No1	s_0397[m] + s_1326[m] + s_1464[m] + 1.382e-06 prot_P53312[c] + 1.382e-06 prot_P53598[c]  -> s_0437[m] + s_0532[m] + s_1460[m] 	YGR244C and YOR142W	  0.00	1000.00	  0.00
 r_1023No1	s_0803[c] + s_1207[c] + s_1461[c] + 1.2291e-05 prot_P38067[c]  -> 2 s_0794[c] + s_1212[c] + s_1458[c] 	YBR006W	  0.00	1000.00	  0.00
 r_1024No1	s_0805[e] + s_1466[e] + 8.0985e-08 prot_P00724[c]  -> s_0554[e] + s_0565[e] 	YIL162W	  0.00	1000.00	  0.00
@@ -5672,9 +5666,7 @@ r_0984_REVNo1	s_0581[c] + 2.4474e-06 prot_P46969[c]  -> s_0577[c] 	YJL121C	  0.0
 r_0987_REVNo1	s_0722[c] + s_0750[c] + s_0794[c] + 2.3946e-06 prot_P40363[c]  -> s_0803[c] + s_1421[c] 	YJL068C	  0.00	1000.00	  0.00
 r_0990_REV	s_0551[c] + s_0629[c]  -> s_1426[c] 	YKL060C	  0.00	1000.00	  0.00
 r_1000_REVNo1	s_0714[c] + s_1458[c] + 1.8038e-05 prot_P32614[c]  -> s_0717[c] + s_0725[c] 	YEL047C	  0.00	1000.00	  0.00
-arm_r_1021_REV	s_0727[m] + s_1535[m]  -> pmet_r_1021_REV[m] 	(YDR178W and YJL045W and YKL141W and YLL041C) or (YDR178W and YKL141W and YKL148C and YLL041C)	  0.00	1000.00	  0.00
-r_1021_REVNo1	3.4897e-06 prot_P21801[c] + 3.4897e-06 prot_P33421[c] + 3.4897e-06 prot_P37298[c] + 3.4897e-06 prot_P47052[c] + pmet_r_1021_REV[m]  -> s_1460[m] + s_1537[m] 	YDR178W and YJL045W and YKL141W and YLL041C	  0.00	1000.00	  0.00
-r_1021_REVNo2	3.4897e-06 prot_P21801[c] + 3.4897e-06 prot_P33421[c] + 3.4897e-06 prot_P37298[c] + 3.4897e-06 prot_Q00711[c] + pmet_r_1021_REV[m]  -> s_1460[m] + s_1537[m] 	YDR178W and YKL141W and YKL148C and YLL041C	  0.00	1000.00	  0.00
+r_1021_REVNo1	s_0727[m] + s_1535[m] + 1.2667e-06 prot_P33421[c] + 1.2667e-06 prot_P37298[c]  -> s_1460[m] + s_1537[m] 	YDR178W and YJL045W and YKL141W and YLL041C	  0.00	1000.00	  0.00
 arm_r_1031_REV	s_0308[c] + s_0394[c] + s_0794[c] + s_1322[c]  -> pmet_r_1031_REV[c] 	YKL132C or YOR241W	  0.00	1000.00	  0.00
 r_1031_REVNo1	0.00013889 prot_P36001[c] + pmet_r_1031_REV[c]  -> s_0434[c] + s_0991[c] + s_1487[c] 	YKL132C	  0.00	1000.00	  0.00
 r_1031_REVNo2	0.00013889 prot_Q08645[c] + pmet_r_1031_REV[c]  -> s_0434[c] + s_0991[c] + s_1487[c] 	YOR241W	  0.00	1000.00	  0.00
@@ -6313,7 +6305,6 @@ prot_P21592_exchange	 -> prot_P21592[c] 	YPL172C	  0.00	1000.00	  0.00
 prot_P21595_exchange	 -> prot_P21595[c] 	YDR402C	  0.00	1000.00	  0.00
 prot_P21623_exchange	 -> prot_P21623[c] 	YDR403W	  0.00	1000.00	  0.00
 prot_P21672_exchange	 -> prot_P21672[c] 	YIL066C	  0.00	1000.00	  0.00
-prot_P21801_exchange	 -> prot_P21801[c] 	YLL041C	  0.00	1000.00	  0.00
 prot_P21826_exchange	 -> prot_P21826[c] 	YIR031C	  0.00	1000.00	  0.00
 prot_P21954_exchange	 -> prot_P21954[c] 	YDL066W	  0.00	1000.00	  0.00
 prot_P22007_exchange	 -> prot_P22007[c] 	YDL090C	  0.00	1000.00	  0.00
@@ -6372,7 +6363,6 @@ prot_P27809_exchange	 -> prot_P27809[c] 	YDR483W	  0.00	1000.00	  0.00
 prot_P27810_exchange	 -> prot_P27810[c] 	YOR099W	  0.00	1000.00	  0.00
 prot_P28239_exchange	 -> prot_P28239[c] 	YMR267W	  0.00	1000.00	  0.00
 prot_P28240_exchange	 -> prot_P28240[c] 	YER065C	  0.00	1000.00	  0.00
-prot_P28241_exchange	 -> prot_P28241[c] 	YOR136W	  0.00	1000.00	  0.00
 prot_P28272_exchange	 -> prot_P28272[c] 	YKL216W	  0.00	1000.00	  0.00
 prot_P28274_exchange	 -> prot_P28274[c] 	YBL039C	  0.00	1000.00	  0.00
 prot_P28321_exchange	 -> prot_P28321[c] 	YKL094W	  0.00	1000.00	  0.00
@@ -6657,7 +6647,6 @@ prot_P47011_exchange	 -> prot_P47011[c] 	YJL137C	  0.00	1000.00	  0.00
 prot_P47013_exchange	 -> prot_P47013[c] 	YJL134W	  0.00	1000.00	  0.00
 prot_P47026_exchange	 -> prot_P47026[c] 	YJL091C	  0.00	1000.00	  0.00
 prot_P47039_exchange	 -> prot_P47039[c] 	YJL060W	  0.00	1000.00	  0.00
-prot_P47052_exchange	 -> prot_P47052[c] 	YJL045W	  0.00	1000.00	  0.00
 prot_P47081_exchange	 -> prot_P47081[c] 	YJL003W	  0.00	1000.00	  0.00
 prot_P47088_exchange	 -> prot_P47088[c] 	YJR013W	  0.00	1000.00	  0.00
 prot_P47095_exchange	 -> prot_P47095[c] 	YJR024C	  0.00	1000.00	  0.00
@@ -6763,7 +6752,6 @@ prot_P81449_exchange	 -> prot_P81449[c] 	YDR322C-A	  0.00	1000.00	  0.00
 prot_P81450_exchange	 -> prot_P81450[c] 	YML081C-A	  0.00	1000.00	  0.00
 prot_P81451_exchange	 -> prot_P81451[c] 	YOL077W-A	  0.00	1000.00	  0.00
 prot_Q00055_exchange	 -> prot_Q00055[c] 	YDL022W	  0.00	1000.00	  0.00
-prot_Q00711_exchange	 -> prot_Q00711[c] 	YKL148C	  0.00	1000.00	  0.00
 prot_Q00764_exchange	 -> prot_Q00764[c] 	YBR126C	  0.00	1000.00	  0.00
 prot_Q00955_exchange	 -> prot_Q00955[c] 	YNR016C	  0.00	1000.00	  0.00
 prot_Q01217_exchange	 -> prot_Q01217[c] 	YER069W	  0.00	1000.00	  0.00
