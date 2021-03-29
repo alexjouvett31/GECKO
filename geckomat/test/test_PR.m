@@ -4,8 +4,13 @@ load('yeastGEM.mat')
 name = 'ecYeastGEM';
 toolbox = 'COBRA';
 cd ..
-[ecModel,ecModel_batch] = enhanceGEM(model,toolbox,name);
-cd test
+%[ecModel,ecModel_batch] = enhanceGEM(model,toolbox,name);
+cd ../change_model
+[ecModel,modifications] = manualModifications(ecModel);
+cd ../limit_proteins
+[ecModel_batch,OptSigma] = getConstrainedModel(ecModel,modifications,'ecYeastGEM');
+cd ../test
+save('first_iteration.mat','ecModel','ecModel_batch')
 %find differences between curated Kcats and those in the ecModel
 kcats_table = find_kcat_discrepancies(ecModel_batch);
 writetable(kcats_table,'kcat_data_comparison.txt','delimiter','\t','QuoteStrings',false);
@@ -34,7 +39,9 @@ writetable(metTurnovers,'maxGrowth_metsTurnover.txt','delimiter','\t','QuoteStri
 target = find(model.c);
 ECCs = getECCs(ecModel_batch,target,1.01);
 writetable(ECCs,'maxGrowth_FCCs.txt','delimiter','\t','QuoteStrings',false);
-
-
+%find intersect between enzymes with non-zero FCCs and curated info
+nonZeroFCCs = ECCs(ECCs.CC>0,:);
+[presence,iB] = ismember(nonZeroFCCs.genes,kcats_table.genes);
+%
 
 

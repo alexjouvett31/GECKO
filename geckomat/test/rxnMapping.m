@@ -44,6 +44,6 @@ else
 end
 if isempty(ArmIndex)
     rxnsList(rxnIndexes)
-    pause
+    %pause
 end
 end
