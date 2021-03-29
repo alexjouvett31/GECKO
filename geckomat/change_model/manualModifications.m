@@ -58,8 +58,8 @@ for i = 1:length(model.rxns)
     end
     %Find intersection with manual curated data:
     for j = 1:length(uniprots)
-        int    = intersect(prot_set,uniprots{j});
-        if length(int)/max(length(prot_set),length(uniprots{j})) > 0.50 % 50% match
+        int     = intersect(prot_set,uniprots{j});
+        if length(int)/max(length(prot_set),length(uniprots{j})) >= 0.50 % 50% match
             %Erase previous protein stoich. coeffs from rxn:
             for k = 1:length(prot_set)
                 model.S(int_pos(k),i) = 0;
@@ -114,19 +114,19 @@ end
 fprintf(' Done!\n')
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Other manual changes: %%%%%%%%%%%%%%%%%%%%%%%%%%%
-model = otherChanges(model);
+%model = otherChanges(model);
 % Remove repeated reactions (2017-01-16):
-rem_rxn = false(size(model.rxns));
-for i = 1:length(model.rxns)-1
-    for j = i+1:length(model.rxns)
-        if isequal(model.S(:,i),model.S(:,j)) && model.lb(i) == model.lb(j) && ...
-           model.ub(i) == model.ub(j) 
-            rem_rxn(j) = true;
-            disp(['Removing repeated rxn: ' model.rxns{i} ' & ' model.rxns{j}])
-        end
-    end
-end
-model = removeReactions(model,model.rxns(rem_rxn),true,true);
+% rem_rxn = false(size(model.rxns));
+% for i = 1:length(model.rxns)-1
+%     for j = i+1:length(model.rxns)
+%         if isequal(model.S(:,i),model.S(:,j)) && model.lb(i) == model.lb(j) && ...
+%            model.ub(i) == model.ub(j) 
+%             rem_rxn(j) = true;
+%             disp(['Removing repeated rxn: ' model.rxns{i} ' & ' model.rxns{j}])
+%         end
+%     end
+% end
+% model = removeReactions(model,model.rxns(rem_rxn),true,true);
 % Merge arm reactions to reactions with only one isozyme (2017-01-17):
 arm_pos = zeros(size(model.rxns));
 p       = 0;
@@ -176,7 +176,7 @@ model.ub(strcmp(model.rxnNames,'oxygen exchange'))    = 0;
 model.ub(strcmp(model.rxnNames,'D-glucose exchange')) = 0;
 
 % Remove incorrect pathways:
-model = removeIncorrectPathways(model);
+%model = removeIncorrectPathways(model);
 
 % Map the index of the modified Kcat values to the new model (after rxns removals)
 modifications = mapModifiedRxns(modifications,model);
@@ -439,9 +439,14 @@ function model = otherChanges(model)
       
     % Remove 2 proteins from missanotated rxns: Q12122 from cytosolic rxn (it's
     % only mitochondrial) & P48570 from mitochondrial rxn (it's only cytosolic).
-    % Also rename r_0543No2 to r_0543No1 (for consistency) (2017-08-28):
-    model = removeReactions(model,{'r_0543No1'},true,true);
-    model = removeReactions(model,{'r_1838No2'},true,true);
+    % Also rename r_0543No2 to r_0543No1 (for consistency) (2017-08-28):    
+    if ~isempty(find(strcmp(model.rxns,'r_0543No1')))
+            model = removeReactions(model,{'r_0543No1'},true,true);
+    end
+    
+    if ~isempty(find(strcmp(model.rxns,'r_1838No2')))
+            model = removeReactions(model,{'r_0543No1'},true,true);
+    end
     index = find(strcmp(model.rxns,'r_0543No2'));
     if ~isempty(index)
         model.rxnNames{index} = 'homocitrate synthase (No1)';
