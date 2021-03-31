@@ -215,32 +215,21 @@ function [newValue,modifications] = curation_growthLimiting(reaction,enzName,MW_
         % growthRate limiting value, S.A. 100 (Sce)
           %enzIDs = {'prot_P00359','prot_P00360','prot_P00358'};
           if contains(reaction,'glyceraldehyde-3-phosphate dehydrogenase')
+              newValue     = -(24.7*3600)^-1;
               if strcmpi('prot_P00360',enzName)
-                  newValue     = -(29*3600)^-1;
                  %newValue = -(100*1e3/1e3*MW_set)^-1;
                  modifications{1} = [modifications{1}; 'P00360'];
                  modifications{2} = [modifications{2}; reaction];
               elseif strcmpi('prot_P00358',enzName)
-                  newValue      = -(16.7*3600)^-1;
                   %newValue = -(100*1e3/1e3*MW_set)^-1;
                   modifications{1} = [modifications{1}; 'P00358'];
                   modifications{2} = [modifications{2}; reaction];
               elseif strcmpi('prot_P00359',enzName)
-                  newValue      = -(9.1*3600)^-1;
                   %newValue = -(100*1e3/1e3*MW_set)^-1;
                   modifications{1} = [modifications{1}; 'P00359'];
                   modifications{2} = [modifications{2}; reaction];
               end
           end
-        % [4.1.1.-, 4.1.1.43, 4.1.1.72, 4.1.1.74] Pyruvate decarboxylase 
-        % Resulted to be a growth limiting enzyme but the Kcat
-        % value seems to be the best candidate for this reaction (rev)
-         if strcmpi('prot_P06169',enzName) && contains(reaction,'pyruvate decarboxylase')
-            %newValue = -1/(73.1*3600); 
-            newValue         = -1/(145*3600);
-            modifications{1} = [modifications{1}; 'P06169'];
-            modifications{2} = [modifications{2}; reaction];
-         end 
         % [Q00955//EC6.4.1.2] Acetyl-CoA carboxylase
         % Assigned value was 1.23 (1/s), S.A. was used instead (6
         % umol/min/mg) from BRENDA (2018-01-22).
@@ -349,16 +338,6 @@ function [newValue,modifications] = curation_topUsedEnz(reaction,enzName,MW_set,
              modifications{1} = [modifications{1}; 'Q04728'];
              modifications{2} = [modifications{2}; reaction];
           end
-          % atp synthase mitochondrial (P07251-P00830/EC3.6.3.14): No Kcat 
-          % reported for S. cerevisiae, value for Bacillus sp.
-          % for ATP is used instead 217 [1/s]
-          % from BRENDA (2017-01-18).
-          if (strcmpi('prot_P07251',enzName) || strcmpi('prot_P00830',enzName))&& ...
-             contains(reaction,'ATP synthase (No1)')
-             newValue      = -(390*3600)^-1;
-             modifications{1} = [modifications{1}; 'P07251'];
-             modifications{2} = [modifications{2}; reaction];
-          end
           % transaldolase (reversible) (P15019/EC2.2.1.2): 
           % The protein usage is represents around 10% of the used proteome
           % on several carbon sources (batch simulations). The highest S.A.
@@ -403,15 +382,14 @@ function [newValue,modifications] = curation_topUsedEnz(reaction,enzName,MW_set,
             modifications{1} = [modifications{1}; 'P19097'];
             modifications{2} = [modifications{2}; reaction];
         end
-        % Enolase (1&2) [4.2.1.11] 71.4 (1/s) is the Kcat reported for 
-        % 2-phospho-D-glycerate
-        % 230 (1/s) is the Kcat reported for 2-phosphoglycerate
-        % both measurements are for native enzymes
-          if strcmpi('prot_P00924',enzName)  && contains(reaction,'enolase')
-               newValue      = -1/(230*3600);
-               modifications{1} = [modifications{1}; 'P00924'];
-               modifications{2} = [modifications{2}; reaction];
-          end
+        
+         if (strcmpi('prot_P06169',enzName) || strcmpi('prot_P16467',enzName) || strcmpi('prot_P26263',enzName)) && contains(reaction,'pyruvate decarboxylase')
+            newValue = -1/(62*3600);
+            enzyme = strrep(enzName,'prot_','');
+            modifications{1} = [modifications{1}; enzyme];
+            modifications{2} = [modifications{2}; reaction];
+         end
+     
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
