@@ -58,7 +58,7 @@ if ~isempty(measuredIndxs)
         if ~isempty(limIndex)
             %Flexibilize the top growth limiting protein on the original ecModel
             flexProts = [flexProts; tempModel.rxns(limIndex)];
-            tempModel.ub(limIndex) = tempModel.ub(limIndex)*10;
+            tempModel.ub(limIndex) = 1000;
             sol = solveLP(tempModel);
             if ~isempty(sol.x)
             	growth = sol.x(objIndex);
